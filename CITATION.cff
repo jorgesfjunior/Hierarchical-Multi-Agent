@@ -5,11 +5,13 @@ type: software
 authors:
   - family-names: Soares
     given-names: Jorge
-    affiliation: "Centro de Informática, Universidade Federal de Pernambuco (CIn/UFPE)"
+    affiliation: "Universidade Federal de Pernambuco"
   - family-names: Rosa
     given-names: Nelson
+    affiliation: "Universidade Federal de Pernambuco"
   - family-names: Aires
     given-names: Fernando
+    affiliation: "Universidade Federal Rural de Pernambuco"
 license: MIT
 repository-code: "https://github.com/jorgesfjunior/Hierarchical-Multi-Agent"
 keywords:
@@ -25,10 +27,13 @@ preferred-citation:
   authors:
     - family-names: Soares
       given-names: Jorge
+      affiliation: "Universidade Federal de Pernambuco"
     - family-names: Rosa
       given-names: Nelson
+      affiliation: "Universidade Federal de Pernambuco"
     - family-names: Aires
       given-names: Fernando
+      affiliation: "Universidade Federal Rural de Pernambuco"
   conference:
     name: "International Conference on Advanced Information Networking and Applications (AINA 2027)"
   year: 2027

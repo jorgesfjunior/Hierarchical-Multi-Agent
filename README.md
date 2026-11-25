@@ -45,7 +45,7 @@ A Docker image is described in `replication/environment/Dockerfile`.
 ```bash
 python -m pytest -q tests/test_fase1_phase8_regression.py tests/test_fase1b.py tests/test_fase1_oficial.py  # the 87 regression tests
 python -m pytest -q tests/test_fase1_A.py tests/test_fase1_ablacao.py
-replication/scripts/reproduce_official.sh --smoke     # whole official pipeline, 2 seeds per cell (~3 min)
+replication/scripts/reproduce_official.sh --smoke     # whole official pipeline, 2 seeds per cell (a few minutes; not timed in this repository)
 python simulation/fase1_oficial_experiments.py analyze --out results/fase1_oficial   # rewrites summary.json from raw/
 python analysis/fase1_A.py                                                         # rewrites results/fase1_A/summary.json and figs/
 python paper/make_results_fig.py results/fase1_A/summary.json paper/              # Fig. 2
