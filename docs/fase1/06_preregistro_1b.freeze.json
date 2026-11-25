@@ -1,0 +1,9 @@
+{
+ "frozen_utc": "2026-10-17T19:52:23Z",
+ "freeze_commit": "5d6d3003252363f750dfcc66c3bae82cd0918d01",
+ "files_sha256": {
+  "docs/fase1/06_preregistro_1b.md": "78cddcc9f177391878c5958302495c1382e66557c53737cf51c2dccb300737c0",
+  "docs/fase1/05_desenho_1b.md": "60118c9c75531af2ba79b558dae22c8b74e45b5178aca114dc6fb0661e7ddfac"
+ },
+ "note": "Fase 1b pre-registration frozen before any Etapa B code. Boundary parameters (Fase 1), margins Mp = 0.10 and M = 1000, unavailability restriction 0.05, decision rule, seeds (1000-1199; sweep 2000-2199/3000-3199/4000-4199), families and SM parameters, release cap 3600 s may not be changed after seeing results."
+}

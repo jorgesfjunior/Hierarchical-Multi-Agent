@@ -1,0 +1,13 @@
+{
+ "seeds": [
+  5000,
+  5099
+ ],
+ "jobs": 2000,
+ "rows_compared": 7137,
+ "mismatched_jobs": 0,
+ "mismatches": [],
+ "identical": true,
+ "elapsed_s": 618.9,
+ "command": "python3 analysis/fase1_etapa3_rerun.py --seeds 5000-5099"
+}

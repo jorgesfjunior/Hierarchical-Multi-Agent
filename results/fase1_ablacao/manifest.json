@@ -1,0 +1,307 @@
+{
+ "blocks": {
+  "batch15m_campaign_e1_e2": {
+   "arms": [
+    "SN",
+    "A1",
+    "A2",
+    "A3",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_ablacao_experiments.py run --block batch15m_campaign_e1_e2",
+   "commit": "57427b538392f327d22ce68bd46c5fd28257dd0c",
+   "condition": "batch15m",
+   "elapsed_s": 53.4,
+   "extras": "extras/batch15m_campaign_e1_e2.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/batch15m_campaign_e1_e2.csv",
+   "python": "3.9.6",
+   "rows": 600,
+   "seeds": [
+    7000,
+    7099
+   ],
+   "sha256": "0ba8c598b1cc2add9822f95d3bbcb8a350310fd85f915de5be461dba6c6fe5c2",
+   "started_utc": "2026-11-09T10:11:50Z"
+  },
+  "batch15m_campaign_multihost_part1": {
+   "arms": [
+    "SN",
+    "A1",
+    "A2",
+    "A3",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_ablacao_experiments.py run --block batch15m_campaign_multihost_part1",
+   "commit": "57427b538392f327d22ce68bd46c5fd28257dd0c",
+   "condition": "batch15m",
+   "elapsed_s": 98.9,
+   "extras": "extras/batch15m_campaign_multihost_part1.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/batch15m_campaign_multihost_part1.csv",
+   "python": "3.9.6",
+   "rows": 300,
+   "seeds": [
+    7000,
+    7049
+   ],
+   "sha256": "feef809ba47dbc65cb6e37ce732ef5201f2506436226323e7b37818124662357",
+   "started_utc": "2026-11-09T10:07:29Z"
+  },
+  "batch15m_campaign_multihost_part2": {
+   "arms": [
+    "SN",
+    "A1",
+    "A2",
+    "A3",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_ablacao_experiments.py run --block batch15m_campaign_multihost_part2",
+   "commit": "57427b538392f327d22ce68bd46c5fd28257dd0c",
+   "condition": "batch15m",
+   "elapsed_s": 103.4,
+   "extras": "extras/batch15m_campaign_multihost_part2.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/batch15m_campaign_multihost_part2.csv",
+   "python": "3.9.6",
+   "rows": 300,
+   "seeds": [
+    7050,
+    7099
+   ],
+   "sha256": "6c2832aeeba99ff7b1c87078c2727916ac3440eb01b75961f8d442b5d196efc7",
+   "started_utc": "2026-11-09T10:09:08Z"
+  },
+  "batch15m_encryption_stream": {
+   "arms": [
+    "SN",
+    "A1",
+    "A2",
+    "A3",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_ablacao_experiments.py run --block batch15m_encryption_stream",
+   "commit": "57427b538392f327d22ce68bd46c5fd28257dd0c",
+   "condition": "batch15m",
+   "elapsed_s": 29.6,
+   "extras": "extras/batch15m_encryption_stream.jsonl.gz",
+   "family": "encryption_stream",
+   "file": "raw/batch15m_encryption_stream.csv",
+   "python": "3.9.6",
+   "rows": 600,
+   "seeds": [
+    7000,
+    7099
+   ],
+   "sha256": "37f899913d37d1d0e1e30127434a8d08b503cc8e4add25b9a9d2f57d86ae2a85",
+   "started_utc": "2026-11-09T10:06:59Z"
+  },
+  "batch15m_interleaved": {
+   "arms": [
+    "SN",
+    "A1",
+    "A2",
+    "A3",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_ablacao_experiments.py run --block batch15m_interleaved",
+   "commit": "57427b538392f327d22ce68bd46c5fd28257dd0c",
+   "condition": "batch15m",
+   "elapsed_s": 27.3,
+   "extras": "extras/batch15m_interleaved.jsonl.gz",
+   "family": "interleaved",
+   "file": "raw/batch15m_interleaved.csv",
+   "python": "3.9.6",
+   "rows": 918,
+   "seeds": [
+    7000,
+    7099
+   ],
+   "sha256": "bf41c580621526d7dc9742c8e82ea0a67efbc3c26b773e7405ba1770349981fc",
+   "started_utc": "2026-11-09T10:11:23Z"
+  },
+  "batch15m_split_visibility_late_confirm": {
+   "arms": [
+    "SN",
+    "A1",
+    "A2",
+    "A3",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_ablacao_experiments.py run --block batch15m_split_visibility_late_confirm",
+   "commit": "57427b538392f327d22ce68bd46c5fd28257dd0c",
+   "condition": "batch15m",
+   "elapsed_s": 31.3,
+   "extras": "extras/batch15m_split_visibility_late_confirm.jsonl.gz",
+   "family": "split_visibility_late_confirm",
+   "file": "raw/batch15m_split_visibility_late_confirm.csv",
+   "python": "3.9.6",
+   "rows": 600,
+   "seeds": [
+    7000,
+    7099
+   ],
+   "sha256": "d768f44e51ce0fc14e54e90ecbbef2102ccc11660c456f1f971003eeff865e16",
+   "started_utc": "2026-11-09T10:10:51Z"
+  },
+  "restricted_campaign_e1_e2": {
+   "arms": [
+    "SN",
+    "A1",
+    "A2",
+    "A3",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_ablacao_experiments.py run --block restricted_campaign_e1_e2",
+   "commit": "57427b538392f327d22ce68bd46c5fd28257dd0c",
+   "condition": "restricted",
+   "elapsed_s": 54.6,
+   "extras": "extras/restricted_campaign_e1_e2.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/restricted_campaign_e1_e2.csv",
+   "python": "3.9.6",
+   "rows": 600,
+   "seeds": [
+    7000,
+    7099
+   ],
+   "sha256": "ab308f59cf2400a73737cb3e869d1f344ea9395b262cb1207c57e9120aea8e53",
+   "started_utc": "2026-11-09T10:06:05Z"
+  },
+  "restricted_campaign_multihost_part1": {
+   "arms": [
+    "SN",
+    "A1",
+    "A2",
+    "A3",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_ablacao_experiments.py run --block restricted_campaign_multihost_part1",
+   "commit": "57427b538392f327d22ce68bd46c5fd28257dd0c",
+   "condition": "restricted",
+   "elapsed_s": 77.7,
+   "extras": "extras/restricted_campaign_multihost_part1.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/restricted_campaign_multihost_part1.csv",
+   "python": "3.9.6",
+   "rows": 300,
+   "seeds": [
+    7000,
+    7049
+   ],
+   "sha256": "e8dc803366f951419578a0de7fa49e055026f409e1f14c82c43b93566170b3a9",
+   "started_utc": "2026-11-09T10:02:12Z"
+  },
+  "restricted_campaign_multihost_part2": {
+   "arms": [
+    "SN",
+    "A1",
+    "A2",
+    "A3",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_ablacao_experiments.py run --block restricted_campaign_multihost_part2",
+   "commit": "57427b538392f327d22ce68bd46c5fd28257dd0c",
+   "condition": "restricted",
+   "elapsed_s": 96.9,
+   "extras": "extras/restricted_campaign_multihost_part2.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/restricted_campaign_multihost_part2.csv",
+   "python": "3.9.6",
+   "rows": 300,
+   "seeds": [
+    7050,
+    7099
+   ],
+   "sha256": "8f8f19e07ce51c332baa5258231628a95b5a481619350438dc6aa0fc4fedc5f6",
+   "started_utc": "2026-11-09T10:03:30Z"
+  },
+  "restricted_encryption_stream": {
+   "arms": [
+    "SN",
+    "A1",
+    "A2",
+    "A3",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_ablacao_experiments.py run --block restricted_encryption_stream",
+   "commit": "57427b538392f327d22ce68bd46c5fd28257dd0c",
+   "condition": "restricted",
+   "elapsed_s": 21.3,
+   "extras": "extras/restricted_encryption_stream.jsonl.gz",
+   "family": "encryption_stream",
+   "file": "raw/restricted_encryption_stream.csv",
+   "python": "3.9.6",
+   "rows": 600,
+   "seeds": [
+    7000,
+    7099
+   ],
+   "sha256": "825df32a1f301b289ad557f4301198dc28c88024eb74dfcd845830fe8caae387",
+   "started_utc": "2026-11-09T10:01:51Z"
+  },
+  "restricted_interleaved": {
+   "arms": [
+    "SN",
+    "A1",
+    "A2",
+    "A3",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_ablacao_experiments.py run --block restricted_interleaved",
+   "commit": "57427b538392f327d22ce68bd46c5fd28257dd0c",
+   "condition": "restricted",
+   "elapsed_s": 27.4,
+   "extras": "extras/restricted_interleaved.jsonl.gz",
+   "family": "interleaved",
+   "file": "raw/restricted_interleaved.csv",
+   "python": "3.9.6",
+   "rows": 918,
+   "seeds": [
+    7000,
+    7099
+   ],
+   "sha256": "27ce700e221641aff563d359368041a6c7e76938a9128c59874202e4352cea01",
+   "started_utc": "2026-11-09T10:05:37Z"
+  },
+  "restricted_split_visibility_late_confirm": {
+   "arms": [
+    "SN",
+    "A1",
+    "A2",
+    "A3",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_ablacao_experiments.py run --block restricted_split_visibility_late_confirm",
+   "commit": "57427b538392f327d22ce68bd46c5fd28257dd0c",
+   "condition": "restricted",
+   "elapsed_s": 30.8,
+   "extras": "extras/restricted_split_visibility_late_confirm.jsonl.gz",
+   "family": "split_visibility_late_confirm",
+   "file": "raw/restricted_split_visibility_late_confirm.csv",
+   "python": "3.9.6",
+   "rows": 600,
+   "seeds": [
+    7000,
+    7099
+   ],
+   "sha256": "8229e602394442643b27ed3f4926b3a7513e0247d4c73685e0298c214a8b5f08",
+   "started_utc": "2026-11-09T10:05:07Z"
+  }
+ },
+ "platform": "macOS-26.6.2-arm64-arm-64bit",
+ "preregistration": "docs/fase1/11_ablacao.md (EXPLORATORY)",
+ "python": "3.9.6"
+}

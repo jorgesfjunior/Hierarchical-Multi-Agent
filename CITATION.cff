@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the paper below."
+title: "Hierarchical Multi-Agent Self-Protection Against Ransomware: replication package"
+type: software
+authors:
+  - family-names: Soares
+    given-names: Jorge
+    affiliation: "Centro de Informática, Universidade Federal de Pernambuco (CIn/UFPE)"
+  - family-names: Rosa
+    given-names: Nelson
+  - family-names: Aires
+    given-names: Fernando
+license: MIT
+repository-code: "https://github.com/jorgesfjunior/Hierarchical-Multi-Agent"
+keywords:
+  - multi-agent systems
+  - MAPE-K
+  - ransomware
+  - self-adaptive systems
+  - self-protection
+  - pre-registration
+preferred-citation:
+  type: conference-paper
+  title: "Hierarchical Multi-Agent Self-Protection Against Ransomware"
+  authors:
+    - family-names: Soares
+      given-names: Jorge
+    - family-names: Rosa
+      given-names: Nelson
+    - family-names: Aires
+      given-names: Fernando
+  conference:
+    name: "International Conference on Advanced Information Networking and Applications (AINA 2027)"
+  year: 2027
+  notes: "Under review."

@@ -1,0 +1,11 @@
+main_h0_oracle_encryption_stream: 2000 rows in 27 s 
+main_h0_oracle_campaign_multihost: 2000 rows in 95 s 
+main_h0_oracle_split_visibility_late_confirm: 2000 rows in 22 s 
+main_h0_oracle_interleaved: 3040 rows in 25 s 
+main_h0_oracle_campaign_e1_e2: 2000 rows in 42 s 
+main_h1_oracle_encryption_stream: 2000 rows in 58 s 
+main_h1_oracle_campaign_multihost: 2000 rows in 476 s 
+main_h1_oracle_split_visibility_late_confirm: 2000 rows in 68 s 
+main_h1_oracle_interleaved: 3040 rows in 63 s 
+main_h1_oracle_campaign_e1_e2: 2000 rows in 113 s 
+main_h0_restricted_campaign_e1_e2: 1500 rows in 39 s 

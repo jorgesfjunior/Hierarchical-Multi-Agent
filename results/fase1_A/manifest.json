@@ -1,0 +1,2505 @@
+{
+ "blocks": {
+  "E1_batch15m_campaign_e1_e2_part1": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_campaign_e1_e2_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 35.3,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_campaign_e1_e2_part1.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E1_batch15m_campaign_e1_e2_part1.csv",
+   "multiplier": null,
+   "n_seeds": 125,
+   "python": "3.9.6",
+   "rows": 250,
+   "seeds": [
+    8000,
+    8124
+   ],
+   "sha256": "2f5030fc9eb036f84c323a5b262c87493d2074132c3a391800a83ebc9bcbdc59",
+   "started_utc": "2026-11-17T20:30:59Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_batch15m_campaign_e1_e2_part2": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_campaign_e1_e2_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 33.8,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_campaign_e1_e2_part2.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E1_batch15m_campaign_e1_e2_part2.csv",
+   "multiplier": null,
+   "n_seeds": 125,
+   "python": "3.9.6",
+   "rows": 250,
+   "seeds": [
+    8125,
+    8249
+   ],
+   "sha256": "fd259fa71a9c137c84df20fd8f2f9c45fad312923d8182dc5010b461c7b45f56",
+   "started_utc": "2026-11-17T20:31:35Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_batch15m_campaign_e1_e2_part3": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_campaign_e1_e2_part3",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 33.7,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_campaign_e1_e2_part3.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E1_batch15m_campaign_e1_e2_part3.csv",
+   "multiplier": null,
+   "n_seeds": 125,
+   "python": "3.9.6",
+   "rows": 250,
+   "seeds": [
+    8250,
+    8374
+   ],
+   "sha256": "52ffee5eec4625bfb16e364dcb6f8d72723436a267e637bc1fba960998242bd8",
+   "started_utc": "2026-11-17T20:32:22Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_batch15m_campaign_e1_e2_part4": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_campaign_e1_e2_part4",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 34.0,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_campaign_e1_e2_part4.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E1_batch15m_campaign_e1_e2_part4.csv",
+   "multiplier": null,
+   "n_seeds": 125,
+   "python": "3.9.6",
+   "rows": 250,
+   "seeds": [
+    8375,
+    8499
+   ],
+   "sha256": "feb855bbf8883c65abcc738c732425b32fa016cd947da1a000b761040e735afb",
+   "started_utc": "2026-11-17T20:32:56Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_batch15m_campaign_multihost_part1": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_campaign_multihost_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 49.2,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_campaign_multihost_part1.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_batch15m_campaign_multihost_part1.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8000,
+    8049
+   ],
+   "sha256": "48c0b241e505c2328043d809a17494e92ef5517823f16c56957348d6099a751a",
+   "started_utc": "2026-11-17T20:17:29Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_batch15m_campaign_multihost_part10": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_campaign_multihost_part10",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 71.6,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_campaign_multihost_part10.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_batch15m_campaign_multihost_part10.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8450,
+    8499
+   ],
+   "sha256": "eb8007633cca4bb8d57fdd9f42bc10f41b26ef556c447e01fc8087fe5df04a6a",
+   "started_utc": "2026-11-17T20:27:10Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_batch15m_campaign_multihost_part2": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_campaign_multihost_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 57.9,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_campaign_multihost_part2.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_batch15m_campaign_multihost_part2.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8050,
+    8099
+   ],
+   "sha256": "28b3a527ae407a31597085406646407798f2646258996ffebb24d5f9a5b68a0e",
+   "started_utc": "2026-11-17T20:18:18Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_batch15m_campaign_multihost_part3": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_campaign_multihost_part3",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 50.4,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_campaign_multihost_part3.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_batch15m_campaign_multihost_part3.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8100,
+    8149
+   ],
+   "sha256": "43fa41074b61c7654bb86b5552db6c48bb357134c4e36696e36a187a112f3593",
+   "started_utc": "2026-11-17T20:19:16Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_batch15m_campaign_multihost_part4": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_campaign_multihost_part4",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 57.6,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_campaign_multihost_part4.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_batch15m_campaign_multihost_part4.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8150,
+    8199
+   ],
+   "sha256": "eecfcc0c5ac79f4068885afb6248a02e6ee436ce7d91530ece2aa919f182bdb4",
+   "started_utc": "2026-11-17T20:20:10Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_batch15m_campaign_multihost_part5": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_campaign_multihost_part5",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 56.7,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_campaign_multihost_part5.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_batch15m_campaign_multihost_part5.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8200,
+    8249
+   ],
+   "sha256": "66598971b3aaa86e804acadc26b66b700c7892b67c17dd1389ae995bd8b60ffe",
+   "started_utc": "2026-11-17T20:21:08Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_batch15m_campaign_multihost_part6": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_campaign_multihost_part6",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 63.8,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_campaign_multihost_part6.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_batch15m_campaign_multihost_part6.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8250,
+    8299
+   ],
+   "sha256": "49852257522b35d08542fe199548e4aaad8db89075fc1fb92e1ac798bfd47bc4",
+   "started_utc": "2026-11-17T20:22:04Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_batch15m_campaign_multihost_part7": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_campaign_multihost_part7",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 81.4,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_campaign_multihost_part7.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_batch15m_campaign_multihost_part7.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8300,
+    8349
+   ],
+   "sha256": "619cecc80248ec42c201623d771aecd95c611d36de423439503540cfef0a6ba4",
+   "started_utc": "2026-11-17T20:23:12Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_batch15m_campaign_multihost_part8": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_campaign_multihost_part8",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 75.7,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_campaign_multihost_part8.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_batch15m_campaign_multihost_part8.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8350,
+    8399
+   ],
+   "sha256": "68cb86b14f75429907a70055dcfe873ac69e9b83b7bfc685bceb585e09477510",
+   "started_utc": "2026-11-17T20:24:34Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_batch15m_campaign_multihost_part9": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_campaign_multihost_part9",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 76.2,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_campaign_multihost_part9.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_batch15m_campaign_multihost_part9.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8400,
+    8449
+   ],
+   "sha256": "39e343199bdf0e2e46b57823bd38f4962dc311db338675da508abb619c01f69b",
+   "started_utc": "2026-11-17T20:25:54Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_batch15m_encryption_stream_part1": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_encryption_stream_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 41.2,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_encryption_stream_part1.jsonl.gz",
+   "family": "encryption_stream",
+   "file": "raw/E1_batch15m_encryption_stream_part1.csv",
+   "multiplier": null,
+   "n_seeds": 250,
+   "python": "3.9.6",
+   "rows": 500,
+   "seeds": [
+    8000,
+    8249
+   ],
+   "sha256": "612fdc14bab5cb18622b2937e04906a6444d76c6cd688d3d50c70dfdaa2543a8",
+   "started_utc": "2026-11-17T20:16:04Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_batch15m_encryption_stream_part2": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_encryption_stream_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 39.0,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_encryption_stream_part2.jsonl.gz",
+   "family": "encryption_stream",
+   "file": "raw/E1_batch15m_encryption_stream_part2.csv",
+   "multiplier": null,
+   "n_seeds": 250,
+   "python": "3.9.6",
+   "rows": 500,
+   "seeds": [
+    8250,
+    8499
+   ],
+   "sha256": "b66323632c3c35aa4472618b01a08ba166a09a7c0f8ab16cfec40625c292f7c3",
+   "started_utc": "2026-11-17T20:16:50Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_batch15m_interleaved_part1": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_interleaved_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 36.5,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_interleaved_part1.jsonl.gz",
+   "family": "interleaved",
+   "file": "raw/E1_batch15m_interleaved_part1.csv",
+   "multiplier": null,
+   "n_seeds": 250,
+   "python": "3.9.6",
+   "rows": 738,
+   "seeds": [
+    8000,
+    8249
+   ],
+   "sha256": "02df027620689cc40deb27db4cd609530995d057c4cc513f77a365dd3407f87d",
+   "started_utc": "2026-11-17T20:29:46Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_batch15m_interleaved_part2": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_interleaved_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 37.1,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_interleaved_part2.jsonl.gz",
+   "family": "interleaved",
+   "file": "raw/E1_batch15m_interleaved_part2.csv",
+   "multiplier": null,
+   "n_seeds": 250,
+   "python": "3.9.6",
+   "rows": 752,
+   "seeds": [
+    8250,
+    8499
+   ],
+   "sha256": "5b3dea509dff556d5b05e6ef36e6263de4de749b9bea88151f7366cd4fc27718",
+   "started_utc": "2026-11-17T20:30:22Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_batch15m_split_visibility_late_confirm_part1": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_split_visibility_late_confirm_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 42.1,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_split_visibility_late_confirm_part1.jsonl.gz",
+   "family": "split_visibility_late_confirm",
+   "file": "raw/E1_batch15m_split_visibility_late_confirm_part1.csv",
+   "multiplier": null,
+   "n_seeds": 250,
+   "python": "3.9.6",
+   "rows": 500,
+   "seeds": [
+    8000,
+    8249
+   ],
+   "sha256": "9807f931c96bcba17077a58268d2465e0f369f2b1e5697cc43001ca9ad447df1",
+   "started_utc": "2026-11-17T20:28:21Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_batch15m_split_visibility_late_confirm_part2": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_batch15m_split_visibility_late_confirm_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "batch15m",
+   "elapsed_s": 38.5,
+   "exp": "E1",
+   "extras": "extras/E1_batch15m_split_visibility_late_confirm_part2.jsonl.gz",
+   "family": "split_visibility_late_confirm",
+   "file": "raw/E1_batch15m_split_visibility_late_confirm_part2.csv",
+   "multiplier": null,
+   "n_seeds": 250,
+   "python": "3.9.6",
+   "rows": 500,
+   "seeds": [
+    8250,
+    8499
+   ],
+   "sha256": "532da05bec844deb839595136b81a02088b57d3c3cb10f97920e72f67842d34f",
+   "started_utc": "2026-11-17T20:29:07Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_campaign_e1_e2_part1": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_campaign_e1_e2_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 37.4,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_campaign_e1_e2_part1.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E1_restricted_campaign_e1_e2_part1.csv",
+   "multiplier": null,
+   "n_seeds": 125,
+   "python": "3.9.6",
+   "rows": 250,
+   "seeds": [
+    8000,
+    8124
+   ],
+   "sha256": "7302ed23da576066050945a0033e77691974964c230b683480ecf80e739d42c1",
+   "started_utc": "2026-11-17T20:13:37Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_campaign_e1_e2_part2": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_campaign_e1_e2_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 36.5,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_campaign_e1_e2_part2.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E1_restricted_campaign_e1_e2_part2.csv",
+   "multiplier": null,
+   "n_seeds": 125,
+   "python": "3.9.6",
+   "rows": 250,
+   "seeds": [
+    8125,
+    8249
+   ],
+   "sha256": "2618114ea48701ffbe0d66b469eb6230212a40bfd4bbe56c1548c16cab903d58",
+   "started_utc": "2026-11-17T20:14:14Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_campaign_e1_e2_part3": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_campaign_e1_e2_part3",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 37.9,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_campaign_e1_e2_part3.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E1_restricted_campaign_e1_e2_part3.csv",
+   "multiplier": null,
+   "n_seeds": 125,
+   "python": "3.9.6",
+   "rows": 250,
+   "seeds": [
+    8250,
+    8374
+   ],
+   "sha256": "f4fad422192eb65aee8b3072cb1e73af8ad23691dc62a52a8f3e43c55fe4ed28",
+   "started_utc": "2026-11-17T20:14:51Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_campaign_e1_e2_part4": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_campaign_e1_e2_part4",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 35.2,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_campaign_e1_e2_part4.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E1_restricted_campaign_e1_e2_part4.csv",
+   "multiplier": null,
+   "n_seeds": 125,
+   "python": "3.9.6",
+   "rows": 250,
+   "seeds": [
+    8375,
+    8499
+   ],
+   "sha256": "17f97f747aa15685949a3a4540e6d52da8f25a425df2b0fca2f4a9cc186b4bf5",
+   "started_utc": "2026-11-17T20:15:29Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_campaign_multihost_part1": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_campaign_multihost_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 33.8,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_campaign_multihost_part1.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_restricted_campaign_multihost_part1.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8000,
+    8049
+   ],
+   "sha256": "9b7dd54ddd314896d0cc221eaf0813d2fa29708c18959f724aea754d00385c7b",
+   "started_utc": "2026-11-17T20:01:16Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_campaign_multihost_part10": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_campaign_multihost_part10",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 50.6,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_campaign_multihost_part10.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_restricted_campaign_multihost_part10.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8450,
+    8499
+   ],
+   "sha256": "40aabc227cd612116853625be6e6cc4b24b137c4c2c4788cd4a6f653ade50cd1",
+   "started_utc": "2026-11-17T20:10:02Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_campaign_multihost_part2": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_campaign_multihost_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 55.3,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_campaign_multihost_part2.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_restricted_campaign_multihost_part2.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8050,
+    8099
+   ],
+   "sha256": "c8edc2ca72ac113d583704b78b04ea97c2c16c286ec02879c3759a88264626da",
+   "started_utc": "2026-11-17T20:01:50Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_campaign_multihost_part3": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_campaign_multihost_part3",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 57.3,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_campaign_multihost_part3.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_restricted_campaign_multihost_part3.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8100,
+    8149
+   ],
+   "sha256": "994fd0e032f405a9b63721408eac0f55bdb0dc0f7cadcbeb9ce717c3a247cbeb",
+   "started_utc": "2026-11-17T20:02:45Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_campaign_multihost_part4": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_campaign_multihost_part4",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 62.0,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_campaign_multihost_part4.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_restricted_campaign_multihost_part4.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8150,
+    8199
+   ],
+   "sha256": "be5d71919acc7544c25422eaef9a5ebe16a8069406db4b585c0f7646c26cee44",
+   "started_utc": "2026-11-17T20:03:43Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_campaign_multihost_part5": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_campaign_multihost_part5",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 54.1,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_campaign_multihost_part5.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_restricted_campaign_multihost_part5.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8200,
+    8249
+   ],
+   "sha256": "4acaaa4646469436a5fca3cc87937b82b779cefb16e1d8c322be42fd68aa48c4",
+   "started_utc": "2026-11-17T20:04:51Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_campaign_multihost_part6": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_campaign_multihost_part6",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 60.8,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_campaign_multihost_part6.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_restricted_campaign_multihost_part6.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8250,
+    8299
+   ],
+   "sha256": "ce527dc6f440b49cbd52129e5acc7d28297e663c2498d071383c5a40894fd588",
+   "started_utc": "2026-11-17T20:05:45Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_campaign_multihost_part7": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_campaign_multihost_part7",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 65.6,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_campaign_multihost_part7.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_restricted_campaign_multihost_part7.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8300,
+    8349
+   ],
+   "sha256": "94b3d2926db872a5e232112ac06a8f1908613342b45dacaf8a3cb86e017820cf",
+   "started_utc": "2026-11-17T20:06:46Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_campaign_multihost_part8": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_campaign_multihost_part8",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 64.2,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_campaign_multihost_part8.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_restricted_campaign_multihost_part8.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8350,
+    8399
+   ],
+   "sha256": "3c8de4abcf60c395e88a070470af69eb086d7ba04c36012bcb47580fda3b5339",
+   "started_utc": "2026-11-17T20:07:56Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_campaign_multihost_part9": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_campaign_multihost_part9",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 62.5,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_campaign_multihost_part9.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E1_restricted_campaign_multihost_part9.csv",
+   "multiplier": null,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 100,
+   "seeds": [
+    8400,
+    8449
+   ],
+   "sha256": "b7e53fd606a9da158cf38bea26af0a83a1e50ad8ce35529c4bb632ad3fe7fb55",
+   "started_utc": "2026-11-17T20:09:00Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_encryption_stream_part1": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_encryption_stream_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 25.0,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_encryption_stream_part1.jsonl.gz",
+   "family": "encryption_stream",
+   "file": "raw/E1_restricted_encryption_stream_part1.csv",
+   "multiplier": null,
+   "n_seeds": 250,
+   "python": "3.9.6",
+   "rows": 500,
+   "seeds": [
+    8000,
+    8249
+   ],
+   "sha256": "fbec8bec54830a77f29ace6bf0cb926193551eef2a041cbeb0f5a3d50c29c895",
+   "started_utc": "2026-11-17T20:00:24Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_encryption_stream_part2": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_encryption_stream_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 26.8,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_encryption_stream_part2.jsonl.gz",
+   "family": "encryption_stream",
+   "file": "raw/E1_restricted_encryption_stream_part2.csv",
+   "multiplier": null,
+   "n_seeds": 250,
+   "python": "3.9.6",
+   "rows": 500,
+   "seeds": [
+    8250,
+    8499
+   ],
+   "sha256": "f901644029cc5001a3e5fbbe1708af23aa3b2b3b87532c4692fb6610ae1ec92f",
+   "started_utc": "2026-11-17T20:00:49Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_interleaved_part1": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_interleaved_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 38.4,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_interleaved_part1.jsonl.gz",
+   "family": "interleaved",
+   "file": "raw/E1_restricted_interleaved_part1.csv",
+   "multiplier": null,
+   "n_seeds": 250,
+   "python": "3.9.6",
+   "rows": 738,
+   "seeds": [
+    8000,
+    8249
+   ],
+   "sha256": "47bd928332abca9cff176f40bf24e0e6eb5083c500843cdd90933c94f837c05c",
+   "started_utc": "2026-11-17T20:12:17Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_interleaved_part2": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_interleaved_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 38.4,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_interleaved_part2.jsonl.gz",
+   "family": "interleaved",
+   "file": "raw/E1_restricted_interleaved_part2.csv",
+   "multiplier": null,
+   "n_seeds": 250,
+   "python": "3.9.6",
+   "rows": 752,
+   "seeds": [
+    8250,
+    8499
+   ],
+   "sha256": "05ab28f40ebad8313d4335c91ccfe9e7ea81312a7dee2bb1e720536f1f016655",
+   "started_utc": "2026-11-17T20:12:55Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_split_visibility_late_confirm_part1": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_split_visibility_late_confirm_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 38.9,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_split_visibility_late_confirm_part1.jsonl.gz",
+   "family": "split_visibility_late_confirm",
+   "file": "raw/E1_restricted_split_visibility_late_confirm_part1.csv",
+   "multiplier": null,
+   "n_seeds": 250,
+   "python": "3.9.6",
+   "rows": 500,
+   "seeds": [
+    8000,
+    8249
+   ],
+   "sha256": "222030e0c646bb4dbe7487b96245651ff57e4502708c54cec8b7d2818fff58d6",
+   "started_utc": "2026-11-17T20:10:57Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E1_restricted_split_visibility_late_confirm_part2": {
+   "arms": [
+    "SN",
+    "A3"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E1_restricted_split_visibility_late_confirm_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 41.3,
+   "exp": "E1",
+   "extras": "extras/E1_restricted_split_visibility_late_confirm_part2.jsonl.gz",
+   "family": "split_visibility_late_confirm",
+   "file": "raw/E1_restricted_split_visibility_late_confirm_part2.csv",
+   "multiplier": null,
+   "n_seeds": 250,
+   "python": "3.9.6",
+   "rows": 500,
+   "seeds": [
+    8250,
+    8499
+   ],
+   "sha256": "ad36a3b566fc359d95ccb4ed57cf12a25e74936cd5c19168614736cc4de74750",
+   "started_utc": "2026-11-17T20:11:36Z",
+   "status": "CONFIRMATORY",
+   "workers": 10
+  },
+  "E2_m050_campaign_e1_e2_part1": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m050_campaign_e1_e2_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 38.8,
+   "exp": "E2",
+   "extras": "extras/E2_m050_campaign_e1_e2_part1.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E2_m050_campaign_e1_e2_part1.csv",
+   "multiplier": 0.5,
+   "n_seeds": 125,
+   "python": "3.9.6",
+   "rows": 375,
+   "seeds": [
+    8500,
+    8624
+   ],
+   "sha256": "08eb8b57633535b856613f45b3d6149571cfa7402ad54b4f96bc6478e480e3d0",
+   "started_utc": "2026-11-17T20:39:28Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m050_campaign_e1_e2_part2": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m050_campaign_e1_e2_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 26.2,
+   "exp": "E2",
+   "extras": "extras/E2_m050_campaign_e1_e2_part2.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E2_m050_campaign_e1_e2_part2.csv",
+   "multiplier": 0.5,
+   "n_seeds": 75,
+   "python": "3.9.6",
+   "rows": 225,
+   "seeds": [
+    8625,
+    8699
+   ],
+   "sha256": "5adb09e4d8d12038acdf6fbb97044497b40ec1244c6e5948b0f8b38cb9f9fcef",
+   "started_utc": "2026-11-17T20:40:06Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m050_campaign_multihost_part1": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m050_campaign_multihost_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 66.1,
+   "exp": "E2",
+   "extras": "extras/E2_m050_campaign_multihost_part1.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m050_campaign_multihost_part1.csv",
+   "multiplier": 0.5,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8500,
+    8549
+   ],
+   "sha256": "61a1c245096d205732e82a60457a7489e5bbff074c0e16b05c77aa35bd14077a",
+   "started_utc": "2026-11-17T20:34:06Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m050_campaign_multihost_part2": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m050_campaign_multihost_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 61.4,
+   "exp": "E2",
+   "extras": "extras/E2_m050_campaign_multihost_part2.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m050_campaign_multihost_part2.csv",
+   "multiplier": 0.5,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8550,
+    8599
+   ],
+   "sha256": "860271c2d1202140b2387fd6ee7e8bea0531132092ded57be90997224a06fff9",
+   "started_utc": "2026-11-17T20:35:13Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m050_campaign_multihost_part3": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m050_campaign_multihost_part3",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 57.3,
+   "exp": "E2",
+   "extras": "extras/E2_m050_campaign_multihost_part3.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m050_campaign_multihost_part3.csv",
+   "multiplier": 0.5,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8600,
+    8649
+   ],
+   "sha256": "4595ce46aa71f1be4c167c3e75c0390899eb76cc4034a459d0731321dceef57f",
+   "started_utc": "2026-11-17T20:36:18Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m050_campaign_multihost_part4": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m050_campaign_multihost_part4",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 66.5,
+   "exp": "E2",
+   "extras": "extras/E2_m050_campaign_multihost_part4.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m050_campaign_multihost_part4.csv",
+   "multiplier": 0.5,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8650,
+    8699
+   ],
+   "sha256": "74719c647275c906d7eae2ed5cfc538eeb76d60167a37fc0c87281f092c44fe7",
+   "started_utc": "2026-11-17T20:37:16Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m050_encryption_stream": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m050_encryption_stream",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 30.6,
+   "exp": "E2",
+   "extras": "extras/E2_m050_encryption_stream.jsonl.gz",
+   "family": "encryption_stream",
+   "file": "raw/E2_m050_encryption_stream.csv",
+   "multiplier": 0.5,
+   "n_seeds": 200,
+   "python": "3.9.6",
+   "rows": 600,
+   "seeds": [
+    8500,
+    8699
+   ],
+   "sha256": "071a7e4e652adb85164a67d31965c5d48fc40343feca5d5f91f40abce3c71f82",
+   "started_utc": "2026-11-17T20:33:36Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m050_interleaved": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m050_interleaved",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 29.4,
+   "exp": "E2",
+   "extras": "extras/E2_m050_interleaved.jsonl.gz",
+   "family": "interleaved",
+   "file": "raw/E2_m050_interleaved.csv",
+   "multiplier": 0.5,
+   "n_seeds": 200,
+   "python": "3.9.6",
+   "rows": 885,
+   "seeds": [
+    8500,
+    8699
+   ],
+   "sha256": "b38fa6b76bbbb8df71b6c86c20d4291c86a590422732b6eaf393518607f11a49",
+   "started_utc": "2026-11-17T20:38:58Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m050_split_visibility_late_confirm": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m050_split_visibility_late_confirm",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 32.5,
+   "exp": "E2",
+   "extras": "extras/E2_m050_split_visibility_late_confirm.jsonl.gz",
+   "family": "split_visibility_late_confirm",
+   "file": "raw/E2_m050_split_visibility_late_confirm.csv",
+   "multiplier": 0.5,
+   "n_seeds": 200,
+   "python": "3.9.6",
+   "rows": 600,
+   "seeds": [
+    8500,
+    8699
+   ],
+   "sha256": "11574118b7465434ad8db52ef042336bc1254075712cba982c3ca6343f489a5d",
+   "started_utc": "2026-11-17T20:38:22Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m075_campaign_e1_e2_part1": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m075_campaign_e1_e2_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 38.6,
+   "exp": "E2",
+   "extras": "extras/E2_m075_campaign_e1_e2_part1.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E2_m075_campaign_e1_e2_part1.csv",
+   "multiplier": 0.75,
+   "n_seeds": 125,
+   "python": "3.9.6",
+   "rows": 375,
+   "seeds": [
+    8500,
+    8624
+   ],
+   "sha256": "91c562f44bcc2323ba794b959c3c670e8e0527d465133dcb6f1187aa5f9172fd",
+   "started_utc": "2026-11-17T20:46:30Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m075_campaign_e1_e2_part2": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m075_campaign_e1_e2_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 25.6,
+   "exp": "E2",
+   "extras": "extras/E2_m075_campaign_e1_e2_part2.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E2_m075_campaign_e1_e2_part2.csv",
+   "multiplier": 0.75,
+   "n_seeds": 75,
+   "python": "3.9.6",
+   "rows": 225,
+   "seeds": [
+    8625,
+    8699
+   ],
+   "sha256": "8ca8794a39efd62463ab9e7dbc8a2c59651899895fb493603fafd38adbf362d5",
+   "started_utc": "2026-11-17T20:47:09Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m075_campaign_multihost_part1": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m075_campaign_multihost_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 63.3,
+   "exp": "E2",
+   "extras": "extras/E2_m075_campaign_multihost_part1.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m075_campaign_multihost_part1.csv",
+   "multiplier": 0.75,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8500,
+    8549
+   ],
+   "sha256": "97e270cd0d16a9d39e1ac5d4f7b22054501004dcfb1cc2e56cdaec9abac699da",
+   "started_utc": "2026-11-17T20:41:02Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m075_campaign_multihost_part2": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m075_campaign_multihost_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 63.1,
+   "exp": "E2",
+   "extras": "extras/E2_m075_campaign_multihost_part2.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m075_campaign_multihost_part2.csv",
+   "multiplier": 0.75,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8550,
+    8599
+   ],
+   "sha256": "d1df1ca14ddf7d314525a77a91d5ec723d94afaa676f60e9a3aa5fc6b794ac55",
+   "started_utc": "2026-11-17T20:42:09Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m075_campaign_multihost_part3": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m075_campaign_multihost_part3",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 62.5,
+   "exp": "E2",
+   "extras": "extras/E2_m075_campaign_multihost_part3.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m075_campaign_multihost_part3.csv",
+   "multiplier": 0.75,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8600,
+    8649
+   ],
+   "sha256": "40f4800ec0b7ff2e898af2f9d795cd032fb5fdde6eb76b8553dcc09c12528a35",
+   "started_utc": "2026-11-17T20:43:12Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m075_campaign_multihost_part4": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m075_campaign_multihost_part4",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 69.7,
+   "exp": "E2",
+   "extras": "extras/E2_m075_campaign_multihost_part4.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m075_campaign_multihost_part4.csv",
+   "multiplier": 0.75,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8650,
+    8699
+   ],
+   "sha256": "89c7f60ef7b5a34a572ab4b9170d5c9aa22f9788f58b249083db84567a1629bc",
+   "started_utc": "2026-11-17T20:44:15Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m075_encryption_stream": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m075_encryption_stream",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 29.6,
+   "exp": "E2",
+   "extras": "extras/E2_m075_encryption_stream.jsonl.gz",
+   "family": "encryption_stream",
+   "file": "raw/E2_m075_encryption_stream.csv",
+   "multiplier": 0.75,
+   "n_seeds": 200,
+   "python": "3.9.6",
+   "rows": 600,
+   "seeds": [
+    8500,
+    8699
+   ],
+   "sha256": "7b678ecc31815ca2c1b1343c48e5d3e3217d84fd7bc963e3929bfd1bf87b5e16",
+   "started_utc": "2026-11-17T20:40:33Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m075_interleaved": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m075_interleaved",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 30.8,
+   "exp": "E2",
+   "extras": "extras/E2_m075_interleaved.jsonl.gz",
+   "family": "interleaved",
+   "file": "raw/E2_m075_interleaved.csv",
+   "multiplier": 0.75,
+   "n_seeds": 200,
+   "python": "3.9.6",
+   "rows": 885,
+   "seeds": [
+    8500,
+    8699
+   ],
+   "sha256": "a4e6047d08e59fe8654cc57292ca38bbb4a6e9488864e6bf9d080040e39608d1",
+   "started_utc": "2026-11-17T20:46:00Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m075_split_visibility_late_confirm": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m075_split_visibility_late_confirm",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 31.2,
+   "exp": "E2",
+   "extras": "extras/E2_m075_split_visibility_late_confirm.jsonl.gz",
+   "family": "split_visibility_late_confirm",
+   "file": "raw/E2_m075_split_visibility_late_confirm.csv",
+   "multiplier": 0.75,
+   "n_seeds": 200,
+   "python": "3.9.6",
+   "rows": 600,
+   "seeds": [
+    8500,
+    8699
+   ],
+   "sha256": "0639e0bd023f1b6f08f3c8394bd29a3a5a028f53701deebe704244ec32e7ca4a",
+   "started_utc": "2026-11-17T20:45:28Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m100_campaign_e1_e2_part1": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m100_campaign_e1_e2_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 33.2,
+   "exp": "E2",
+   "extras": "extras/E2_m100_campaign_e1_e2_part1.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E2_m100_campaign_e1_e2_part1.csv",
+   "multiplier": 1.0,
+   "n_seeds": 125,
+   "python": "3.9.6",
+   "rows": 375,
+   "seeds": [
+    8500,
+    8624
+   ],
+   "sha256": "10a2aee5ef599bf4ae91192f7bcc2130df73c948d19f7f3beca98bb3e66bdb1c",
+   "started_utc": "2026-11-17T20:52:54Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m100_campaign_e1_e2_part2": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m100_campaign_e1_e2_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 22.0,
+   "exp": "E2",
+   "extras": "extras/E2_m100_campaign_e1_e2_part2.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E2_m100_campaign_e1_e2_part2.csv",
+   "multiplier": 1.0,
+   "n_seeds": 75,
+   "python": "3.9.6",
+   "rows": 225,
+   "seeds": [
+    8625,
+    8699
+   ],
+   "sha256": "9745cd7ecfccbc5bb20b62ded2b662a1c73852f4fd5f495fb0c8a6e0e4ab6805",
+   "started_utc": "2026-11-17T20:53:27Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m100_campaign_multihost_part1": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m100_campaign_multihost_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 55.6,
+   "exp": "E2",
+   "extras": "extras/E2_m100_campaign_multihost_part1.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m100_campaign_multihost_part1.csv",
+   "multiplier": 1.0,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8500,
+    8549
+   ],
+   "sha256": "f98e9da60781bcccedd82f4ad6373c4ca963f7a179c9bf4df5760e5dc93d2ba3",
+   "started_utc": "2026-11-17T20:48:07Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m100_campaign_multihost_part2": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m100_campaign_multihost_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 58.9,
+   "exp": "E2",
+   "extras": "extras/E2_m100_campaign_multihost_part2.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m100_campaign_multihost_part2.csv",
+   "multiplier": 1.0,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8550,
+    8599
+   ],
+   "sha256": "f40e0a9f6f28a1a413963884ce80bcc5a4f03943413a9521b4a437f68abf6379",
+   "started_utc": "2026-11-17T20:49:03Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m100_campaign_multihost_part3": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m100_campaign_multihost_part3",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 53.2,
+   "exp": "E2",
+   "extras": "extras/E2_m100_campaign_multihost_part3.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m100_campaign_multihost_part3.csv",
+   "multiplier": 1.0,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8600,
+    8649
+   ],
+   "sha256": "53fab74503ea3b9f7b64360fc3b288944a70b57d062ebda60ef1f33cb88278af",
+   "started_utc": "2026-11-17T20:50:02Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m100_campaign_multihost_part4": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m100_campaign_multihost_part4",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 58.9,
+   "exp": "E2",
+   "extras": "extras/E2_m100_campaign_multihost_part4.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m100_campaign_multihost_part4.csv",
+   "multiplier": 1.0,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8650,
+    8699
+   ],
+   "sha256": "f8509ae281c5cc29ec68b767145f0ded22904523507d02ed85ccbc880381116a",
+   "started_utc": "2026-11-17T20:50:59Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m100_encryption_stream": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m100_encryption_stream",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 28.2,
+   "exp": "E2",
+   "extras": "extras/E2_m100_encryption_stream.jsonl.gz",
+   "family": "encryption_stream",
+   "file": "raw/E2_m100_encryption_stream.csv",
+   "multiplier": 1.0,
+   "n_seeds": 200,
+   "python": "3.9.6",
+   "rows": 600,
+   "seeds": [
+    8500,
+    8699
+   ],
+   "sha256": "d68632562a33c47c480037e4cb8df6584f6907db6a62a6fa092efdb62c082a5f",
+   "started_utc": "2026-11-17T20:47:35Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m100_interleaved": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m100_interleaved",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 27.5,
+   "exp": "E2",
+   "extras": "extras/E2_m100_interleaved.jsonl.gz",
+   "family": "interleaved",
+   "file": "raw/E2_m100_interleaved.csv",
+   "multiplier": 1.0,
+   "n_seeds": 200,
+   "python": "3.9.6",
+   "rows": 885,
+   "seeds": [
+    8500,
+    8699
+   ],
+   "sha256": "1c2f8d05275cb3ad42b79b16d1bb0630698629388196150d1b9b776ac82d0184",
+   "started_utc": "2026-11-17T20:52:27Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m100_split_visibility_late_confirm": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m100_split_visibility_late_confirm",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 28.8,
+   "exp": "E2",
+   "extras": "extras/E2_m100_split_visibility_late_confirm.jsonl.gz",
+   "family": "split_visibility_late_confirm",
+   "file": "raw/E2_m100_split_visibility_late_confirm.csv",
+   "multiplier": 1.0,
+   "n_seeds": 200,
+   "python": "3.9.6",
+   "rows": 600,
+   "seeds": [
+    8500,
+    8699
+   ],
+   "sha256": "2109c53adde8ca2a2e2efab0cb8d68c698963226f42880784c792f1adfe53a4e",
+   "started_utc": "2026-11-17T20:51:58Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m125_campaign_e1_e2_part1": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m125_campaign_e1_e2_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 31.3,
+   "exp": "E2",
+   "extras": "extras/E2_m125_campaign_e1_e2_part1.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E2_m125_campaign_e1_e2_part1.csv",
+   "multiplier": 1.25,
+   "n_seeds": 125,
+   "python": "3.9.6",
+   "rows": 375,
+   "seeds": [
+    8500,
+    8624
+   ],
+   "sha256": "cc3632211d75aa89cbc57be20231dbda836d9e611ee7fce03a287126e8c8cf4f",
+   "started_utc": "2026-11-17T20:58:55Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m125_campaign_e1_e2_part2": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m125_campaign_e1_e2_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 20.8,
+   "exp": "E2",
+   "extras": "extras/E2_m125_campaign_e1_e2_part2.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E2_m125_campaign_e1_e2_part2.csv",
+   "multiplier": 1.25,
+   "n_seeds": 75,
+   "python": "3.9.6",
+   "rows": 225,
+   "seeds": [
+    8625,
+    8699
+   ],
+   "sha256": "b24f3754d10d14a84462c5c14d0122f921352055fb2b481a759ce7d130229c59",
+   "started_utc": "2026-11-17T20:59:27Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m125_campaign_multihost_part1": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m125_campaign_multihost_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 54.0,
+   "exp": "E2",
+   "extras": "extras/E2_m125_campaign_multihost_part1.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m125_campaign_multihost_part1.csv",
+   "multiplier": 1.25,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8500,
+    8549
+   ],
+   "sha256": "4b9d64260464e9361f81a981ef708f177f6a2286797565bc98b4538e6b68a7b7",
+   "started_utc": "2026-11-17T20:54:19Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m125_campaign_multihost_part2": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m125_campaign_multihost_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 56.7,
+   "exp": "E2",
+   "extras": "extras/E2_m125_campaign_multihost_part2.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m125_campaign_multihost_part2.csv",
+   "multiplier": 1.25,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8550,
+    8599
+   ],
+   "sha256": "80cd18cdcdf4b3a67afaae51b457367508cb25d5853e1632a9385eb298accaa2",
+   "started_utc": "2026-11-17T20:55:13Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m125_campaign_multihost_part3": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m125_campaign_multihost_part3",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 51.3,
+   "exp": "E2",
+   "extras": "extras/E2_m125_campaign_multihost_part3.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m125_campaign_multihost_part3.csv",
+   "multiplier": 1.25,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8600,
+    8649
+   ],
+   "sha256": "21498a3ce83192deb480dc8df5c42d82becd4bb3f8e39735650d729d924786fc",
+   "started_utc": "2026-11-17T20:56:10Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m125_campaign_multihost_part4": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m125_campaign_multihost_part4",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 55.9,
+   "exp": "E2",
+   "extras": "extras/E2_m125_campaign_multihost_part4.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m125_campaign_multihost_part4.csv",
+   "multiplier": 1.25,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8650,
+    8699
+   ],
+   "sha256": "5757be38da2dd34462a9ebdfbbff56688f60576794394c18f2ee60b59cdab38a",
+   "started_utc": "2026-11-17T20:57:05Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m125_encryption_stream": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m125_encryption_stream",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 26.2,
+   "exp": "E2",
+   "extras": "extras/E2_m125_encryption_stream.jsonl.gz",
+   "family": "encryption_stream",
+   "file": "raw/E2_m125_encryption_stream.csv",
+   "multiplier": 1.25,
+   "n_seeds": 200,
+   "python": "3.9.6",
+   "rows": 600,
+   "seeds": [
+    8500,
+    8699
+   ],
+   "sha256": "8d42355b64c68c7eefe4508e45b204b25117444de058c8fe26ae2151d6cee702",
+   "started_utc": "2026-11-17T20:53:53Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m125_interleaved": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m125_interleaved",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 26.5,
+   "exp": "E2",
+   "extras": "extras/E2_m125_interleaved.jsonl.gz",
+   "family": "interleaved",
+   "file": "raw/E2_m125_interleaved.csv",
+   "multiplier": 1.25,
+   "n_seeds": 200,
+   "python": "3.9.6",
+   "rows": 885,
+   "seeds": [
+    8500,
+    8699
+   ],
+   "sha256": "de52c3dcdb29058614061c327241ce2e56f326169a8a19c914f22d8b5a08e571",
+   "started_utc": "2026-11-17T20:58:29Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m125_split_visibility_late_confirm": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m125_split_visibility_late_confirm",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 28.2,
+   "exp": "E2",
+   "extras": "extras/E2_m125_split_visibility_late_confirm.jsonl.gz",
+   "family": "split_visibility_late_confirm",
+   "file": "raw/E2_m125_split_visibility_late_confirm.csv",
+   "multiplier": 1.25,
+   "n_seeds": 200,
+   "python": "3.9.6",
+   "rows": 600,
+   "seeds": [
+    8500,
+    8699
+   ],
+   "sha256": "e2a6b66481805a0073fba0405661075cb29d01b1336e8afd26be6206aaa4794c",
+   "started_utc": "2026-11-17T20:58:00Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m150_campaign_e1_e2_part1": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m150_campaign_e1_e2_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 31.1,
+   "exp": "E2",
+   "extras": "extras/E2_m150_campaign_e1_e2_part1.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E2_m150_campaign_e1_e2_part1.csv",
+   "multiplier": 1.5,
+   "n_seeds": 125,
+   "python": "3.9.6",
+   "rows": 375,
+   "seeds": [
+    8500,
+    8624
+   ],
+   "sha256": "354e16fb69de317b0dac1ccca1c5d368dcd58c4173395a4d39eca4c3aaf7d01c",
+   "started_utc": "2026-11-17T21:04:47Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m150_campaign_e1_e2_part2": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m150_campaign_e1_e2_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 20.7,
+   "exp": "E2",
+   "extras": "extras/E2_m150_campaign_e1_e2_part2.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E2_m150_campaign_e1_e2_part2.csv",
+   "multiplier": 1.5,
+   "n_seeds": 75,
+   "python": "3.9.6",
+   "rows": 225,
+   "seeds": [
+    8625,
+    8699
+   ],
+   "sha256": "d3d54d378750db3a2b2af0b97eb00415cf714753f3b637ffdc2690cf8c53798e",
+   "started_utc": "2026-11-17T21:05:18Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m150_campaign_multihost_part1": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m150_campaign_multihost_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 53.8,
+   "exp": "E2",
+   "extras": "extras/E2_m150_campaign_multihost_part1.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m150_campaign_multihost_part1.csv",
+   "multiplier": 1.5,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8500,
+    8549
+   ],
+   "sha256": "9e531010962bda29379706e91e985b81d783b9e1e6e523fdb89b8177f41381ed",
+   "started_utc": "2026-11-17T21:00:16Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m150_campaign_multihost_part2": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m150_campaign_multihost_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 54.2,
+   "exp": "E2",
+   "extras": "extras/E2_m150_campaign_multihost_part2.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m150_campaign_multihost_part2.csv",
+   "multiplier": 1.5,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8550,
+    8599
+   ],
+   "sha256": "9c468bdc4332e6a621da13f02ea2214c2c02505ab8e85192770843c16a62365b",
+   "started_utc": "2026-11-17T21:01:10Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m150_campaign_multihost_part3": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m150_campaign_multihost_part3",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 50.1,
+   "exp": "E2",
+   "extras": "extras/E2_m150_campaign_multihost_part3.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m150_campaign_multihost_part3.csv",
+   "multiplier": 1.5,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8600,
+    8649
+   ],
+   "sha256": "affd76c479f4704b25095d3f843499a08c0205501720e0843068ce9afebf5be5",
+   "started_utc": "2026-11-17T21:02:04Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m150_campaign_multihost_part4": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m150_campaign_multihost_part4",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 54.6,
+   "exp": "E2",
+   "extras": "extras/E2_m150_campaign_multihost_part4.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m150_campaign_multihost_part4.csv",
+   "multiplier": 1.5,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8650,
+    8699
+   ],
+   "sha256": "6cb3592033521db2146e3ac83190b6057cda5966357d49f319e6f21209e96d02",
+   "started_utc": "2026-11-17T21:02:58Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m150_encryption_stream": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m150_encryption_stream",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 25.5,
+   "exp": "E2",
+   "extras": "extras/E2_m150_encryption_stream.jsonl.gz",
+   "family": "encryption_stream",
+   "file": "raw/E2_m150_encryption_stream.csv",
+   "multiplier": 1.5,
+   "n_seeds": 200,
+   "python": "3.9.6",
+   "rows": 600,
+   "seeds": [
+    8500,
+    8699
+   ],
+   "sha256": "d0285179ce81db45b4974e1cf1e23628a92cec6cabc5ae977583229ed8089c07",
+   "started_utc": "2026-11-17T20:59:51Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m150_interleaved": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m150_interleaved",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 26.2,
+   "exp": "E2",
+   "extras": "extras/E2_m150_interleaved.jsonl.gz",
+   "family": "interleaved",
+   "file": "raw/E2_m150_interleaved.csv",
+   "multiplier": 1.5,
+   "n_seeds": 200,
+   "python": "3.9.6",
+   "rows": 885,
+   "seeds": [
+    8500,
+    8699
+   ],
+   "sha256": "d37462920a583a13cc964a757d350e8e460fac3e58e1ff82eaf4a003b5450285",
+   "started_utc": "2026-11-17T21:04:21Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m150_split_visibility_late_confirm": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m150_split_visibility_late_confirm",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 27.7,
+   "exp": "E2",
+   "extras": "extras/E2_m150_split_visibility_late_confirm.jsonl.gz",
+   "family": "split_visibility_late_confirm",
+   "file": "raw/E2_m150_split_visibility_late_confirm.csv",
+   "multiplier": 1.5,
+   "n_seeds": 200,
+   "python": "3.9.6",
+   "rows": 600,
+   "seeds": [
+    8500,
+    8699
+   ],
+   "sha256": "08d57f67651de6aa2d19721864de9006fb37795cde72f7702769b56b622c45cb",
+   "started_utc": "2026-11-17T21:03:53Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m200_campaign_e1_e2_part1": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m200_campaign_e1_e2_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 31.7,
+   "exp": "E2",
+   "extras": "extras/E2_m200_campaign_e1_e2_part1.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E2_m200_campaign_e1_e2_part1.csv",
+   "multiplier": 2.0,
+   "n_seeds": 125,
+   "python": "3.9.6",
+   "rows": 375,
+   "seeds": [
+    8500,
+    8624
+   ],
+   "sha256": "81418dfb31c921dceb08691d5c67e93e81ed15437127dcd43dd64118ca5c351b",
+   "started_utc": "2026-11-17T21:10:42Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m200_campaign_e1_e2_part2": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m200_campaign_e1_e2_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 21.5,
+   "exp": "E2",
+   "extras": "extras/E2_m200_campaign_e1_e2_part2.jsonl.gz",
+   "family": "campaign_e1_e2",
+   "file": "raw/E2_m200_campaign_e1_e2_part2.csv",
+   "multiplier": 2.0,
+   "n_seeds": 75,
+   "python": "3.9.6",
+   "rows": 225,
+   "seeds": [
+    8625,
+    8699
+   ],
+   "sha256": "8b61dcdafe66ce4d8d2bb8f2d2f900338bd2d240d100b6fe1954070e1e3fd770",
+   "started_utc": "2026-11-17T21:11:13Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m200_campaign_multihost_part1": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m200_campaign_multihost_part1",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 53.2,
+   "exp": "E2",
+   "extras": "extras/E2_m200_campaign_multihost_part1.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m200_campaign_multihost_part1.csv",
+   "multiplier": 2.0,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8500,
+    8549
+   ],
+   "sha256": "a7f144e1aa438572e254cc9d362195491526ce71d92776dc25f90ac6c3985350",
+   "started_utc": "2026-11-17T21:06:08Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m200_campaign_multihost_part2": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m200_campaign_multihost_part2",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 53.7,
+   "exp": "E2",
+   "extras": "extras/E2_m200_campaign_multihost_part2.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m200_campaign_multihost_part2.csv",
+   "multiplier": 2.0,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8550,
+    8599
+   ],
+   "sha256": "174c69caeb28f4da9efecc9fc032c64621cce108b1e478c09cc99c9c36fdad1d",
+   "started_utc": "2026-11-17T21:07:01Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m200_campaign_multihost_part3": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m200_campaign_multihost_part3",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 50.7,
+   "exp": "E2",
+   "extras": "extras/E2_m200_campaign_multihost_part3.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m200_campaign_multihost_part3.csv",
+   "multiplier": 2.0,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8600,
+    8649
+   ],
+   "sha256": "e1c1b657c23d129def74bfde7e9a15da7131e8a0bfd1da935f4c32056a23b142",
+   "started_utc": "2026-11-17T21:07:55Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m200_campaign_multihost_part4": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m200_campaign_multihost_part4",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 50.4,
+   "exp": "E2",
+   "extras": "extras/E2_m200_campaign_multihost_part4.jsonl.gz",
+   "family": "campaign_multihost",
+   "file": "raw/E2_m200_campaign_multihost_part4.csv",
+   "multiplier": 2.0,
+   "n_seeds": 50,
+   "python": "3.9.6",
+   "rows": 150,
+   "seeds": [
+    8650,
+    8699
+   ],
+   "sha256": "e3d67eabc50910cb9d90f5dafc0afe88b9fb5bfa0315649ab85b8ac7b8864e4d",
+   "started_utc": "2026-11-17T21:08:58Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m200_encryption_stream": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m200_encryption_stream",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 25.6,
+   "exp": "E2",
+   "extras": "extras/E2_m200_encryption_stream.jsonl.gz",
+   "family": "encryption_stream",
+   "file": "raw/E2_m200_encryption_stream.csv",
+   "multiplier": 2.0,
+   "n_seeds": 200,
+   "python": "3.9.6",
+   "rows": 600,
+   "seeds": [
+    8500,
+    8699
+   ],
+   "sha256": "989547d38021253a7da1b642c27fc2887f50a16372d200e9c723168e2e96d4c2",
+   "started_utc": "2026-11-17T21:05:42Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m200_interleaved": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m200_interleaved",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 26.2,
+   "exp": "E2",
+   "extras": "extras/E2_m200_interleaved.jsonl.gz",
+   "family": "interleaved",
+   "file": "raw/E2_m200_interleaved.csv",
+   "multiplier": 2.0,
+   "n_seeds": 200,
+   "python": "3.9.6",
+   "rows": 885,
+   "seeds": [
+    8500,
+    8699
+   ],
+   "sha256": "184bfdf4980d6756fc622c5ce142db05064881fb5ac1ead77588ec23ef1e9dd3",
+   "started_utc": "2026-11-17T21:10:15Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  },
+  "E2_m200_split_visibility_late_confirm": {
+   "arms": [
+    "SN",
+    "U1",
+    "B2L"
+   ],
+   "command": "python3 simulation/fase1_A_experiments.py run --block E2_m200_split_visibility_late_confirm",
+   "commit": "f6aadbcaca119825c1e690e370d33070af79dded",
+   "condition": "restricted",
+   "elapsed_s": 26.7,
+   "exp": "E2",
+   "extras": "extras/E2_m200_split_visibility_late_confirm.jsonl.gz",
+   "family": "split_visibility_late_confirm",
+   "file": "raw/E2_m200_split_visibility_late_confirm.csv",
+   "multiplier": 2.0,
+   "n_seeds": 200,
+   "python": "3.9.6",
+   "rows": 600,
+   "seeds": [
+    8500,
+    8699
+   ],
+   "sha256": "2fba5f54a68c2b0547556767d6d9b5ebf317378f5674232a783d13e83d7da261",
+   "started_utc": "2026-11-17T21:09:49Z",
+   "status": "DESCRIPTIVE",
+   "workers": 10
+  }
+ },
+ "platform": "macOS-26.6.2-arm64-arm-64bit",
+ "preregistration": "docs/fase1/14_preregistro_A.md",
+ "python": "3.9.6"
+}

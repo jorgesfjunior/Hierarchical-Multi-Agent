@@ -1,0 +1,2327 @@
+{
+ "E1": {
+  "H5": {
+   "confirmed_primary_1pp": true,
+   "confirmed_secondary_2pp": true,
+   "per_level": {
+    "batch15m": {
+     "ci95": [
+      -0.001826817683595177,
+      0.0
+     ],
+     "comparison": "A3 - SN",
+     "delta": -0.0007285974499089253,
+     "delta_data_loss_per_host": {
+      "ci": [
+       -3.6033372765489013,
+       62.55927386488305
+      ],
+      "mean": 23.81012799401436,
+      "n": 2745
+     },
+     "discordant_A3_contains_SN_not": 0,
+     "discordant_SN_contains_A3_not": 2,
+     "level": "batch15m",
+     "mcnemar_two_sided_p": 0.5,
+     "n_campaigns": 2745,
+     "n_seeds": 500,
+     "p_A3": 0.9366120218579235,
+     "p_SN": 0.9373406193078324,
+     "per_family": {
+      "campaign_e1_e2": {
+       "delta": 0.0,
+       "n": 500
+      },
+      "campaign_multihost": {
+       "delta": -0.004,
+       "n": 500
+      },
+      "encryption_stream": {
+       "delta": 0.0,
+       "n": 500
+      },
+      "interleaved": {
+       "delta": 0.0,
+       "n": 745
+      },
+      "split_visibility_late_confirm": {
+       "delta": 0.0,
+       "n": 500
+      }
+     },
+     "tost": {
+      "primaria_1pp": {
+       "ci90": [
+        -0.0018115942028985507,
+        0.0
+       ],
+       "equivalent": true,
+       "margin": 0.01,
+       "p_inf": 9.999000099990002e-05,
+       "p_sup": 9.999000099990002e-05,
+       "p_tost": 9.999000099990002e-05,
+       "reading": "equivalente"
+      },
+      "secundaria_2pp": {
+       "ci90": [
+        -0.0018115942028985507,
+        0.0
+       ],
+       "equivalent": true,
+       "margin": 0.02,
+       "p_inf": 9.999000099990002e-05,
+       "p_sup": 9.999000099990002e-05,
+       "p_tost": 9.999000099990002e-05,
+       "reading": "equivalente"
+      }
+     }
+    },
+    "restricted": {
+     "ci95": [
+      -0.001826817683595177,
+      0.0
+     ],
+     "comparison": "A3 - SN",
+     "delta": -0.0007285974499089253,
+     "delta_data_loss_per_host": {
+      "ci": [
+       -3.6038046517765925,
+       62.55865748127652
+      ],
+      "mean": 23.809525780018237,
+      "n": 2745
+     },
+     "discordant_A3_contains_SN_not": 0,
+     "discordant_SN_contains_A3_not": 2,
+     "level": "restricted",
+     "mcnemar_two_sided_p": 0.5,
+     "n_campaigns": 2745,
+     "n_seeds": 500,
+     "p_A3": 0.9366120218579235,
+     "p_SN": 0.9373406193078324,
+     "per_family": {
+      "campaign_e1_e2": {
+       "delta": 0.0,
+       "n": 500
+      },
+      "campaign_multihost": {
+       "delta": -0.004,
+       "n": 500
+      },
+      "encryption_stream": {
+       "delta": 0.0,
+       "n": 500
+      },
+      "interleaved": {
+       "delta": 0.0,
+       "n": 745
+      },
+      "split_visibility_late_confirm": {
+       "delta": 0.0,
+       "n": 500
+      }
+     },
+     "tost": {
+      "primaria_1pp": {
+       "ci90": [
+        -0.0018115942028985507,
+        0.0
+       ],
+       "equivalent": true,
+       "margin": 0.01,
+       "p_inf": 9.999000099990002e-05,
+       "p_sup": 9.999000099990002e-05,
+       "p_tost": 9.999000099990002e-05,
+       "reading": "equivalente"
+      },
+      "secundaria_2pp": {
+       "ci90": [
+        -0.0018115942028985507,
+        0.0
+       ],
+       "equivalent": true,
+       "margin": 0.02,
+       "p_inf": 9.999000099990002e-05,
+       "p_sup": 9.999000099990002e-05,
+       "p_tost": 9.999000099990002e-05,
+       "reading": "equivalente"
+      }
+     }
+    }
+   }
+  },
+  "secondary": {
+   "batch15m|A3": {
+    "advisories_false_per_run": {
+     "ci": [
+      0.2376,
+      0.2888
+     ],
+     "mean": 0.2624,
+     "n": 2500
+    },
+    "advisories_per_run": {
+     "ci": [
+      0.4376,
+      0.4888
+     ],
+     "mean": 0.4624,
+     "n": 2500
+    },
+    "agent_msgs_per_run": {
+     "ci": [
+      426.70237000000003,
+      437.90448000000004
+     ],
+     "mean": 432.1952,
+     "n": 2500
+    },
+    "all_link_msgs_per_run": {
+     "ci": [
+      427.63666,
+      438.83646000000005
+     ],
+     "mean": 433.12,
+     "n": 2500
+    },
+    "benign_isolated_per_run": {
+     "ci": [
+      2.1524,
+      2.242
+     ],
+     "mean": 2.1972,
+     "n": 2500
+    },
+    "boundary_bytes_per_run": {
+     "ci": [
+      224.0512,
+      250.2656
+     ],
+     "mean": 236.7488,
+     "n": 2500
+    },
+    "boundary_msgs_per_run": {
+     "ci": [
+      0.8752,
+      0.9776
+     ],
+     "mean": 0.9248,
+     "n": 2500
+    },
+    "data_loss_per_host": {
+     "ci": [
+      2342.2509406603235,
+      3244.3550415481977
+     ],
+     "mean": 2777.0390863346925,
+     "n": 2745
+    },
+    "first_action_median_s": {
+     "ci": [
+      0.011999999999943611,
+      0.011999999999943611
+     ],
+     "n": 2736,
+     "value": 0.011999999999943611
+    },
+    "first_action_p90_s": {
+     "ci": [
+      377.21149999999994,
+      433.81349999999986
+     ],
+     "n": 2736,
+     "value": 401.412
+    },
+    "n_campaigns": 2745,
+    "n_runs": 2500,
+    "p": {
+     "ci": [
+      0.9286239748283275,
+      0.944464609800363
+     ],
+     "mean": 0.9366120218579235,
+     "n": 2745
+    },
+    "strategic_only_labels": 0,
+    "unavailability": {
+     "ci": [
+      0.2851918129507163,
+      0.2937478119576745
+     ],
+     "mean": 0.2894847039004012,
+     "n": 2500
+    }
+   },
+   "batch15m|SN": {
+    "advisories_false_per_run": {
+     "ci": [
+      0.2376,
+      0.2888
+     ],
+     "mean": 0.2624,
+     "n": 2500
+    },
+    "advisories_per_run": {
+     "ci": [
+      0.4376,
+      0.4888
+     ],
+     "mean": 0.4624,
+     "n": 2500
+    },
+    "agent_msgs_per_run": {
+     "ci": [
+      853.4047400000001,
+      875.8089600000001
+     ],
+     "mean": 864.3904,
+     "n": 2500
+    },
+    "all_link_msgs_per_run": {
+     "ci": [
+      1281.04415,
+      1314.662
+     ],
+     "mean": 1297.5104,
+     "n": 2500
+    },
+    "benign_isolated_per_run": {
+     "ci": [
+      2.1524,
+      2.242
+     ],
+     "mean": 2.1972,
+     "n": 2500
+    },
+    "boundary_bytes_per_run": {
+     "ci": [
+      2252071.68938,
+      2311274.50035
+     ],
+     "mean": 2280847.366,
+     "n": 2500
+    },
+    "boundary_msgs_per_run": {
+     "ci": [
+      427.63666,
+      438.83646000000005
+     ],
+     "mean": 433.12,
+     "n": 2500
+    },
+    "data_loss_per_host": {
+     "ci": [
+      2316.3422042476936,
+      3220.848430833715
+     ],
+     "mean": 2753.2289583406778,
+     "n": 2745
+    },
+    "first_action_median_s": {
+     "ci": [
+      0.011999999999943611,
+      0.011999999999943611
+     ],
+     "n": 2736,
+     "value": 0.011999999999943611
+    },
+    "first_action_p90_s": {
+     "ci": [
+      377.21149999999994,
+      433.81349999999986
+     ],
+     "n": 2736,
+     "value": 401.412
+    },
+    "n_campaigns": 2745,
+    "n_runs": 2500,
+    "p": {
+     "ci": [
+      0.9293985523834656,
+      0.9452304519293913
+     ],
+     "mean": 0.9373406193078324,
+     "n": 2745
+    },
+    "strategic_only_labels": 181283,
+    "unavailability": {
+     "ci": [
+      0.286807480181533,
+      0.29540269161141375
+     ],
+     "mean": 0.29108539516307946,
+     "n": 2500
+    }
+   },
+   "batch15m|ratio_A3_SN": {
+    "agent_msgs": {
+     "ci": [
+      0.5,
+      0.5
+     ],
+     "den": 2160976.0,
+     "num": 1080488.0,
+     "value": 0.5
+    },
+    "all_link_msgs": {
+     "ci": [
+      0.33378304781428736,
+      0.33383549677037244
+     ],
+     "den": 3243776.0,
+     "num": 1082800.0,
+     "value": 0.3338084997237787
+    },
+    "boundary_msgs": {
+     "ci": [
+      0.002020988560828106,
+      0.0022563363178745646
+     ],
+     "den": 1082800.0,
+     "num": 2312.0,
+     "value": 0.002135205024011821
+    }
+   },
+   "restricted|A3": {
+    "advisories_false_per_run": {
+     "ci": [
+      0.2376,
+      0.2888
+     ],
+     "mean": 0.2624,
+     "n": 2500
+    },
+    "advisories_per_run": {
+     "ci": [
+      0.4376,
+      0.4888
+     ],
+     "mean": 0.4624,
+     "n": 2500
+    },
+    "agent_msgs_per_run": {
+     "ci": [
+      426.70237000000003,
+      437.90448000000004
+     ],
+     "mean": 432.1952,
+     "n": 2500
+    },
+    "all_link_msgs_per_run": {
+     "ci": [
+      427.63666,
+      438.83646000000005
+     ],
+     "mean": 433.12,
+     "n": 2500
+    },
+    "benign_isolated_per_run": {
+     "ci": [
+      2.1524,
+      2.242
+     ],
+     "mean": 2.1972,
+     "n": 2500
+    },
+    "boundary_bytes_per_run": {
+     "ci": [
+      224.0512,
+      250.2656
+     ],
+     "mean": 236.7488,
+     "n": 2500
+    },
+    "boundary_msgs_per_run": {
+     "ci": [
+      0.8752,
+      0.9776
+     ],
+     "mean": 0.9248,
+     "n": 2500
+    },
+    "data_loss_per_host": {
+     "ci": [
+      2330.6958605922014,
+      3235.8690299543127
+     ],
+     "mean": 2767.9310159968345,
+     "n": 2745
+    },
+    "first_action_median_s": {
+     "ci": [
+      0.011999999999943611,
+      0.011999999999943611
+     ],
+     "n": 2736,
+     "value": 0.011999999999943611
+    },
+    "first_action_p90_s": {
+     "ci": [
+      377.21149999999994,
+      433.81349999999986
+     ],
+     "n": 2736,
+     "value": 401.412
+    },
+    "n_campaigns": 2745,
+    "n_runs": 2500,
+    "p": {
+     "ci": [
+      0.9286239748283275,
+      0.944464609800363
+     ],
+     "mean": 0.9366120218579235,
+     "n": 2745
+    },
+    "strategic_only_labels": 0,
+    "unavailability": {
+     "ci": [
+      0.28521177953855426,
+      0.29376910331229006
+     ],
+     "mean": 0.28950555148927615,
+     "n": 2500
+    }
+   },
+   "restricted|SN": {
+    "advisories_false_per_run": {
+     "ci": [
+      0.2376,
+      0.2888
+     ],
+     "mean": 0.2624,
+     "n": 2500
+    },
+    "advisories_per_run": {
+     "ci": [
+      0.4376,
+      0.4888
+     ],
+     "mean": 0.4624,
+     "n": 2500
+    },
+    "agent_msgs_per_run": {
+     "ci": [
+      853.4047400000001,
+      875.8089600000001
+     ],
+     "mean": 864.3904,
+     "n": 2500
+    },
+    "all_link_msgs_per_run": {
+     "ci": [
+      1281.04415,
+      1314.662
+     ],
+     "mean": 1297.5104,
+     "n": 2500
+    },
+    "benign_isolated_per_run": {
+     "ci": [
+      2.1524,
+      2.242
+     ],
+     "mean": 2.1972,
+     "n": 2500
+    },
+    "boundary_bytes_per_run": {
+     "ci": [
+      2252071.68938,
+      2311274.50035
+     ],
+     "mean": 2280847.366,
+     "n": 2500
+    },
+    "boundary_msgs_per_run": {
+     "ci": [
+      427.63666,
+      438.83646000000005
+     ],
+     "mean": 433.12,
+     "n": 2500
+    },
+    "data_loss_per_host": {
+     "ci": [
+      2307.5237967710545,
+      3210.834145202813
+     ],
+     "mean": 2744.121490216816,
+     "n": 2745
+    },
+    "first_action_median_s": {
+     "ci": [
+      0.011999999999943611,
+      0.011999999999943611
+     ],
+     "n": 2736,
+     "value": 0.011999999999943611
+    },
+    "first_action_p90_s": {
+     "ci": [
+      377.21149999999994,
+      433.81349999999986
+     ],
+     "n": 2736,
+     "value": 401.412
+    },
+    "n_campaigns": 2745,
+    "n_runs": 2500,
+    "p": {
+     "ci": [
+      0.9293985523834656,
+      0.9452304519293913
+     ],
+     "mean": 0.9373406193078324,
+     "n": 2745
+    },
+    "strategic_only_labels": 181283,
+    "unavailability": {
+     "ci": [
+      0.2868992632210983,
+      0.2954821112771161
+     ],
+     "mean": 0.29117053743634486,
+     "n": 2500
+    }
+   },
+   "restricted|ratio_A3_SN": {
+    "agent_msgs": {
+     "ci": [
+      0.5,
+      0.5
+     ],
+     "den": 2160976.0,
+     "num": 1080488.0,
+     "value": 0.5
+    },
+    "all_link_msgs": {
+     "ci": [
+      0.33378304781428736,
+      0.33383549677037244
+     ],
+     "den": 3243776.0,
+     "num": 1082800.0,
+     "value": 0.3338084997237787
+    },
+    "boundary_msgs": {
+     "ci": [
+      0.002020988560828106,
+      0.0022563363178745646
+     ],
+     "den": 1082800.0,
+     "num": 2312.0,
+     "value": 0.002135205024011821
+    }
+   }
+  }
+ },
+ "E2": {
+  "curves": {
+   "0.5|B2L": {
+    "arm": "B2L",
+    "benign_any_action_per_run": {
+     "ci": [
+      5.591,
+      5.727025
+     ],
+     "mean": 5.658,
+     "n": 1000
+    },
+    "benign_hosts_per_run": 9.105,
+    "benign_isolated_per_run": {
+     "ci": [
+      5.44,
+      5.581
+     ],
+     "mean": 5.51,
+     "n": 1000
+    },
+    "fp_floor": {
+     "benign_isolated_by_unscaled_detector_per_run": {
+      "ci": [
+       0.843,
+       0.946
+      ],
+      "mean": 0.894,
+      "n": 1000
+     },
+     "isolated_hosts_with_kind": {
+      "precaucao": 901,
+      "veredito": 4993
+     },
+     "isolation_dispatches_by_kind": {
+      "precaucao": 0.00349467621807064,
+      "veredito": 0.9965053237819294
+     },
+     "isolation_dispatches_by_trigger_event": {
+      "backup_recovery_tamper": 0.00013509429937607763,
+      "c2_beacon_match": 0.0015358088771175143,
+      "file_access_burst": 0.0055353111612777076,
+      "file_write": 0.970265033684697,
+      "lateral_movement_signature": 0.001109195300140427,
+      "network_enumeration": 0.001226514033809126,
+      "privilege_escalation_attempt": 0.0038537426453596887,
+      "service_stop_attempt": 0.009730344668219065,
+      "vulnerable_service_exposure": 0.006608955330003378
+     },
+     "isolation_dispatches_total": 281285,
+     "share_of_benign_isolated": 0.16225045372050817
+    },
+    "multiplier": 0.5,
+    "n_campaigns": 1095,
+    "n_runs": 1000,
+    "p": {
+     "ci": [
+      0.9807162534435262,
+      0.9935779816513761
+     ],
+     "mean": 0.9872146118721461,
+     "n": 1095
+    },
+    "precision_any_containment": {
+     "ci": [
+      0.24808649050666093,
+      0.25527958560233766
+     ],
+     "den": 7561.0,
+     "num": 1903.0,
+     "value": 0.25168628488295197
+    },
+    "unavailability": {
+     "ci": [
+      0.3834479115783198,
+      0.3989636139157716
+     ],
+     "mean": 0.39119329999557945,
+     "n": 1000
+    },
+    "warning_precision": null,
+    "warnings_per_run": {
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0,
+     "n": 1000
+    }
+   },
+   "0.5|SN": {
+    "arm": "SN",
+    "benign_any_action_per_run": {
+     "ci": [
+      5.607,
+      5.744025
+     ],
+     "mean": 5.675,
+     "n": 1000
+    },
+    "benign_hosts_per_run": 9.105,
+    "benign_isolated_per_run": {
+     "ci": [
+      5.462,
+      5.604
+     ],
+     "mean": 5.533,
+     "n": 1000
+    },
+    "fp_floor": {
+     "benign_isolated_by_unscaled_detector_per_run": {
+      "ci": [
+       0.846,
+       0.949
+      ],
+      "mean": 0.897,
+      "n": 1000
+     },
+     "isolated_hosts_with_kind": {
+      "aviso": 471,
+      "precaucao": 901,
+      "veredito": 4993
+     },
+     "isolation_dispatches_by_kind": {
+      "aviso": 0.0006210055734650792,
+      "precaucao": 0.0011784719666335383,
+      "veredito": 0.9982005224599014
+     },
+     "isolation_dispatches_by_trigger_event": {
+      "backup_recovery_tamper": 8.871508192358275e-05,
+      "c2_beacon_match": 0.000517904262040375,
+      "file_access_burst": 0.003843520981716301,
+      "file_write": 0.9786496365678772,
+      "lateral_movement_signature": 0.001402657376359349,
+      "network_enumeration": 0.0010022406552447998,
+      "privilege_escalation_attempt": 0.003053477211613044,
+      "service_stop_attempt": 0.0069401568818327096,
+      "vulnerable_service_exposure": 0.004501690981392611
+     },
+     "isolation_dispatches_total": 834131,
+     "share_of_benign_isolated": 0.16211819989155973
+    },
+    "multiplier": 0.5,
+    "n_campaigns": 1095,
+    "n_runs": 1000,
+    "p": {
+     "ci": [
+      0.9807162534435262,
+      0.9935779816513761
+     ],
+     "mean": 0.9872146118721461,
+     "n": 1095
+    },
+    "precision_any_containment": {
+     "ci": [
+      0.2475297397842288,
+      0.254700818180121
+     ],
+     "den": 7578.0,
+     "num": 1903.0,
+     "value": 0.25112166798627605
+    },
+    "unavailability": {
+     "ci": [
+      0.38581649058676454,
+      0.4013683760528896
+     ],
+     "mean": 0.39357589165626317,
+     "n": 1000
+    },
+    "warning_precision": {
+     "ci": [
+      0.2604166666666667,
+      0.2994011976047904
+     ],
+     "den": 718.0,
+     "num": 200.0,
+     "value": 0.2785515320334262
+    },
+    "warnings_per_run": {
+     "ci": [
+      0.668,
+      0.768
+     ],
+     "mean": 0.718,
+     "n": 1000
+    }
+   },
+   "0.5|U1": {
+    "arm": "U1",
+    "benign_any_action_per_run": {
+     "ci": [
+      5.607,
+      5.744025
+     ],
+     "mean": 5.675,
+     "n": 1000
+    },
+    "benign_hosts_per_run": 9.105,
+    "benign_isolated_per_run": {
+     "ci": [
+      5.462,
+      5.604
+     ],
+     "mean": 5.533,
+     "n": 1000
+    },
+    "fp_floor": {
+     "benign_isolated_by_unscaled_detector_per_run": {
+      "ci": [
+       0.846,
+       0.949
+      ],
+      "mean": 0.897,
+      "n": 1000
+     },
+     "isolated_hosts_with_kind": {
+      "aviso": 471,
+      "precaucao": 901,
+      "veredito": 4993
+     },
+     "isolation_dispatches_by_kind": {
+      "aviso": 0.001838163539777788,
+      "precaucao": 0.003488252431663254,
+      "veredito": 0.994673584028559
+     },
+     "isolation_dispatches_by_trigger_event": {
+      "backup_recovery_tamper": 0.00013484597396053272,
+      "c2_beacon_match": 0.0015329858092355299,
+      "file_access_burst": 0.0055393306671681995,
+      "file_write": 0.9685631451758853,
+      "lateral_movement_signature": 0.0028317654531711868,
+      "network_enumeration": 0.0012313566569553908,
+      "privilege_escalation_attempt": 0.0038573045709236592,
+      "service_stop_attempt": 0.009712458703420475,
+      "vulnerable_service_exposure": 0.006596806989279745
+     },
+     "isolation_dispatches_total": 281803,
+     "share_of_benign_isolated": 0.16211819989155973
+    },
+    "multiplier": 0.5,
+    "n_campaigns": 1095,
+    "n_runs": 1000,
+    "p": {
+     "ci": [
+      0.9671525347465253,
+      0.9845173041894353
+     ],
+     "mean": 0.9762557077625571,
+     "n": 1095
+    },
+    "precision_any_containment": {
+     "ci": [
+      0.2475297397842288,
+      0.254700818180121
+     ],
+     "den": 7578.0,
+     "num": 1903.0,
+     "value": 0.25112166798627605
+    },
+    "unavailability": {
+     "ci": [
+      0.38560798256109197,
+      0.4011467014428826
+     ],
+     "mean": 0.3933601556287561,
+     "n": 1000
+    },
+    "warning_precision": {
+     "ci": [
+      0.2604166666666667,
+      0.2994011976047904
+     ],
+     "den": 718.0,
+     "num": 200.0,
+     "value": 0.2785515320334262
+    },
+    "warnings_per_run": {
+     "ci": [
+      0.668,
+      0.768
+     ],
+     "mean": 0.718,
+     "n": 1000
+    }
+   },
+   "0.75|B2L": {
+    "arm": "B2L",
+    "benign_any_action_per_run": {
+     "ci": [
+      4.477,
+      4.637
+     ],
+     "mean": 4.556,
+     "n": 1000
+    },
+    "benign_hosts_per_run": 9.105,
+    "benign_isolated_per_run": {
+     "ci": [
+      4.111,
+      4.277025
+     ],
+     "mean": 4.193,
+     "n": 1000
+    },
+    "fp_floor": {
+     "benign_isolated_by_unscaled_detector_per_run": {
+      "ci": [
+       0.645,
+       0.733
+      ],
+      "mean": 0.689,
+      "n": 1000
+     },
+     "isolated_hosts_with_kind": {
+      "precaucao": 865,
+      "veredito": 3669
+     },
+     "isolation_dispatches_by_kind": {
+      "precaucao": 0.004244560080027165,
+      "veredito": 0.9957554399199728
+     },
+     "isolation_dispatches_by_trigger_event": {
+      "backup_recovery_tamper": 0.00017437111680111597,
+      "c2_beacon_match": 0.001546396483209897,
+      "file_access_burst": 0.005566109596835623,
+      "file_write": 0.9712333544414159,
+      "lateral_movement_signature": 0.0012940172352082816,
+      "network_enumeration": 0.001284839808008223,
+      "privilege_escalation_attempt": 0.003831575856024522,
+      "service_stop_attempt": 0.009833613244862935,
+      "vulnerable_service_exposure": 0.005235722217633508
+     },
+     "isolation_dispatches_total": 217926,
+     "share_of_benign_isolated": 0.16432148819461007
+    },
+    "multiplier": 0.75,
+    "n_campaigns": 1095,
+    "n_runs": 1000,
+    "p": {
+     "ci": [
+      0.968094804010939,
+      0.9854147675478578
+     ],
+     "mean": 0.9771689497716894,
+     "n": 1095
+    },
+    "precision_any_containment": {
+     "ci": [
+      0.2900244783135538,
+      0.29916276785129337
+     ],
+     "den": 6459.0,
+     "num": 1903.0,
+     "value": 0.2946276513392166
+    },
+    "unavailability": {
+     "ci": [
+      0.3491343925420252,
+      0.3635697790844149
+     ],
+     "mean": 0.3562996097556954,
+     "n": 1000
+    },
+    "warning_precision": null,
+    "warnings_per_run": {
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0,
+     "n": 1000
+    }
+   },
+   "0.75|SN": {
+    "arm": "SN",
+    "benign_any_action_per_run": {
+     "ci": [
+      4.542,
+      4.705
+     ],
+     "mean": 4.623,
+     "n": 1000
+    },
+    "benign_hosts_per_run": 9.105,
+    "benign_isolated_per_run": {
+     "ci": [
+      4.196,
+      4.367
+     ],
+     "mean": 4.279,
+     "n": 1000
+    },
+    "fp_floor": {
+     "benign_isolated_by_unscaled_detector_per_run": {
+      "ci": [
+       0.652,
+       0.74
+      ],
+      "mean": 0.696,
+      "n": 1000
+     },
+     "isolated_hosts_with_kind": {
+      "aviso": 458,
+      "precaucao": 865,
+      "veredito": 3669
+     },
+     "isolation_dispatches_by_kind": {
+      "aviso": 0.0007858283252986925,
+      "precaucao": 0.001439388516636219,
+      "veredito": 0.9977747831580651
+     },
+     "isolation_dispatches_by_trigger_event": {
+      "backup_recovery_tamper": 0.00010425841147527209,
+      "c2_beacon_match": 0.000524404248763682,
+      "file_access_burst": 0.0038451124590357807,
+      "file_write": 0.979293034604456,
+      "lateral_movement_signature": 0.0016447931481994417,
+      "network_enumeration": 0.0010456963061400424,
+      "privilege_escalation_attempt": 0.0030515036552687842,
+      "service_stop_attempt": 0.006898172209998226,
+      "vulnerable_service_exposure": 0.003593024956662735
+     },
+     "isolation_dispatches_total": 642634,
+     "share_of_benign_isolated": 0.16265482589390046
+    },
+    "multiplier": 0.75,
+    "n_campaigns": 1095,
+    "n_runs": 1000,
+    "p": {
+     "ci": [
+      0.9744292237442922,
+      0.9899543378995433
+     ],
+     "mean": 0.982648401826484,
+     "n": 1095
+    },
+    "precision_any_containment": {
+     "ci": [
+      0.28707175370954074,
+      0.29606704579689364
+     ],
+     "den": 6526.0,
+     "num": 1903.0,
+     "value": 0.2916028194912657
+    },
+    "unavailability": {
+     "ci": [
+      0.352344645532744,
+      0.36677696430215434
+     ],
+     "mean": 0.3594996017284129,
+     "n": 1000
+    },
+    "warning_precision": {
+     "ci": [
+      0.26489190230912085,
+      0.3053435114503817
+     ],
+     "den": 705.0,
+     "num": 200.0,
+     "value": 0.28368794326241137
+    },
+    "warnings_per_run": {
+     "ci": [
+      0.655,
+      0.7550249999999996
+     ],
+     "mean": 0.705,
+     "n": 1000
+    }
+   },
+   "0.75|U1": {
+    "arm": "U1",
+    "benign_any_action_per_run": {
+     "ci": [
+      4.542,
+      4.705
+     ],
+     "mean": 4.623,
+     "n": 1000
+    },
+    "benign_hosts_per_run": 9.105,
+    "benign_isolated_per_run": {
+     "ci": [
+      4.196,
+      4.367
+     ],
+     "mean": 4.279,
+     "n": 1000
+    },
+    "fp_floor": {
+     "benign_isolated_by_unscaled_detector_per_run": {
+      "ci": [
+       0.652,
+       0.74
+      ],
+      "mean": 0.696,
+      "n": 1000
+     },
+     "isolated_hosts_with_kind": {
+      "aviso": 458,
+      "precaucao": 865,
+      "veredito": 3669
+     },
+     "isolation_dispatches_by_kind": {
+      "aviso": 0.0023119429018774807,
+      "precaucao": 0.0042347468994785534,
+      "veredito": 0.9934533101986439
+     },
+     "isolation_dispatches_by_trigger_event": {
+      "backup_recovery_tamper": 0.0001739679807353352,
+      "c2_beacon_match": 0.0015428213028370514,
+      "file_access_burst": 0.005576131593043112,
+      "file_write": 0.9691115272099656,
+      "lateral_movement_signature": 0.003415266148120001,
+      "network_enumeration": 0.0012910255412464347,
+      "privilege_escalation_attempt": 0.0038547642047145323,
+      "service_stop_attempt": 0.009810878492521666,
+      "vulnerable_service_exposure": 0.0052236175268162485
+     },
+     "isolation_dispatches_total": 218431,
+     "share_of_benign_isolated": 0.16265482589390046
+    },
+    "multiplier": 0.75,
+    "n_campaigns": 1095,
+    "n_runs": 1000,
+    "p": {
+     "ci": [
+      0.9594591480881803,
+      0.9797421731123389
+     ],
+     "mean": 0.9698630136986301,
+     "n": 1095
+    },
+    "precision_any_containment": {
+     "ci": [
+      0.28707175370954074,
+      0.29606704579689364
+     ],
+     "den": 6526.0,
+     "num": 1903.0,
+     "value": 0.2916028194912657
+    },
+    "unavailability": {
+     "ci": [
+      0.35215632127812185,
+      0.36657978357266013
+     ],
+     "mean": 0.3593065275535908,
+     "n": 1000
+    },
+    "warning_precision": {
+     "ci": [
+      0.26489190230912085,
+      0.3053435114503817
+     ],
+     "den": 705.0,
+     "num": 200.0,
+     "value": 0.28368794326241137
+    },
+    "warnings_per_run": {
+     "ci": [
+      0.655,
+      0.7550249999999996
+     ],
+     "mean": 0.705,
+     "n": 1000
+    }
+   },
+   "1.0|B2L": {
+    "arm": "B2L",
+    "benign_any_action_per_run": {
+     "ci": [
+      3.009,
+      3.176
+     ],
+     "mean": 3.09,
+     "n": 1000
+    },
+    "benign_hosts_per_run": 9.105,
+    "benign_isolated_per_run": {
+     "ci": [
+      2.089,
+      2.241
+     ],
+     "mean": 2.163,
+     "n": 1000
+    },
+    "fp_floor": {
+     "benign_isolated_by_unscaled_detector_per_run": {
+      "ci": [
+       0.276,
+       0.34
+      ],
+      "mean": 0.307,
+      "n": 1000
+     },
+     "isolated_hosts_with_kind": {
+      "precaucao": 765,
+      "veredito": 1601
+     },
+     "isolation_dispatches_by_kind": {
+      "precaucao": 0.012586984782442457,
+      "veredito": 0.9874130152175575
+     },
+     "isolation_dispatches_by_trigger_event": {
+      "backup_recovery_tamper": 0.000581173051923224,
+      "c2_beacon_match": 0.005154087328898065,
+      "file_access_burst": 0.00584231857459662,
+      "file_write": 0.9524508679360709,
+      "lateral_movement_signature": 0.0005964670796054141,
+      "network_enumeration": 0.0016517549896765313,
+      "privilege_escalation_attempt": 0.005429379827177487,
+      "service_stop_attempt": 0.018046952664984323,
+      "vulnerable_service_exposure": 0.01024699854706737
+     },
+     "isolation_dispatches_total": 65385,
+     "share_of_benign_isolated": 0.14193250115580214
+    },
+    "multiplier": 1.0,
+    "n_campaigns": 1095,
+    "n_runs": 1000,
+    "p": {
+     "ci": [
+      0.9031365313653137,
+      0.9319227230910764
+     ],
+     "mean": 0.9178082191780822,
+     "n": 1095
+    },
+    "precision_any_containment": {
+     "ci": [
+      0.3716482077388766,
+      0.38570265347853205
+     ],
+     "den": 4974.0,
+     "num": 1884.0,
+     "value": 0.37876960193003617
+    },
+    "unavailability": {
+     "ci": [
+      0.28489933363327086,
+      0.29919594149701834
+     ],
+     "mean": 0.2922291162245135,
+     "n": 1000
+    },
+    "warning_precision": null,
+    "warnings_per_run": {
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0,
+     "n": 1000
+    }
+   },
+   "1.0|SN": {
+    "arm": "SN",
+    "benign_any_action_per_run": {
+     "ci": [
+      3.047,
+      3.216
+     ],
+     "mean": 3.129,
+     "n": 1000
+    },
+    "benign_hosts_per_run": 9.105,
+    "benign_isolated_per_run": {
+     "ci": [
+      2.153,
+      2.306
+     ],
+     "mean": 2.227,
+     "n": 1000
+    },
+    "fp_floor": {
+     "benign_isolated_by_unscaled_detector_per_run": {
+      "ci": [
+       0.302,
+       0.372
+      ],
+      "mean": 0.336,
+      "n": 1000
+     },
+     "isolated_hosts_with_kind": {
+      "aviso": 272,
+      "precaucao": 765,
+      "veredito": 1601
+     },
+     "isolation_dispatches_by_kind": {
+      "aviso": 0.001629890347908488,
+      "precaucao": 0.0044564775957763635,
+      "veredito": 0.9939136320563151
+     },
+     "isolation_dispatches_by_trigger_event": {
+      "backup_recovery_tamper": 0.0003411398402599161,
+      "c2_beacon_match": 0.0018248273994855829,
+      "file_access_burst": 0.003996209557330445,
+      "file_write": 0.9659022607283065,
+      "lateral_movement_signature": 0.0016407201841072154,
+      "network_enumeration": 0.0015757411669148505,
+      "privilege_escalation_attempt": 0.004895085961824828,
+      "service_stop_attempt": 0.012438066874238526,
+      "vulnerable_service_exposure": 0.007385948287532151
+     },
+     "isolation_dispatches_total": 184675,
+     "share_of_benign_isolated": 0.15087561742254155
+    },
+    "multiplier": 1.0,
+    "n_campaigns": 1095,
+    "n_runs": 1000,
+    "p": {
+     "ci": [
+      0.9278434194838981,
+      0.9548387096774194
+     ],
+     "mean": 0.9415525114155251,
+     "n": 1095
+    },
+    "precision_any_containment": {
+     "ci": [
+      0.3710024672409127,
+      0.384925749318472
+     ],
+     "den": 5031.0,
+     "num": 1902.0,
+     "value": 0.3780560524746571
+    },
+    "unavailability": {
+     "ci": [
+      0.2886770332762306,
+      0.3031278771319101
+     ],
+     "mean": 0.2961011580104978,
+     "n": 1000
+    },
+    "warning_precision": {
+     "ci": [
+      0.36968576709796674,
+      0.4329004329004329
+     ],
+     "den": 501.0,
+     "num": 200.0,
+     "value": 0.3992015968063872
+    },
+    "warnings_per_run": {
+     "ci": [
+      0.462,
+      0.541
+     ],
+     "mean": 0.501,
+     "n": 1000
+    }
+   },
+   "1.0|U1": {
+    "arm": "U1",
+    "benign_any_action_per_run": {
+     "ci": [
+      3.047,
+      3.216
+     ],
+     "mean": 3.129,
+     "n": 1000
+    },
+    "benign_hosts_per_run": 9.105,
+    "benign_isolated_per_run": {
+     "ci": [
+      2.153,
+      2.306
+     ],
+     "mean": 2.227,
+     "n": 1000
+    },
+    "fp_floor": {
+     "benign_isolated_by_unscaled_detector_per_run": {
+      "ci": [
+       0.302,
+       0.372
+      ],
+      "mean": 0.336,
+      "n": 1000
+     },
+     "isolated_hosts_with_kind": {
+      "aviso": 272,
+      "precaucao": 765,
+      "veredito": 1601
+     },
+     "isolation_dispatches_by_kind": {
+      "aviso": 0.004582407210059983,
+      "precaucao": 0.012529306092622476,
+      "veredito": 0.9828882866973175
+     },
+     "isolation_dispatches_by_trigger_event": {
+      "backup_recovery_tamper": 0.0005785098803397984,
+      "c2_beacon_match": 0.005130469201960844,
+      "file_access_burst": 0.005998234022470542,
+      "file_write": 0.9484212769844411,
+      "lateral_movement_signature": 0.0038516578875255002,
+      "network_enumeration": 0.0019029930274335476,
+      "privilege_escalation_attempt": 0.005952562189812136,
+      "service_stop_attempt": 0.01796425417897269,
+      "vulnerable_service_exposure": 0.010200042627043814
+     },
+     "isolation_dispatches_total": 65686,
+     "share_of_benign_isolated": 0.15087561742254155
+    },
+    "multiplier": 1.0,
+    "n_campaigns": 1095,
+    "n_runs": 1000,
+    "p": {
+     "ci": [
+      0.9080036798528058,
+      0.9382940108892922
+     ],
+     "mean": 0.9232876712328767,
+     "n": 1095
+    },
+    "precision_any_containment": {
+     "ci": [
+      0.3710024672409127,
+      0.384925749318472
+     ],
+     "den": 5031.0,
+     "num": 1902.0,
+     "value": 0.3780560524746571
+    },
+    "unavailability": {
+     "ci": [
+      0.28848989464518004,
+      0.3028961809170521
+     ],
+     "mean": 0.29587623278232544,
+     "n": 1000
+    },
+    "warning_precision": {
+     "ci": [
+      0.36968576709796674,
+      0.4329004329004329
+     ],
+     "den": 501.0,
+     "num": 200.0,
+     "value": 0.3992015968063872
+    },
+    "warnings_per_run": {
+     "ci": [
+      0.462,
+      0.541
+     ],
+     "mean": 0.501,
+     "n": 1000
+    }
+   },
+   "1.25|B2L": {
+    "arm": "B2L",
+    "benign_any_action_per_run": {
+     "ci": [
+      2.031,
+      2.1690249999999995
+     ],
+     "mean": 2.1,
+     "n": 1000
+    },
+    "benign_hosts_per_run": 9.105,
+    "benign_isolated_per_run": {
+     "ci": [
+      0.79,
+      0.888
+     ],
+     "mean": 0.838,
+     "n": 1000
+    },
+    "fp_floor": {
+     "benign_isolated_by_unscaled_detector_per_run": {
+      "ci": [
+       0.1,
+       0.139
+      ],
+      "mean": 0.119,
+      "n": 1000
+     },
+     "isolated_hosts_with_kind": {
+      "precaucao": 611,
+      "veredito": 348
+     },
+     "isolation_dispatches_by_kind": {
+      "precaucao": 0.05376169174461163,
+      "veredito": 0.9462383082553883
+     },
+     "isolation_dispatches_by_trigger_event": {
+      "backup_recovery_tamper": 0.003090687271248475,
+      "c2_beacon_match": 0.01862545750305002,
+      "file_access_burst": 0.002196014640097601,
+      "file_write": 0.904026026840179,
+      "lateral_movement_signature": 0.0007320048800325336,
+      "network_enumeration": 0.0030093533956893044,
+      "privilege_escalation_attempt": 0.010736071573810492,
+      "service_stop_attempt": 0.04847498983326556,
+      "vulnerable_service_exposure": 0.009109394062627084
+     },
+     "isolation_dispatches_total": 12295,
+     "share_of_benign_isolated": 0.14200477326968974
+    },
+    "multiplier": 1.25,
+    "n_campaigns": 1095,
+    "n_runs": 1000,
+    "p": {
+     "ci": [
+      0.8260473588342441,
+      0.8543956043956044
+     ],
+     "mean": 0.8401826484018264,
+     "n": 1095
+    },
+    "precision_any_containment": {
+     "ci": [
+      0.4514047293087642,
+      0.46958147177836956
+     ],
+     "den": 3892.0,
+     "num": 1792.0,
+     "value": 0.460431654676259
+    },
+    "unavailability": {
+     "ci": [
+      0.2439016464411255,
+      0.25622029887307285
+     ],
+     "mean": 0.25016412328582227,
+     "n": 1000
+    },
+    "warning_precision": null,
+    "warnings_per_run": {
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0,
+     "n": 1000
+    }
+   },
+   "1.25|SN": {
+    "arm": "SN",
+    "benign_any_action_per_run": {
+     "ci": [
+      2.124,
+      2.268
+     ],
+     "mean": 2.196,
+     "n": 1000
+    },
+    "benign_hosts_per_run": 9.105,
+    "benign_isolated_per_run": {
+     "ci": [
+      0.931,
+      1.035
+     ],
+     "mean": 0.982,
+     "n": 1000
+    },
+    "fp_floor": {
+     "benign_isolated_by_unscaled_detector_per_run": {
+      "ci": [
+       0.14,
+       0.191
+      ],
+      "mean": 0.165,
+      "n": 1000
+     },
+     "isolated_hosts_with_kind": {
+      "aviso": 225,
+      "precaucao": 611,
+      "veredito": 348
+     },
+     "isolation_dispatches_by_kind": {
+      "aviso": 0.007421038342031434,
+      "precaucao": 0.019940269691393404,
+      "veredito": 0.9726386919665752
+     },
+     "isolation_dispatches_by_trigger_event": {
+      "backup_recovery_tamper": 0.0015988415940149023,
+      "c2_beacon_match": 0.006908202359045522,
+      "file_access_burst": 0.0016290084165434854,
+      "file_write": 0.9306766418293161,
+      "lateral_movement_signature": 0.005671362635373616,
+      "network_enumeration": 0.003650185525958551,
+      "privilege_escalation_attempt": 0.01270023228453347,
+      "service_stop_attempt": 0.02965398654559715,
+      "vulnerable_service_exposure": 0.007511538809617183
+     },
+     "isolation_dispatches_total": 33149,
+     "share_of_benign_isolated": 0.1680244399185336
+    },
+    "multiplier": 1.25,
+    "n_campaigns": 1095,
+    "n_runs": 1000,
+    "p": {
+     "ci": [
+      0.8421052631578947,
+      0.8727106227106227
+     ],
+     "mean": 0.8575342465753425,
+     "n": 1095
+    },
+    "precision_any_containment": {
+     "ci": [
+      0.45406445406445406,
+      0.47200800973428003
+     ],
+     "den": 4089.0,
+     "num": 1893.0,
+     "value": 0.462949376375642
+    },
+    "unavailability": {
+     "ci": [
+      0.24962322976527995,
+      0.26205489816888217
+     ],
+     "mean": 0.2559176835308983,
+     "n": 1000
+    },
+    "warning_precision": {
+     "ci": [
+      0.4149377593360996,
+      0.4878048780487805
+     ],
+     "den": 446.0,
+     "num": 200.0,
+     "value": 0.4484304932735426
+    },
+    "warnings_per_run": {
+     "ci": [
+      0.41,
+      0.482
+     ],
+     "mean": 0.446,
+     "n": 1000
+    }
+   },
+   "1.25|U1": {
+    "arm": "U1",
+    "benign_any_action_per_run": {
+     "ci": [
+      2.124,
+      2.268
+     ],
+     "mean": 2.196,
+     "n": 1000
+    },
+    "benign_hosts_per_run": 9.105,
+    "benign_isolated_per_run": {
+     "ci": [
+      0.931,
+      1.035
+     ],
+     "mean": 0.982,
+     "n": 1000
+    },
+    "fp_floor": {
+     "benign_isolated_by_unscaled_detector_per_run": {
+      "ci": [
+       0.14,
+       0.191
+      ],
+      "mean": 0.165,
+      "n": 1000
+     },
+     "isolated_hosts_with_kind": {
+      "aviso": 225,
+      "precaucao": 611,
+      "veredito": 348
+     },
+     "isolation_dispatches_by_kind": {
+      "aviso": 0.019615660633123356,
+      "precaucao": 0.05270712064428674,
+      "veredito": 0.9276772187225899
+     },
+     "isolation_dispatches_by_trigger_event": {
+      "backup_recovery_tamper": 0.0030300613986125506,
+      "c2_beacon_match": 0.01826010684953353,
+      "file_access_burst": 0.0021529383621720754,
+      "file_write": 0.8866916513834623,
+      "lateral_movement_signature": 0.01427318395662228,
+      "network_enumeration": 0.004385615182202376,
+      "privilege_escalation_attempt": 0.01475161470377163,
+      "service_stop_attempt": 0.047524120883502115,
+      "vulnerable_service_exposure": 0.008930707280121202
+     },
+     "isolation_dispatches_total": 12541,
+     "share_of_benign_isolated": 0.1680244399185336
+    },
+    "multiplier": 1.25,
+    "n_campaigns": 1095,
+    "n_runs": 1000,
+    "p": {
+     "ci": [
+      0.8128377178858366,
+      0.848816029143898
+     ],
+     "mean": 0.8310502283105022,
+     "n": 1095
+    },
+    "precision_any_containment": {
+     "ci": [
+      0.45406445406445406,
+      0.47200800973428003
+     ],
+     "den": 4089.0,
+     "num": 1893.0,
+     "value": 0.462949376375642
+    },
+    "unavailability": {
+     "ci": [
+      0.24949470576533858,
+      0.2619184942262901
+     ],
+     "mean": 0.2557849615449253,
+     "n": 1000
+    },
+    "warning_precision": {
+     "ci": [
+      0.4149377593360996,
+      0.4878048780487805
+     ],
+     "den": 446.0,
+     "num": 200.0,
+     "value": 0.4484304932735426
+    },
+    "warnings_per_run": {
+     "ci": [
+      0.41,
+      0.482
+     ],
+     "mean": 0.446,
+     "n": 1000
+    }
+   },
+   "1.5|B2L": {
+    "arm": "B2L",
+    "benign_any_action_per_run": {
+     "ci": [
+      1.944,
+      2.085
+     ],
+     "mean": 2.015,
+     "n": 1000
+    },
+    "benign_hosts_per_run": 9.105,
+    "benign_isolated_per_run": {
+     "ci": [
+      0.685,
+      0.78
+     ],
+     "mean": 0.732,
+     "n": 1000
+    },
+    "fp_floor": {
+     "benign_isolated_by_unscaled_detector_per_run": {
+      "ci": [
+       0.079,
+       0.115
+      ],
+      "mean": 0.097,
+      "n": 1000
+     },
+     "isolated_hosts_with_kind": {
+      "precaucao": 614,
+      "veredito": 233
+     },
+     "isolation_dispatches_by_kind": {
+      "precaucao": 0.1300430865648257,
+      "veredito": 0.8699569134351743
+     },
+     "isolation_dispatches_by_trigger_event": {
+      "backup_recovery_tamper": 0.007442224833529181,
+      "c2_beacon_match": 0.04484919702311007,
+      "file_access_burst": 0.0013709361535448493,
+      "file_write": 0.7943595769682726,
+      "lateral_movement_signature": 0.0005875440658049354,
+      "network_enumeration": 0.005875440658049354,
+      "privilege_escalation_attempt": 0.020955738347042695,
+      "service_stop_attempt": 0.10869565217391304,
+      "vulnerable_service_exposure": 0.015863689776733254
+     },
+     "isolation_dispatches_total": 5106,
+     "share_of_benign_isolated": 0.1325136612021858
+    },
+    "multiplier": 1.5,
+    "n_campaigns": 1095,
+    "n_runs": 1000,
+    "p": {
+     "ci": [
+      0.8012762078395624,
+      0.8245454545454546
+     ],
+     "mean": 0.8127853881278538,
+     "n": 1095
+    },
+    "precision_any_containment": {
+     "ci": [
+      0.4599120418019803,
+      0.4788206590921499
+     ],
+     "den": 3797.0,
+     "num": 1782.0,
+     "value": 0.46931788253884643
+    },
+    "unavailability": {
+     "ci": [
+      0.2373196837249628,
+      0.24915506192673387
+     ],
+     "mean": 0.24336214637709677,
+     "n": 1000
+    },
+    "warning_precision": null,
+    "warnings_per_run": {
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0,
+     "n": 1000
+    }
+   },
+   "1.5|SN": {
+    "arm": "SN",
+    "benign_any_action_per_run": {
+     "ci": [
+      2.034,
+      2.181
+     ],
+     "mean": 2.108,
+     "n": 1000
+    },
+    "benign_hosts_per_run": 9.105,
+    "benign_isolated_per_run": {
+     "ci": [
+      0.823,
+      0.924
+     ],
+     "mean": 0.873,
+     "n": 1000
+    },
+    "fp_floor": {
+     "benign_isolated_by_unscaled_detector_per_run": {
+      "ci": [
+       0.12197500000000001,
+       0.17
+      ],
+      "mean": 0.145,
+      "n": 1000
+     },
+     "isolated_hosts_with_kind": {
+      "aviso": 217,
+      "precaucao": 614,
+      "veredito": 233
+     },
+     "isolation_dispatches_by_kind": {
+      "aviso": 0.02041519510724438,
+      "precaucao": 0.05719700232578172,
+      "veredito": 0.922387802566974
+     },
+     "isolation_dispatches_by_trigger_event": {
+      "backup_recovery_tamper": 0.004479283314669653,
+      "c2_beacon_match": 0.019726074597295203,
+      "file_access_burst": 0.0012059608924110605,
+      "file_write": 0.8256525109828581,
+      "lateral_movement_signature": 0.014816090963907314,
+      "network_enumeration": 0.008786286501852012,
+      "privilege_escalation_attempt": 0.03221638384012404,
+      "service_stop_attempt": 0.07675079679558963,
+      "vulnerable_service_exposure": 0.016366612111292964
+     },
+     "isolation_dispatches_total": 11609,
+     "share_of_benign_isolated": 0.1660939289805269
+    },
+    "multiplier": 1.5,
+    "n_campaigns": 1095,
+    "n_runs": 1000,
+    "p": {
+     "ci": [
+      0.8012762078395624,
+      0.8245454545454546
+     ],
+     "mean": 0.8127853881278538,
+     "n": 1095
+    },
+    "precision_any_containment": {
+     "ci": [
+      0.46238979877672093,
+      0.48086633846409826
+     ],
+     "den": 3989.0,
+     "num": 1881.0,
+     "value": 0.4715467535723239
+    },
+    "unavailability": {
+     "ci": [
+      0.24271018456563911,
+      0.25469129484049385
+     ],
+     "mean": 0.2488329609971951,
+     "n": 1000
+    },
+    "warning_precision": {
+     "ci": [
+      0.4166666666666667,
+      0.494949494949495
+     ],
+     "den": 433.0,
+     "num": 196.0,
+     "value": 0.45265588914549654
+    },
+    "warnings_per_run": {
+     "ci": [
+      0.397,
+      0.47
+     ],
+     "mean": 0.433,
+     "n": 1000
+    }
+   },
+   "1.5|U1": {
+    "arm": "U1",
+    "benign_any_action_per_run": {
+     "ci": [
+      2.034,
+      2.181
+     ],
+     "mean": 2.108,
+     "n": 1000
+    },
+    "benign_hosts_per_run": 9.105,
+    "benign_isolated_per_run": {
+     "ci": [
+      0.823,
+      0.924
+     ],
+     "mean": 0.873,
+     "n": 1000
+    },
+    "fp_floor": {
+     "benign_isolated_by_unscaled_detector_per_run": {
+      "ci": [
+       0.12197500000000001,
+       0.17
+      ],
+      "mean": 0.145,
+      "n": 1000
+     },
+     "isolated_hosts_with_kind": {
+      "aviso": 217,
+      "precaucao": 614,
+      "veredito": 233
+     },
+     "isolation_dispatches_by_kind": {
+      "aviso": 0.04435710275126333,
+      "precaucao": 0.1242747520119783,
+      "veredito": 0.8313681452367584
+     },
+     "isolation_dispatches_by_trigger_event": {
+      "backup_recovery_tamper": 0.007112109301890324,
+      "c2_beacon_match": 0.04285981658244432,
+      "file_access_burst": 0.0013101253977166386,
+      "file_write": 0.7591240875912408,
+      "lateral_movement_signature": 0.031630170316301706,
+      "network_enumeration": 0.008422234699606962,
+      "privilege_escalation_attempt": 0.03050720568968744,
+      "service_stop_attempt": 0.10387422796181921,
+      "vulnerable_service_exposure": 0.015160022459292532
+     },
+     "isolation_dispatches_total": 5343,
+     "share_of_benign_isolated": 0.1660939289805269
+    },
+    "multiplier": 1.5,
+    "n_campaigns": 1095,
+    "n_runs": 1000,
+    "p": {
+     "ci": [
+      0.7685170414261115,
+      0.7983576642335767
+     ],
+     "mean": 0.7835616438356164,
+     "n": 1095
+    },
+    "precision_any_containment": {
+     "ci": [
+      0.46238979877672093,
+      0.48086633846409826
+     ],
+     "den": 3989.0,
+     "num": 1881.0,
+     "value": 0.4715467535723239
+    },
+    "unavailability": {
+     "ci": [
+      0.2425900415252675,
+      0.2545577264138342
+     ],
+     "mean": 0.24870366244611658,
+     "n": 1000
+    },
+    "warning_precision": {
+     "ci": [
+      0.4166666666666667,
+      0.494949494949495
+     ],
+     "den": 433.0,
+     "num": 196.0,
+     "value": 0.45265588914549654
+    },
+    "warnings_per_run": {
+     "ci": [
+      0.397,
+      0.47
+     ],
+     "mean": 0.433,
+     "n": 1000
+    }
+   },
+   "2.0|B2L": {
+    "arm": "B2L",
+    "benign_any_action_per_run": {
+     "ci": [
+      1.775,
+      1.907
+     ],
+     "mean": 1.842,
+     "n": 1000
+    },
+    "benign_hosts_per_run": 9.105,
+    "benign_isolated_per_run": {
+     "ci": [
+      0.567,
+      0.65
+     ],
+     "mean": 0.608,
+     "n": 1000
+    },
+    "fp_floor": {
+     "benign_isolated_by_unscaled_detector_per_run": {
+      "ci": [
+       0.076,
+       0.112
+      ],
+      "mean": 0.094,
+      "n": 1000
+     },
+     "isolated_hosts_with_kind": {
+      "precaucao": 518,
+      "veredito": 202
+     },
+     "isolation_dispatches_by_kind": {
+      "precaucao": 0.16165742632039684,
+      "veredito": 0.8383425736796032
+     },
+     "isolation_dispatches_by_trigger_event": {
+      "backup_recovery_tamper": 0.011088415523781734,
+      "c2_beacon_match": 0.03414064779690692,
+      "file_write": 0.738255033557047,
+      "network_enumeration": 0.007295010213014298,
+      "privilege_escalation_attempt": 0.03034724248613948,
+      "service_stop_attempt": 0.1578640210096294,
+      "vulnerable_service_exposure": 0.02100962941348118
+     },
+     "isolation_dispatches_total": 3427,
+     "share_of_benign_isolated": 0.15460526315789475
+    },
+    "multiplier": 2.0,
+    "n_campaigns": 1095,
+    "n_runs": 1000,
+    "p": {
+     "ci": [
+      0.7698704200744435,
+      0.7951263537906137
+     ],
+     "mean": 0.782648401826484,
+     "n": 1095
+    },
+    "precision_any_containment": {
+     "ci": [
+      0.47417833926636743,
+      0.4945937452261815
+     ],
+     "den": 3572.0,
+     "num": 1730.0,
+     "value": 0.4843225083986562
+    },
+    "unavailability": {
+     "ci": [
+      0.22837307444252836,
+      0.23976477308519356
+     ],
+     "mean": 0.2341865390544788,
+     "n": 1000
+    },
+    "warning_precision": null,
+    "warnings_per_run": {
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "mean": 0.0,
+     "n": 1000
+    }
+   },
+   "2.0|SN": {
+    "arm": "SN",
+    "benign_any_action_per_run": {
+     "ci": [
+      1.863,
+      2.001
+     ],
+     "mean": 1.933,
+     "n": 1000
+    },
+    "benign_hosts_per_run": 9.105,
+    "benign_isolated_per_run": {
+     "ci": [
+      0.7,
+      0.79
+     ],
+     "mean": 0.745,
+     "n": 1000
+    },
+    "fp_floor": {
+     "benign_isolated_by_unscaled_detector_per_run": {
+      "ci": [
+       0.119,
+       0.168
+      ],
+      "mean": 0.143,
+      "n": 1000
+     },
+     "isolated_hosts_with_kind": {
+      "aviso": 206,
+      "precaucao": 518,
+      "veredito": 202
+     },
+     "isolation_dispatches_by_kind": {
+      "aviso": 0.03247888144480047,
+      "precaucao": 0.0806874453830469,
+      "veredito": 0.8868336731721527
+     },
+     "isolation_dispatches_by_trigger_event": {
+      "backup_recovery_tamper": 0.006990969997087096,
+      "c2_beacon_match": 0.017040489367899796,
+      "file_write": 0.736964753859598,
+      "lateral_movement_signature": 0.022429362073987765,
+      "network_enumeration": 0.012525487911447713,
+      "privilege_escalation_attempt": 0.053888727060879694,
+      "service_stop_attempt": 0.1251092339062045,
+      "vulnerable_service_exposure": 0.025050975822895425
+     },
+     "isolation_dispatches_total": 6866,
+     "share_of_benign_isolated": 0.1919463087248322
+    },
+    "multiplier": 2.0,
+    "n_campaigns": 1095,
+    "n_runs": 1000,
+    "p": {
+     "ci": [
+      0.7698704200744435,
+      0.7951263537906137
+     ],
+     "mean": 0.782648401826484,
+     "n": 1095
+    },
+    "precision_any_containment": {
+     "ci": [
+      0.473824041577377,
+      0.4939759842151587
+     ],
+     "den": 3745.0,
+     "num": 1812.0,
+     "value": 0.483845126835781
+    },
+    "unavailability": {
+     "ci": [
+      0.23290680408592776,
+      0.24443378441643449
+     ],
+     "mean": 0.23880209346924103,
+     "n": 1000
+    },
+    "warning_precision": {
+     "ci": [
+      0.394919168591224,
+      0.4796747967479675
+     ],
+     "den": 394.0,
+     "num": 171.0,
+     "value": 0.434010152284264
+    },
+    "warnings_per_run": {
+     "ci": [
+      0.357,
+      0.431
+     ],
+     "mean": 0.394,
+     "n": 1000
+    }
+   },
+   "2.0|U1": {
+    "arm": "U1",
+    "benign_any_action_per_run": {
+     "ci": [
+      1.863,
+      2.001
+     ],
+     "mean": 1.933,
+     "n": 1000
+    },
+    "benign_hosts_per_run": 9.105,
+    "benign_isolated_per_run": {
+     "ci": [
+      0.7,
+      0.79
+     ],
+     "mean": 0.745,
+     "n": 1000
+    },
+    "fp_floor": {
+     "benign_isolated_by_unscaled_detector_per_run": {
+      "ci": [
+       0.119,
+       0.168
+      ],
+      "mean": 0.143,
+      "n": 1000
+     },
+     "isolated_hosts_with_kind": {
+      "aviso": 206,
+      "precaucao": 518,
+      "veredito": 202
+     },
+     "isolation_dispatches_by_kind": {
+      "aviso": 0.061095890410958906,
+      "precaucao": 0.15178082191780823,
+      "veredito": 0.7871232876712329
+     },
+     "isolation_dispatches_by_trigger_event": {
+      "backup_recovery_tamper": 0.010410958904109589,
+      "c2_beacon_match": 0.03205479452054794,
+      "file_write": 0.6931506849315069,
+      "lateral_movement_signature": 0.04219178082191781,
+      "network_enumeration": 0.009863013698630137,
+      "privilege_escalation_attempt": 0.04438356164383562,
+      "service_stop_attempt": 0.1482191780821918,
+      "vulnerable_service_exposure": 0.019726027397260273
+     },
+     "isolation_dispatches_total": 3650,
+     "share_of_benign_isolated": 0.1919463087248322
+    },
+    "multiplier": 2.0,
+    "n_campaigns": 1095,
+    "n_runs": 1000,
+    "p": {
+     "ci": [
+      0.7410468319559229,
+      0.7722323049001815
+     ],
+     "mean": 0.7570776255707763,
+     "n": 1095
+    },
+    "precision_any_containment": {
+     "ci": [
+      0.473824041577377,
+      0.4939759842151587
+     ],
+     "den": 3745.0,
+     "num": 1812.0,
+     "value": 0.483845126835781
+    },
+    "unavailability": {
+     "ci": [
+      0.2327778698193188,
+      0.24429681939332096
+     ],
+     "mean": 0.23866735117663448,
+     "n": 1000
+    },
+    "warning_precision": {
+     "ci": [
+      0.394919168591224,
+      0.4796747967479675
+     ],
+     "den": 394.0,
+     "num": 171.0,
+     "value": 0.434010152284264
+    },
+    "warnings_per_run": {
+     "ci": [
+      0.357,
+      0.431
+     ],
+     "mean": 0.394,
+     "n": 1000
+    }
+   }
+  },
+  "figures": [
+   "results/fase1_A/figs/E2_protecao_vs_isolados.png",
+   "results/fase1_A/figs/E2_protecao_vs_isolados.pdf"
+  ]
+ },
+ "preregistration": "docs/fase1/14_preregistro_A.md"
+}

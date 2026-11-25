@@ -1,0 +1,92 @@
+# Scheme (d): partition the intermediate layer by WHEN in the kill chain a domain acts.
+#
+#   proactive  acts BEFORE the impact stage: early kill-chain signals
+#              (discovery, privilege escalation, defense evasion, inhibit recovery).
+#   reactive   acts ONCE encryption / impact has started (T1486 signals).
+#
+# The split is expressed purely by routing (``handles``): the proactive domain only ever
+# receives pre-impact evidence and the reactive domain only impact evidence, so each can
+# only act at its own point of the chain. Containment authority per LAYER is unchanged
+# (Knowledge ``authority_phases::<layer>``); no agent or graph code differs from the
+# other schemas. See docs/nist_mapping.md for the NIST CSF 2.0 mapping.
+#
+# Thresholds are NOT new: every specialist uses the threshold its event types have in
+# domains_by_system_area.yaml (the Phase 3/4 schema): network_enumeration 0.35,
+# privilege_escalation_attempt 0.25, service_stop_attempt 0.25, backup_recovery_tamper 0.35,
+# file_write / mass_file_modification / ransom_note_creation 0.35. Coordinators: reactive
+# = the filesystem coordinator's 0.50; proactive absorbs the network (0.50), endpoint_host
+# (0.35) and backup (0.50) coordinators and takes their modal value, 0.50. Fixed before
+# any run on this schema. Event types that no generator emits are routed as in
+# domains_by_system_area.yaml so every schema accepts the same vocabulary.
+
+domains:
+  - name: proactive
+    description: "Pre-impact response: acts on early kill-chain evidence, before encryption starts."
+    scope: "Discovery, privilege escalation, defense evasion and recovery inhibition (T1018/T1135, T1068/T1078, T1489, T1490)."
+    coordinator:
+      id: proactive-coordinator
+      escalation_policy:
+        escalation_confidence_threshold: 0.50
+    specialists:
+      - id: proactive-discovery-monitor
+        type: proactive
+        managed_element: "east-west traffic and enumeration monitor"
+        handles:
+          - "network_enumeration"  # T1018/T1135 (discovery)
+          - "lateral_movement_signature"
+          - "c2_beacon_match"
+        escalation_policy:
+          escalation_confidence_threshold: 0.35
+      - id: proactive-privilege-monitor
+        type: proactive
+        managed_element: "endpoint process execution and account-use control"
+        handles:
+          - "privilege_escalation_attempt"  # T1068/T1078
+          - "suspicious_process_spawn"
+        escalation_policy:
+          escalation_confidence_threshold: 0.25
+      - id: proactive-defense-evasion-monitor
+        type: proactive
+        managed_element: "security-agent process/service watchdog"
+        handles:
+          - "service_stop_attempt"  # T1489
+          - "edr_process_kill_attempt"
+          - "security_service_disable"
+        escalation_policy:
+          escalation_confidence_threshold: 0.25
+      - id: proactive-recovery-inhibition-monitor
+        type: proactive
+        managed_element: "backup integrity and snapshot policy"
+        handles:
+          - "backup_recovery_tamper"  # T1490
+          - "backup_deletion_attempt"
+          - "shadow_copy_tamper"
+        escalation_policy:
+          escalation_confidence_threshold: 0.35
+
+  - name: reactive
+    description: "Post-impact response: acts once encryption / impact has started."
+    scope: "Encryption writes, mass modification and ransom artifacts (T1486)."
+    coordinator:
+      id: reactive-coordinator
+      escalation_policy:
+        escalation_confidence_threshold: 0.50
+    specialists:
+      - id: reactive-encryption-monitor
+        type: reactive
+        managed_element: "file-share write-pattern monitor"
+        handles:
+          - "file_write"  # T1486 (entropy + corroboration)
+          - "mass_file_modification"  # T1486
+          - "mass_file_encryption_pattern"
+          - "known_ransomware_signature"
+        escalation_policy:
+          escalation_confidence_threshold: 0.35
+      - id: reactive-ransom-note-monitor
+        type: reactive
+        managed_element: "ransom artifact monitor"
+        handles:
+          - "ransom_note_creation"  # T1486
+          - "ransom_note_write"
+        escalation_policy:
+          escalation_confidence_threshold: 0.35

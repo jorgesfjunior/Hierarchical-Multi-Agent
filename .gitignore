@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+.venv-repro/
+venv/
+env/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Secrets (never committed)
+.env
+.env.*
+*.pem
+*.key
+
+# Generated outputs (re-runs and smoke tests; the reference results are tracked)
+logs/
+results/fase1_oficial_smoke/
+results/fase1_oficial_repro/
+results/*_smoke/
+results/*_repro/
+results/*_check/
+paper/out/
+paper/fig_results.pdf
+paper/fig_results.png
+paper/*.aux
+paper/*.log

@@ -1,0 +1,1445 @@
+{
+ "preconditions": {
+  "H0_h0": {
+   "comparison": "SN - U1",
+   "condition": "oracle",
+   "h": 0,
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 2760,
+   "p_a": 0.8659420289855072,
+   "p_b": 0.8659420289855072,
+   "delta": 0.0,
+   "ci_lo": 0.0,
+   "ci_hi": 0.0,
+   "ci_one_sided_lo": 0.0,
+   "b": 0,
+   "c": 0,
+   "delta_unav": -1.3365358983192383e-08,
+   "unav_ok": true,
+   "pass": true
+  },
+  "H0_h1": {
+   "comparison": "SN - U1",
+   "condition": "oracle",
+   "h": 1,
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 2760,
+   "p_a": 0.9373188405797102,
+   "p_b": 0.9373188405797102,
+   "delta": 0.0,
+   "ci_lo": 0.0,
+   "ci_hi": 0.0,
+   "ci_one_sided_lo": 0.0,
+   "b": 0,
+   "c": 0,
+   "delta_unav": 7.396527007402592e-05,
+   "unav_ok": true,
+   "pass": true
+  },
+  "C0": {
+   "comparison": "SN - B2L",
+   "condition": "restricted",
+   "h": 0,
+   "families": [
+    "campaign_e1_e2"
+   ],
+   "n": 500,
+   "p_a": 0.54,
+   "p_b": 0.54,
+   "delta": 0.0,
+   "ci_lo": 0.0,
+   "ci_hi": 0.0,
+   "ci_one_sided_lo": 0.0,
+   "b": 0,
+   "c": 0,
+   "delta_unav": 0.0,
+   "unav_ok": true,
+   "pass": true
+  }
+ },
+ "tests": {
+  "H1": {
+   "comparison": "SN - B2L",
+   "condition": "restricted",
+   "h": 1,
+   "families": [
+    "campaign_e1_e2"
+   ],
+   "n": 500,
+   "p_a": 0.756,
+   "p_b": 0.606,
+   "delta": 0.15,
+   "ci_lo": 0.12,
+   "ci_hi": 0.182,
+   "ci_one_sided_lo": 0.124,
+   "b": 75,
+   "c": 0,
+   "delta_unav": 0.006765714787023587,
+   "unav_ok": true,
+   "test": "McNemar exato unilateral",
+   "p_raw": 2.6469779601696886e-23,
+   "p_holm": 7.940933880509066e-23,
+   "confirmed": true
+  },
+  "H2": {
+   "comparison": "SN - U1",
+   "condition": "restricted",
+   "h": 1,
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 2760,
+   "p_a": 0.9373188405797102,
+   "p_b": 0.9213768115942029,
+   "delta": 0.015942028985507246,
+   "ci_lo": 0.011589898715978033,
+   "ci_hi": 0.02061482820976492,
+   "ci_one_sided_lo": 0.012296341914673006,
+   "b": 44,
+   "c": 0,
+   "delta_unav": 0.00022608456230836172,
+   "unav_ok": true,
+   "test": "não inferioridade, bootstrap de clusters (margem -0,05)",
+   "p_raw": 9.999000099990002e-05,
+   "p_holm": 9.999000099990002e-05,
+   "confirmed": true
+  },
+  "H3": {
+   "comparison": "SN - U1",
+   "condition": "restricted",
+   "h": 1,
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 2760,
+   "p_a": 0.9373188405797102,
+   "p_b": 0.9213768115942029,
+   "delta": 0.015942028985507246,
+   "ci_lo": 0.011589898715978033,
+   "ci_hi": 0.02061482820976492,
+   "ci_one_sided_lo": 0.012296341914673006,
+   "b": 44,
+   "c": 0,
+   "delta_unav": 0.00022608456230836172,
+   "unav_ok": true,
+   "test": "McNemar exato unilateral",
+   "p_raw": 5.684341886080802e-14,
+   "p_holm": 1.1368683772161603e-13,
+   "confirmed": true
+  },
+  "H4": {
+   "beta": [
+    3.4836437397595597,
+    -0.778681152071275,
+    -1.1286260072870848,
+    1.128626007287078
+   ],
+   "se": [
+    0.10431928246282018,
+    0.03914323541809714,
+    0.03512731172214829,
+    0.03512731172214813
+   ],
+   "beta3": 1.128626007287078,
+   "se3": 0.03512731172214813,
+   "beta3_ci": [
+    1.059777741437956,
+    1.1974742731362
+   ],
+   "p": 8.516141414368213e-227,
+   "n": 22080,
+   "per_level": [
+    {
+     "comparison": "SN - U1",
+     "condition": "oracle",
+     "h": 1,
+     "families": [
+      "encryption_stream",
+      "campaign_multihost",
+      "split_visibility_late_confirm",
+      "interleaved",
+      "campaign_e1_e2"
+     ],
+     "n": 2760,
+     "p_a": 0.9373188405797102,
+     "p_b": 0.9373188405797102,
+     "delta": 0.0,
+     "ci_lo": 0.0,
+     "ci_hi": 0.0,
+     "ci_one_sided_lo": 0.0,
+     "b": 0,
+     "c": 0,
+     "delta_unav": 7.396527007402592e-05,
+     "unav_ok": true
+    },
+    {
+     "comparison": "SN - U1",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "encryption_stream",
+      "campaign_multihost",
+      "split_visibility_late_confirm",
+      "interleaved",
+      "campaign_e1_e2"
+     ],
+     "n": 2760,
+     "p_a": 0.9373188405797102,
+     "p_b": 0.9213768115942029,
+     "delta": 0.015942028985507246,
+     "ci_lo": 0.011589898715978033,
+     "ci_hi": 0.02061482820976492,
+     "ci_one_sided_lo": 0.012296341914673006,
+     "b": 44,
+     "c": 0,
+     "delta_unav": 0.00022608456230836172,
+     "unav_ok": true
+    },
+    {
+     "comparison": "SN - U1",
+     "condition": "batch5m",
+     "h": 1,
+     "families": [
+      "encryption_stream",
+      "campaign_multihost",
+      "split_visibility_late_confirm",
+      "interleaved",
+      "campaign_e1_e2"
+     ],
+     "n": 2760,
+     "p_a": 0.9373188405797102,
+     "p_b": 0.8557971014492753,
+     "delta": 0.08152173913043478,
+     "ci_lo": 0.07137591779689377,
+     "ci_hi": 0.09177050510240475,
+     "ci_one_sided_lo": 0.07312633595868763,
+     "b": 225,
+     "c": 0,
+     "delta_unav": 0.0006318263456812288,
+     "unav_ok": true
+    },
+    {
+     "comparison": "SN - U1",
+     "condition": "batch15m",
+     "h": 1,
+     "families": [
+      "encryption_stream",
+      "campaign_multihost",
+      "split_visibility_late_confirm",
+      "interleaved",
+      "campaign_e1_e2"
+     ],
+     "n": 2760,
+     "p_a": 0.9373188405797102,
+     "p_b": 0.4666666666666667,
+     "delta": 0.4706521739130435,
+     "ci_lo": 0.4568840579710145,
+     "ci_hi": 0.4844089920232052,
+     "ci_one_sided_lo": 0.4591285559956788,
+     "b": 1299,
+     "c": 0,
+     "delta_unav": 0.0015539758479601994,
+     "unav_ok": true
+    }
+   ],
+   "unav_ok": true,
+   "test": "logística, interação braço x nível, EP robusto por seed",
+   "p_raw": 8.516141414368213e-227,
+   "p_holm": 3.406456565747285e-226,
+   "confirmed": true
+  }
+ },
+ "descriptive": {
+  "B2L_vs_U1": {
+   "comparison": "B2L - U1",
+   "condition": "restricted",
+   "h": 1,
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 2760,
+   "p_a": 0.9101449275362319,
+   "p_b": 0.9213768115942029,
+   "delta": -0.011231884057971014,
+   "ci_lo": -0.018671789674550087,
+   "ci_hi": -0.0039941902687000725,
+   "ci_one_sided_lo": -0.017397607828923523,
+   "b": 44,
+   "c": 75,
+   "delta_unav": -0.003699591109954532,
+   "unav_ok": true
+  },
+  "per_family": {
+   "encryption_stream": {
+    "SN_vs_U1": {
+     "comparison": "SN - U1",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "encryption_stream"
+     ],
+     "n": 500,
+     "p_a": 0.932,
+     "p_b": 0.888,
+     "delta": 0.044,
+     "ci_lo": 0.028,
+     "ci_hi": 0.062,
+     "ci_one_sided_lo": 0.03,
+     "b": 22,
+     "c": 0,
+     "delta_unav": 2.1152667944153716e-05,
+     "unav_ok": true
+    },
+    "SN_vs_B2L": {
+     "comparison": "SN - B2L",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "encryption_stream"
+     ],
+     "n": 500,
+     "p_a": 0.932,
+     "p_b": 0.932,
+     "delta": 0.0,
+     "ci_lo": 0.0,
+     "ci_hi": 0.0,
+     "ci_one_sided_lo": 0.0,
+     "b": 0,
+     "c": 0,
+     "delta_unav": 0.0005280238631798638,
+     "unav_ok": true
+    }
+   },
+   "campaign_multihost": {
+    "SN_vs_U1": {
+     "comparison": "SN - U1",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "campaign_multihost"
+     ],
+     "n": 500,
+     "p_a": 0.99,
+     "p_b": 0.962,
+     "delta": 0.028,
+     "ci_lo": 0.014,
+     "ci_hi": 0.044,
+     "ci_one_sided_lo": 0.016,
+     "b": 14,
+     "c": 0,
+     "delta_unav": 0.0006446541468162326,
+     "unav_ok": true
+    },
+    "SN_vs_B2L": {
+     "comparison": "SN - B2L",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "campaign_multihost"
+     ],
+     "n": 500,
+     "p_a": 0.99,
+     "p_b": 0.99,
+     "delta": 0.0,
+     "ci_lo": 0.0,
+     "ci_hi": 0.0,
+     "ci_one_sided_lo": 0.0,
+     "b": 0,
+     "c": 0,
+     "delta_unav": 0.00973320100174538,
+     "unav_ok": true
+    }
+   },
+   "split_visibility_late_confirm": {
+    "SN_vs_U1": {
+     "comparison": "SN - U1",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "split_visibility_late_confirm"
+     ],
+     "n": 500,
+     "p_a": 0.99,
+     "p_b": 0.99,
+     "delta": 0.0,
+     "ci_lo": 0.0,
+     "ci_hi": 0.0,
+     "ci_one_sided_lo": 0.0,
+     "b": 0,
+     "c": 0,
+     "delta_unav": 0.00017791642012369806,
+     "unav_ok": true
+    },
+    "SN_vs_B2L": {
+     "comparison": "SN - B2L",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "split_visibility_late_confirm"
+     ],
+     "n": 500,
+     "p_a": 0.99,
+     "p_b": 0.99,
+     "delta": 0.0,
+     "ci_lo": 0.0,
+     "ci_hi": 0.0,
+     "ci_one_sided_lo": 0.0,
+     "b": 0,
+     "c": 0,
+     "delta_unav": 0.0011395898471373103,
+     "unav_ok": true
+    }
+   },
+   "interleaved": {
+    "SN_vs_U1": {
+     "comparison": "SN - U1",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "interleaved"
+     ],
+     "n": 760,
+     "p_a": 0.9907894736842106,
+     "p_b": 0.9881578947368421,
+     "delta": 0.002631578947368421,
+     "ci_lo": 0.0,
+     "ci_hi": 0.006631299734748011,
+     "ci_one_sided_lo": 0.0,
+     "b": 2,
+     "c": 0,
+     "delta_unav": 0.00021073508784841694,
+     "unav_ok": true
+    },
+    "SN_vs_B2L": {
+     "comparison": "SN - B2L",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "interleaved"
+     ],
+     "n": 760,
+     "p_a": 0.9907894736842106,
+     "p_b": 0.9907894736842106,
+     "delta": 0.0,
+     "ci_lo": 0.0,
+     "ci_hi": 0.0,
+     "ci_one_sided_lo": 0.0,
+     "b": 0,
+     "c": 0,
+     "delta_unav": 0.0014618488622283614,
+     "unav_ok": true
+    }
+   },
+   "campaign_e1_e2": {
+    "SN_vs_U1": {
+     "comparison": "SN - U1",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "campaign_e1_e2"
+     ],
+     "n": 500,
+     "p_a": 0.756,
+     "p_b": 0.744,
+     "delta": 0.012,
+     "ci_lo": 0.004,
+     "ci_hi": 0.022,
+     "ci_one_sided_lo": 0.004,
+     "b": 6,
+     "c": 0,
+     "delta_unav": 7.596448880930734e-05,
+     "unav_ok": true
+    },
+    "SN_vs_B2L": {
+     "comparison": "SN - B2L",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "campaign_e1_e2"
+     ],
+     "n": 500,
+     "p_a": 0.756,
+     "p_b": 0.606,
+     "delta": 0.15,
+     "ci_lo": 0.12,
+     "ci_hi": 0.182,
+     "ci_one_sided_lo": 0.124,
+     "b": 75,
+     "c": 0,
+     "delta_unav": 0.006765714787023587,
+     "unav_ok": true
+    }
+   }
+  },
+  "p_pre": {
+   "0.2": {
+    "comparison": "SN - B2L",
+    "condition": "restricted",
+    "h": 1,
+    "families": [
+     "campaign_e1_e2"
+    ],
+    "n": 500,
+    "p_a": 0.752,
+    "p_b": 0.504,
+    "delta": 0.248,
+    "ci_lo": 0.21,
+    "ci_hi": 0.288,
+    "ci_one_sided_lo": 0.216,
+    "b": 124,
+    "c": 0,
+    "delta_unav": 0.00892567541612138,
+    "unav_ok": true,
+    "props": [
+     {
+      "arm": "SN",
+      "condition": "restricted",
+      "h": 1,
+      "families": [
+       "campaign_e1_e2"
+      ],
+      "n": 500,
+      "p": 0.752,
+      "ci_lo": 0.714,
+      "ci_hi": 0.79
+     },
+     {
+      "arm": "B2L",
+      "condition": "restricted",
+      "h": 1,
+      "families": [
+       "campaign_e1_e2"
+      ],
+      "n": 500,
+      "p": 0.504,
+      "ci_lo": 0.46,
+      "ci_hi": 0.548
+     }
+    ]
+   },
+   "0.5": {
+    "comparison": "SN - B2L",
+    "condition": "restricted",
+    "h": 1,
+    "families": [
+     "campaign_e1_e2"
+    ],
+    "n": 500,
+    "p_a": 0.756,
+    "p_b": 0.606,
+    "delta": 0.15,
+    "ci_lo": 0.12,
+    "ci_hi": 0.182,
+    "ci_one_sided_lo": 0.124,
+    "b": 75,
+    "c": 0,
+    "delta_unav": 0.006765714787023587,
+    "unav_ok": true,
+    "props": [
+     {
+      "arm": "SN",
+      "condition": "restricted",
+      "h": 1,
+      "families": [
+       "campaign_e1_e2"
+      ],
+      "n": 500,
+      "p": 0.756,
+      "ci_lo": 0.718,
+      "ci_hi": 0.794
+     },
+     {
+      "arm": "B2L",
+      "condition": "restricted",
+      "h": 1,
+      "families": [
+       "campaign_e1_e2"
+      ],
+      "n": 500,
+      "p": 0.606,
+      "ci_lo": 0.562,
+      "ci_hi": 0.648
+     }
+    ]
+   },
+   "0.8": {
+    "comparison": "SN - B2L",
+    "condition": "restricted",
+    "h": 1,
+    "families": [
+     "campaign_e1_e2"
+    ],
+    "n": 500,
+    "p_a": 0.758,
+    "p_b": 0.696,
+    "delta": 0.062,
+    "ci_lo": 0.042,
+    "ci_hi": 0.084,
+    "ci_one_sided_lo": 0.045900000000000094,
+    "b": 31,
+    "c": 0,
+    "delta_unav": 0.004622999741946538,
+    "unav_ok": true,
+    "props": [
+     {
+      "arm": "SN",
+      "condition": "restricted",
+      "h": 1,
+      "families": [
+       "campaign_e1_e2"
+      ],
+      "n": 500,
+      "p": 0.758,
+      "ci_lo": 0.72,
+      "ci_hi": 0.796
+     },
+     {
+      "arm": "B2L",
+      "condition": "restricted",
+      "h": 1,
+      "families": [
+       "campaign_e1_e2"
+      ],
+      "n": 500,
+      "p": 0.696,
+      "ci_lo": 0.656,
+      "ci_hi": 0.736
+     }
+    ]
+   }
+  },
+  "p_pre_0.5_reproduces_principal": true,
+  "proportions": {
+   "all_h1_restricted": [
+    {
+     "arm": "SN",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "encryption_stream",
+      "campaign_multihost",
+      "split_visibility_late_confirm",
+      "interleaved",
+      "campaign_e1_e2"
+     ],
+     "n": 2760,
+     "p": 0.9373188405797102,
+     "ci_lo": 0.9288031679057915,
+     "ci_hi": 0.9455661528415946
+    },
+    {
+     "arm": "U1",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "encryption_stream",
+      "campaign_multihost",
+      "split_visibility_late_confirm",
+      "interleaved",
+      "campaign_e1_e2"
+     ],
+     "n": 2760,
+     "p": 0.9213768115942029,
+     "ci_lo": 0.9118604429921944,
+     "ci_hi": 0.9305556811332129
+    },
+    {
+     "arm": "B2L",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "encryption_stream",
+      "campaign_multihost",
+      "split_visibility_late_confirm",
+      "interleaved",
+      "campaign_e1_e2"
+     ],
+     "n": 2760,
+     "p": 0.9101449275362319,
+     "ci_lo": 0.9010473094980137,
+     "ci_hi": 0.9193432141867187
+    }
+   ],
+   "e1e2_h1_restricted": [
+    {
+     "arm": "SN",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "campaign_e1_e2"
+     ],
+     "n": 500,
+     "p": 0.756,
+     "ci_lo": 0.718,
+     "ci_hi": 0.794
+    },
+    {
+     "arm": "U1",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "campaign_e1_e2"
+     ],
+     "n": 500,
+     "p": 0.744,
+     "ci_lo": 0.706,
+     "ci_hi": 0.782
+    },
+    {
+     "arm": "B2L",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "campaign_e1_e2"
+     ],
+     "n": 500,
+     "p": 0.606,
+     "ci_lo": 0.562,
+     "ci_hi": 0.648
+    }
+   ],
+   "e1e2_h0_restricted": [
+    {
+     "arm": "SN",
+     "condition": "restricted",
+     "h": 0,
+     "families": [
+      "campaign_e1_e2"
+     ],
+     "n": 500,
+     "p": 0.54,
+     "ci_lo": 0.496,
+     "ci_hi": 0.584
+    },
+    {
+     "arm": "U1",
+     "condition": "restricted",
+     "h": 0,
+     "families": [
+      "campaign_e1_e2"
+     ],
+     "n": 500,
+     "p": 0.492,
+     "ci_lo": 0.448,
+     "ci_hi": 0.536
+    },
+    {
+     "arm": "B2L",
+     "condition": "restricted",
+     "h": 0,
+     "families": [
+      "campaign_e1_e2"
+     ],
+     "n": 500,
+     "p": 0.54,
+     "ci_lo": 0.496,
+     "ci_hi": 0.584
+    }
+   ],
+   "levels_oracle": [
+    {
+     "arm": "SN",
+     "condition": "oracle",
+     "h": 1,
+     "families": [
+      "encryption_stream",
+      "campaign_multihost",
+      "split_visibility_late_confirm",
+      "interleaved",
+      "campaign_e1_e2"
+     ],
+     "n": 2760,
+     "p": 0.9373188405797102,
+     "ci_lo": 0.9288031679057915,
+     "ci_hi": 0.9455661528415946
+    },
+    {
+     "arm": "U1",
+     "condition": "oracle",
+     "h": 1,
+     "families": [
+      "encryption_stream",
+      "campaign_multihost",
+      "split_visibility_late_confirm",
+      "interleaved",
+      "campaign_e1_e2"
+     ],
+     "n": 2760,
+     "p": 0.9373188405797102,
+     "ci_lo": 0.9288031679057915,
+     "ci_hi": 0.9455661528415946
+    },
+    {
+     "arm": "B2L",
+     "condition": "oracle",
+     "h": 1,
+     "families": [
+      "encryption_stream",
+      "campaign_multihost",
+      "split_visibility_late_confirm",
+      "interleaved",
+      "campaign_e1_e2"
+     ],
+     "n": 2760,
+     "p": 0.9101449275362319,
+     "ci_lo": 0.9010473094980137,
+     "ci_hi": 0.9193432141867187
+    }
+   ],
+   "levels_restricted": [
+    {
+     "arm": "SN",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "encryption_stream",
+      "campaign_multihost",
+      "split_visibility_late_confirm",
+      "interleaved",
+      "campaign_e1_e2"
+     ],
+     "n": 2760,
+     "p": 0.9373188405797102,
+     "ci_lo": 0.9288031679057915,
+     "ci_hi": 0.9455661528415946
+    },
+    {
+     "arm": "U1",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "encryption_stream",
+      "campaign_multihost",
+      "split_visibility_late_confirm",
+      "interleaved",
+      "campaign_e1_e2"
+     ],
+     "n": 2760,
+     "p": 0.9213768115942029,
+     "ci_lo": 0.9118604429921944,
+     "ci_hi": 0.9305556811332129
+    },
+    {
+     "arm": "B2L",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "encryption_stream",
+      "campaign_multihost",
+      "split_visibility_late_confirm",
+      "interleaved",
+      "campaign_e1_e2"
+     ],
+     "n": 2760,
+     "p": 0.9101449275362319,
+     "ci_lo": 0.9010473094980137,
+     "ci_hi": 0.9193432141867187
+    }
+   ],
+   "levels_batch5m": [
+    {
+     "arm": "SN",
+     "condition": "batch5m",
+     "h": 1,
+     "families": [
+      "encryption_stream",
+      "campaign_multihost",
+      "split_visibility_late_confirm",
+      "interleaved",
+      "campaign_e1_e2"
+     ],
+     "n": 2760,
+     "p": 0.9373188405797102,
+     "ci_lo": 0.9288031679057915,
+     "ci_hi": 0.9455661528415946
+    },
+    {
+     "arm": "U1",
+     "condition": "batch5m",
+     "h": 1,
+     "families": [
+      "encryption_stream",
+      "campaign_multihost",
+      "split_visibility_late_confirm",
+      "interleaved",
+      "campaign_e1_e2"
+     ],
+     "n": 2760,
+     "p": 0.8557971014492753,
+     "ci_lo": 0.8426228618538113,
+     "ci_hi": 0.8683636363636363
+    },
+    {
+     "arm": "B2L",
+     "condition": "batch5m",
+     "h": 1,
+     "families": [
+      "encryption_stream",
+      "campaign_multihost",
+      "split_visibility_late_confirm",
+      "interleaved",
+      "campaign_e1_e2"
+     ],
+     "n": 2760,
+     "p": 0.9101449275362319,
+     "ci_lo": 0.9010473094980137,
+     "ci_hi": 0.9193432141867187
+    }
+   ],
+   "levels_batch15m": [
+    {
+     "arm": "SN",
+     "condition": "batch15m",
+     "h": 1,
+     "families": [
+      "encryption_stream",
+      "campaign_multihost",
+      "split_visibility_late_confirm",
+      "interleaved",
+      "campaign_e1_e2"
+     ],
+     "n": 2760,
+     "p": 0.9373188405797102,
+     "ci_lo": 0.9288031679057915,
+     "ci_hi": 0.9455661528415946
+    },
+    {
+     "arm": "U1",
+     "condition": "batch15m",
+     "h": 1,
+     "families": [
+      "encryption_stream",
+      "campaign_multihost",
+      "split_visibility_late_confirm",
+      "interleaved",
+      "campaign_e1_e2"
+     ],
+     "n": 2760,
+     "p": 0.4666666666666667,
+     "ci_lo": 0.4523544472793808,
+     "ci_hi": 0.4809713664371149
+    },
+    {
+     "arm": "B2L",
+     "condition": "batch15m",
+     "h": 1,
+     "families": [
+      "encryption_stream",
+      "campaign_multihost",
+      "split_visibility_late_confirm",
+      "interleaved",
+      "campaign_e1_e2"
+     ],
+     "n": 2760,
+     "p": 0.9101449275362319,
+     "ci_lo": 0.9010473094980137,
+     "ci_hi": 0.9193432141867187
+    }
+   ],
+   "family_encryption_stream": [
+    {
+     "arm": "SN",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "encryption_stream"
+     ],
+     "n": 500,
+     "p": 0.932,
+     "ci_lo": 0.91,
+     "ci_hi": 0.954
+    },
+    {
+     "arm": "U1",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "encryption_stream"
+     ],
+     "n": 500,
+     "p": 0.888,
+     "ci_lo": 0.86,
+     "ci_hi": 0.914
+    },
+    {
+     "arm": "B2L",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "encryption_stream"
+     ],
+     "n": 500,
+     "p": 0.932,
+     "ci_lo": 0.91,
+     "ci_hi": 0.954
+    }
+   ],
+   "family_campaign_multihost": [
+    {
+     "arm": "SN",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "campaign_multihost"
+     ],
+     "n": 500,
+     "p": 0.99,
+     "ci_lo": 0.98,
+     "ci_hi": 0.998
+    },
+    {
+     "arm": "U1",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "campaign_multihost"
+     ],
+     "n": 500,
+     "p": 0.962,
+     "ci_lo": 0.944,
+     "ci_hi": 0.978
+    },
+    {
+     "arm": "B2L",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "campaign_multihost"
+     ],
+     "n": 500,
+     "p": 0.99,
+     "ci_lo": 0.98,
+     "ci_hi": 0.998
+    }
+   ],
+   "family_split_visibility_late_confirm": [
+    {
+     "arm": "SN",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "split_visibility_late_confirm"
+     ],
+     "n": 500,
+     "p": 0.99,
+     "ci_lo": 0.98,
+     "ci_hi": 0.998
+    },
+    {
+     "arm": "U1",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "split_visibility_late_confirm"
+     ],
+     "n": 500,
+     "p": 0.99,
+     "ci_lo": 0.98,
+     "ci_hi": 0.998
+    },
+    {
+     "arm": "B2L",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "split_visibility_late_confirm"
+     ],
+     "n": 500,
+     "p": 0.99,
+     "ci_lo": 0.98,
+     "ci_hi": 0.998
+    }
+   ],
+   "family_interleaved": [
+    {
+     "arm": "SN",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "interleaved"
+     ],
+     "n": 760,
+     "p": 0.9907894736842106,
+     "ci_lo": 0.9833322622107968,
+     "ci_hi": 0.99732629245411
+    },
+    {
+     "arm": "U1",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "interleaved"
+     ],
+     "n": 760,
+     "p": 0.9881578947368421,
+     "ci_lo": 0.9800531914893617,
+     "ci_hi": 0.9948253557567918
+    },
+    {
+     "arm": "B2L",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "interleaved"
+     ],
+     "n": 760,
+     "p": 0.9907894736842106,
+     "ci_lo": 0.9833322622107968,
+     "ci_hi": 0.99732629245411
+    }
+   ],
+   "family_campaign_e1_e2": [
+    {
+     "arm": "SN",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "campaign_e1_e2"
+     ],
+     "n": 500,
+     "p": 0.756,
+     "ci_lo": 0.718,
+     "ci_hi": 0.794
+    },
+    {
+     "arm": "U1",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "campaign_e1_e2"
+     ],
+     "n": 500,
+     "p": 0.744,
+     "ci_lo": 0.706,
+     "ci_hi": 0.782
+    },
+    {
+     "arm": "B2L",
+     "condition": "restricted",
+     "h": 1,
+     "families": [
+      "campaign_e1_e2"
+     ],
+     "n": 500,
+     "p": 0.606,
+     "ci_lo": 0.562,
+     "ci_hi": 0.648
+    }
+   ]
+  },
+  "secondary": {
+   "fronteira|batch15m|1|B2L": {
+    "runs": 2500,
+    "unavailability": 0.28711091513155595,
+    "unav_ci": [
+     0.28278852121995335,
+     0.2914708542354293
+    ],
+    "data_loss_per_host": 3989.720226520939,
+    "advisories": 0.0,
+    "advisories_false": 0.0,
+    "advisory_latency_mean_s": null
+   },
+   "fronteira|batch15m|1|SN": {
+    "runs": 2500,
+    "unavailability": 0.29094235796612644,
+    "unav_ci": [
+     0.2865679903040214,
+     0.2953662572213545
+    ],
+    "data_loss_per_host": 3179.7779589795446,
+    "advisories": 0.4872,
+    "advisories_false": 0.2872,
+    "advisory_latency_mean_s": 415.75712897298064
+   },
+   "fronteira|batch15m|1|U1": {
+    "runs": 2500,
+    "unavailability": 0.2893883821181666,
+    "unav_ci": [
+     0.28502038854771106,
+     0.29378030854737686
+    ],
+    "data_loss_per_host": 10708.798775748219,
+    "advisories": 0.4872,
+    "advisories_false": 0.2872,
+    "advisory_latency_mean_s": 415.7420398186909
+   },
+   "fronteira|batch5m|1|B2L": {
+    "runs": 2500,
+    "unavailability": 0.28711091513155595,
+    "unav_ci": [
+     0.28278852121995335,
+     0.2914708542354293
+    ],
+    "data_loss_per_host": 3989.720226520939,
+    "advisories": 0.0,
+    "advisories_false": 0.0,
+    "advisory_latency_mean_s": null
+   },
+   "fronteira|batch5m|1|SN": {
+    "runs": 2500,
+    "unavailability": 0.2910005512363276,
+    "unav_ci": [
+     0.28662314571950365,
+     0.29542825565504377
+    ],
+    "data_loss_per_host": 3178.6091885260616,
+    "advisories": 0.4872,
+    "advisories_false": 0.2872,
+    "advisory_latency_mean_s": 171.4780643699666
+   },
+   "fronteira|batch5m|1|U1": {
+    "runs": 2500,
+    "unavailability": 0.29036872489064675,
+    "unav_ci": [
+     0.28599876587166956,
+     0.29477846949024045
+    ],
+    "data_loss_per_host": 4528.360500806163,
+    "advisories": 0.4872,
+    "advisories_false": 0.2872,
+    "advisory_latency_mean_s": 171.52591053772753
+   },
+   "p_pre_0.2|restricted|1|B2L": {
+    "runs": 500,
+    "unavailability": 0.14090448988981566,
+    "unav_ci": [
+     0.12780703102026988,
+     0.15418281493335315
+    ],
+    "data_loss_per_host": 15982.820227316106,
+    "advisories": 0.0,
+    "advisories_false": 0.0,
+    "advisory_latency_mean_s": null
+   },
+   "p_pre_0.2|restricted|1|SN": {
+    "runs": 500,
+    "unavailability": 0.1498301653059371,
+    "unav_ci": [
+     0.13653692717980567,
+     0.16341592756118842
+    ],
+    "data_loss_per_host": 9697.800036577843,
+    "advisories": 1.222,
+    "advisories_false": 0.222,
+    "advisory_latency_mean_s": 49.80331824284437
+   },
+   "p_pre_0.5|restricted|1|B2L": {
+    "runs": 500,
+    "unavailability": 0.1410851365847005,
+    "unav_ci": [
+     0.12840338989544683,
+     0.15394157037610268
+    ],
+    "data_loss_per_host": 13652.386535367124,
+    "advisories": 0.0,
+    "advisories_false": 0.0,
+    "advisory_latency_mean_s": null
+   },
+   "p_pre_0.5|restricted|1|SN": {
+    "runs": 500,
+    "unavailability": 0.147850851371724,
+    "unav_ci": [
+     0.13506497396629155,
+     0.16093534611177687
+    ],
+    "data_loss_per_host": 9178.610892706874,
+    "advisories": 1.222,
+    "advisories_false": 0.222,
+    "advisory_latency_mean_s": 50.01544769252634
+   },
+   "p_pre_0.8|restricted|1|B2L": {
+    "runs": 500,
+    "unavailability": 0.1450098972872593,
+    "unav_ci": [
+     0.13225010398763826,
+     0.15821479932693971
+    ],
+    "data_loss_per_host": 10858.740820511839,
+    "advisories": 0.0,
+    "advisories_false": 0.0,
+    "advisory_latency_mean_s": null
+   },
+   "p_pre_0.8|restricted|1|SN": {
+    "runs": 500,
+    "unavailability": 0.14963289702920565,
+    "unav_ci": [
+     0.136742960980121,
+     0.16305650481506276
+    ],
+    "data_loss_per_host": 8845.820067545583,
+    "advisories": 1.216,
+    "advisories_false": 0.216,
+    "advisory_latency_mean_s": 49.80592553373141
+   },
+   "principal|oracle|0|B2L": {
+    "runs": 2500,
+    "unavailability": 0.31200975919263085,
+    "unav_ci": [
+     0.30773928507243764,
+     0.3162726757964431
+    ],
+    "data_loss_per_host": 3489.947829677064,
+    "advisories": 0.0,
+    "advisories_false": 0.0,
+    "advisory_latency_mean_s": null
+   },
+   "principal|oracle|0|SN": {
+    "runs": 2500,
+    "unavailability": 0.312646226307541,
+    "unav_ci": [
+     0.30837884251061226,
+     0.3169069927617397
+    ],
+    "data_loss_per_host": 3482.7222036365947,
+    "advisories": 0.0,
+    "advisories_false": 0.0,
+    "advisory_latency_mean_s": null
+   },
+   "principal|oracle|0|U1": {
+    "runs": 2500,
+    "unavailability": 0.31264623967290084,
+    "unav_ci": [
+     0.30837885555265193,
+     0.3169070068871208
+    ],
+    "data_loss_per_host": 3482.7222036365947,
+    "advisories": 0.0,
+    "advisories_false": 0.0,
+    "advisory_latency_mean_s": null
+   },
+   "principal|oracle|1|B2L": {
+    "runs": 2500,
+    "unavailability": 0.28711091513155595,
+    "unav_ci": [
+     0.28278852121995335,
+     0.2914708542354293
+    ],
+    "data_loss_per_host": 3989.720226520939,
+    "advisories": 0.0,
+    "advisories_false": 0.0,
+    "advisory_latency_mean_s": null
+   },
+   "principal|oracle|1|SN": {
+    "runs": 2500,
+    "unavailability": 0.29105335400962623,
+    "unav_ci": [
+     0.2866727617834708,
+     0.2954845418043782
+    ],
+    "data_loss_per_host": 3178.6091885260616,
+    "advisories": 0.4872,
+    "advisories_false": 0.2872,
+    "advisory_latency_mean_s": 0.03201420372690622
+   },
+   "principal|oracle|1|U1": {
+    "runs": 2500,
+    "unavailability": 0.2909793887395519,
+    "unav_ci": [
+     0.2865964860581921,
+     0.2953930667385606
+    ],
+    "data_loss_per_host": 3178.6091885260616,
+    "advisories": 0.4872,
+    "advisories_false": 0.2872,
+    "advisory_latency_mean_s": 0.01001420372675335
+   },
+   "principal|restricted|0|B2L": {
+    "runs": 2500,
+    "unavailability": 0.31200975919263085,
+    "unav_ci": [
+     0.30773928507243764,
+     0.3162726757964431
+    ],
+    "data_loss_per_host": 3489.947829677064,
+    "advisories": 0.0,
+    "advisories_false": 0.0,
+    "advisory_latency_mean_s": null
+   },
+   "principal|restricted|0|SN": {
+    "runs": 2500,
+    "unavailability": 0.3126315200022923,
+    "unav_ci": [
+     0.3083644735878348,
+     0.31689284780558213
+    ],
+    "data_loss_per_host": 3482.7222036365947,
+    "advisories": 0.0,
+    "advisories_false": 0.0,
+    "advisory_latency_mean_s": null
+   },
+   "principal|restricted|0|U1": {
+    "runs": 2500,
+    "unavailability": 0.3124626266091605,
+    "unav_ci": [
+     0.3081970873964368,
+     0.31672018546576447
+    ],
+    "data_loss_per_host": 4114.801347079306,
+    "advisories": 0.0,
+    "advisories_false": 0.0,
+    "advisory_latency_mean_s": null
+   },
+   "principal|restricted|1|B2L": {
+    "runs": 2500,
+    "unavailability": 0.28711091513155595,
+    "unav_ci": [
+     0.28278852121995335,
+     0.2914708542354293
+    ],
+    "data_loss_per_host": 3989.720226520939,
+    "advisories": 0.0,
+    "advisories_false": 0.0,
+    "advisory_latency_mean_s": null
+   },
+   "principal|restricted|1|SN": {
+    "runs": 2500,
+    "unavailability": 0.291036590803819,
+    "unav_ci": [
+     0.28665760061539775,
+     0.2954661695600318
+    ],
+    "data_loss_per_host": 3178.6091885260616,
+    "advisories": 0.4872,
+    "advisories_false": 0.2872,
+    "advisory_latency_mean_s": 50.66948634062614
+   },
+   "principal|restricted|1|U1": {
+    "runs": 2500,
+    "unavailability": 0.2908105062415097,
+    "unav_ci": [
+     0.28643064911001676,
+     0.2952226319759669
+    ],
+    "data_loss_per_host": 3709.112761313842,
+    "advisories": 0.4872,
+    "advisories_false": 0.2872,
+    "advisory_latency_mean_s": 50.696118909122696
+   }
+  }
+ }
+}

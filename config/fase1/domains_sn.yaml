@@ -1,0 +1,45 @@
+# Fase 1, arm SN (docs/fase1/02_preregistro.md §2-3): one specialist per segment (= host profile),
+# INSIDE the segment, routed by the profile of the event's source host; the current proactive /
+# reactive coordinators (thresholds of config/domains_proactive_reactive.yaml) OUTSIDE the segments,
+# reached by event type; Strategic outside as well. The Fase 1 event types (file_access_burst,
+# c2_beacon_match, lateral_movement_signature, vulnerable_service_exposure) are pre-impact signals and
+# go to the proactive coordinator. Detector thresholds come from config/fase1/thresholds_by_profile.yaml
+# (the same file the U1 and B2-SSL-local arms read), not from here.
+
+segment_specialists:
+  - id: sn-e1-workstation
+    profile: E1
+    managed_element: "workstation file activity, processes and accounts (host + network telemetry)"
+  - id: sn-e2-server
+    profile: E2
+    managed_element: "server services, backups and VM/config storage (host + network telemetry)"
+  - id: sn-e3-iot
+    profile: E3
+    managed_element: "IoT network profile (network telemetry only)"
+
+domains:
+  - name: proactive
+    coordinator:
+      id: proactive-coordinator
+      escalation_policy:
+        escalation_confidence_threshold: 0.50
+    handles:
+      - "network_enumeration"
+      - "privilege_escalation_attempt"
+      - "service_stop_attempt"
+      - "backup_recovery_tamper"
+      - "file_access_burst"
+      - "c2_beacon_match"
+      - "lateral_movement_signature"
+      - "vulnerable_service_exposure"
+    specialists: []
+  - name: reactive
+    coordinator:
+      id: reactive-coordinator
+      escalation_policy:
+        escalation_confidence_threshold: 0.50
+    handles:
+      - "file_write"
+      - "mass_file_modification"
+      - "ransom_note_creation"
+    specialists: []

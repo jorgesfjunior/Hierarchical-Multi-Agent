@@ -1,0 +1,25 @@
+{
+ "code_commit_verified": "3e6ec1dbc15146d533e90117d3a556b1015f8bef",
+ "command": "python3 tests/phase8_regression.py --write",
+ "fixture": "tests/fixtures/phase8_regression_s012.json",
+ "fixture_commit": "f5bf0d310fd4137f7b0119a6f874713efd8ec6e0",
+ "fixture_sha256": "53a17dd74053534a20d91e66dc4e4203a3d2cbf5ac93b78ea326d8a4c72c00a2",
+ "note": "Fixture rows come from the raw Phase 8 pilot CSVs (A3, 2026-10-15), not from a re-run. code_commit_verified = the code the fixture was checked to reproduce exactly when it was committed (the parent of fixture_commit).",
+ "pilot_results_commit": "3e6ec1dbc15146d533e90117d3a556b1015f8bef",
+ "python": "3.9.6",
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "source_csv_sha256": {
+  "exp_p1.csv": "55e5c8563b15a45fdae089b463fadbbbaf5afecc856afaedc81a15a31565e073",
+  "exp_p2.csv": "4eaba9d22659ccc32f3c6f630e2ea8103707e576f4d67243a9f650c263154912",
+  "exp_p3.csv": "ebebbfd1e1f6ff37669c8074abe1e51b251083ae39591cfe25d02479bf85c28f",
+  "exp_p4.csv": "1761243f81ede9a5c016fce3a80a739bf0c647a83440bc2c498c974efc844b9a",
+  "exp_p5.csv": "9575045a85d0a69093e8302ac636eccb7c9f5aee693186d558c2b879cda3798b"
+ },
+ "source_csvs_versioned": false,
+ "source_dir": "results/phase8_pilot",
+ "units": 33
+}

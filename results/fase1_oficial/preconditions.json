@@ -1,0 +1,70 @@
+{
+ "H0_h0": {
+  "comparison": "SN - U1",
+  "condition": "oracle",
+  "h": 0,
+  "families": [
+   "encryption_stream",
+   "campaign_multihost",
+   "split_visibility_late_confirm",
+   "interleaved",
+   "campaign_e1_e2"
+  ],
+  "n": 2760,
+  "p_a": 0.8659420289855072,
+  "p_b": 0.8659420289855072,
+  "delta": 0.0,
+  "ci_lo": 0.0,
+  "ci_hi": 0.0,
+  "ci_one_sided_lo": 0.0,
+  "b": 0,
+  "c": 0,
+  "delta_unav": -1.3365358983192383e-08,
+  "unav_ok": true,
+  "pass": true
+ },
+ "H0_h1": {
+  "comparison": "SN - U1",
+  "condition": "oracle",
+  "h": 1,
+  "families": [
+   "encryption_stream",
+   "campaign_multihost",
+   "split_visibility_late_confirm",
+   "interleaved",
+   "campaign_e1_e2"
+  ],
+  "n": 2760,
+  "p_a": 0.9373188405797102,
+  "p_b": 0.9373188405797102,
+  "delta": 0.0,
+  "ci_lo": 0.0,
+  "ci_hi": 0.0,
+  "ci_one_sided_lo": 0.0,
+  "b": 0,
+  "c": 0,
+  "delta_unav": 7.396527007402592e-05,
+  "unav_ok": true,
+  "pass": true
+ },
+ "C0": {
+  "comparison": "SN - B2L",
+  "condition": "restricted",
+  "h": 0,
+  "families": [
+   "campaign_e1_e2"
+  ],
+  "n": 500,
+  "p_a": 0.54,
+  "p_b": 0.54,
+  "delta": 0.0,
+  "ci_lo": 0.0,
+  "ci_hi": 0.0,
+  "ci_one_sided_lo": 0.0,
+  "b": 0,
+  "c": 0,
+  "delta_unav": 0.0,
+  "unav_ok": true,
+  "pass": true
+ }
+}

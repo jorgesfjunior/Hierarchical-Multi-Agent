@@ -1,0 +1,9 @@
+{
+ "frozen_utc": "2026-10-17T18:21:34Z",
+ "freeze_commit": "1a12cd26b149fcfd3bd51f2e80cb99c3de1ebb4d",
+ "files_sha256": {
+  "docs/fase1/02_preregistro.md": "56d165357001652e8edcad354ff717e1022c6565ad3246487447b76d58aad0ea",
+  "docs/fase1/01_especializacoes.md": "62756a746ae2f286b12307109828798b62997e66fcee007b847877b266c223e9"
+ },
+ "note": "Pre-registration frozen before any Etapa B code. Restriction parameters (60 s batch, 10 s latency, 32 KiB/s), margin M = 1000 files/host, decision rule, seeds, families and calibration grid may not be changed after seeing pilot results; any later change is a dated, declared deviation."
+}

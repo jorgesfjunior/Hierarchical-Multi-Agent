@@ -1,0 +1,19 @@
+{
+ "frozen_utc": "2026-11-17T20:00:19Z",
+ "freeze_commit": "dca68d7aee52056c893048ae5bcd79c74bbf5d2f",
+ "files_sha256": {
+  "docs/fase1/14_preregistro_A.md": "7c676003fa1b6d26c5dc91a7a21e7a1cb5ba2fc56a17cddbbe5d575e83cd20c0",
+  "simulation/fase1_A_experiments.py": "45f9012b16ab4cff4611fa28e83f0df8937c2ca71073c2944e203d32e5eec5d4",
+  "analysis/fase1_A.py": "2bb72ea9da0fab2871ddd228a53238f451a41452b202bd2fd2727e8289ac1cd6",
+  "tests/test_fase1_A.py": "cd0e763ecda5a203e4e1ea98aeb0cb3b0e4d5ae6abcf9cab3d6e9903eaeecbfe",
+  "config/fase1/thresholds_by_profile.yaml": "b95552ff220743be0518d5d30fa15c2993754821f70f007b9d9a7cf375c522ba",
+  "config/fase1/domains_sn.yaml": "8725e227a8b0009dd35d3d9fae8b2390f85e8cba21139d3a0d1df34245d2ba37",
+  "simulation/fase1.py": "b3f6f0089d2083098370bbab7ad34f11b6e42069dd54b4eedad9d5802ff6508e",
+  "simulation/fase1b_experiments.py": "6a0b9a3a73f1e1339a795f62be1166a921abb9130b607156288438d33368f3bc",
+  "simulation/fase1_ablacao_experiments.py": "ddbfbc5da27c7ee05ca878626bb93468d8424ceec882fbf87065025622b3dd08",
+  "graph/build_sn_graph.py": "c510d483254d54d4f5c5c1985307e1a80fe61b13da79907a898a56aae4e553da",
+  "simulation/transport.py": "284c2a9ffe20113be277a054b1985cae37af3003ce63f46d13f4fa59440f8b51",
+  "simulation/damage_model.py": "c4edee28332475c75269e16b7ed7339ecde761ec00272bbe5e3c3387a295229f"
+ },
+ "note": "Caminho A (AINA) pre-registration frozen before any run with seeds 8000-8699. E1: SN vs A3, 5 families, h=1, boundary 60 s and 15 min, seeds 8000-8499; H5 = TOST equivalence of p(A3)-p(SN) with margin 1 pp at both levels (intersection-union, alpha 0.05), cluster bootstrap (seed, 10000, rng 0); 2 pp reported as secondary. E2 (descriptive): SN/U1/B2L, multipliers 0.5-2.0, seeds 8500-8699, metrics, FP floor and figure as in §4. Known failing old test declared: tests/test_phase4b.py::test_playbook_v1_is_unchanged_and_default. Nothing may be changed after seeing results."
+}

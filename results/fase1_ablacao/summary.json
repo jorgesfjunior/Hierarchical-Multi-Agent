@@ -1,0 +1,2486 @@
+{
+ "status": "EXPLORATORY",
+ "label": "descritivo, piloto de ablação",
+ "seeds": "7000-7099",
+ "levels": [
+  "restricted",
+  "batch15m"
+ ],
+ "arms": [
+  "SN",
+  "A1",
+  "A2",
+  "A3",
+  "U1",
+  "B2L"
+ ],
+ "rule": {
+  "margin_pp": 1.0,
+  "loss_margin_files_per_host": 1000.0,
+  "traffic_cut": 0.5
+ },
+ "per_arm": {
+  "restricted|SN": {
+   "contained_pct": {
+    "mean": 94.39421338155515,
+    "ci": [
+     92.51336898395722,
+     96.16788321167883
+    ],
+    "n": 553
+   },
+   "data_loss_per_host": {
+    "mean": 2400.0868628594762,
+    "ci": [
+     1424.3281847077876,
+     3558.7858997795797
+    ],
+    "n": 553
+   },
+   "unavailability": {
+    "mean": 0.29132124167929285,
+    "ci": [
+     0.28052491297125964,
+     0.3017127226283701
+    ],
+    "n": 500
+   },
+   "benign_hosts_hit": {
+    "mean": 3.09,
+    "ci": [
+     2.966,
+     3.2100499999999994
+    ],
+    "n": 500
+   },
+   "advisories": {
+    "mean": 0.452,
+    "ci": [
+     0.398,
+     0.51
+    ],
+    "n": 500
+   },
+   "advisories_false": {
+    "mean": 0.252,
+    "ci": [
+     0.198,
+     0.31
+    ],
+    "n": 500
+   },
+   "advisory_recall": {
+    "value": 0.5555555555555556,
+    "ci": [
+     0.5347593582887701,
+     0.5813953488372093
+    ],
+    "num": 100.0,
+    "den": 180.0
+   },
+   "boundary_messages": {
+    "mean": 434.458,
+    "ci": [
+     422.06165,
+     447.0604
+    ],
+    "n": 500
+   },
+   "boundary_kb": {
+    "mean": 2286.3195339999993,
+    "ci": [
+     2220.60548375,
+     2352.247794900001
+    ],
+    "n": 500
+   },
+   "all_messages": {
+    "mean": 1301.566,
+    "ci": [
+     1264.4275,
+     1339.38935
+    ],
+    "n": 500
+   },
+   "dispatches_per_layer": {
+    "specialist": {
+     "mean": 89.06,
+     "ci": [
+      81.2239,
+      96.94814999999998
+     ],
+     "n": 500
+    },
+    "coordinator": {
+     "mean": 58.904,
+     "ci": [
+      51.9439,
+      66.1221
+     ],
+     "n": 500
+    },
+    "strategic": {
+     "mean": 84.394,
+     "ci": [
+      76.61784999999999,
+      92.2381
+     ],
+     "n": 500
+    },
+    "monolithic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    }
+   },
+   "first_action_min": {
+    "median": {
+     "value": 0.0001999999999990602,
+     "ci": [
+      0.0001999999999990602,
+      0.0001999999999990602
+     ],
+     "n": 551
+    },
+    "p90": {
+     "value": 7.0552,
+     "ci": [
+      6.300666666666669,
+      7.6263166666666695
+     ],
+     "n": 551
+    },
+    "never": 2,
+    "campaigns": 553
+   },
+   "strategic_only_labels": {
+    "trigger_backup_restore": 28278,
+    "segment_network": 10031
+   },
+   "units": 553,
+   "runs": 500
+  },
+  "restricted|A1": {
+   "contained_pct": {
+    "mean": 94.39421338155515,
+    "ci": [
+     92.51336898395722,
+     96.16788321167883
+    ],
+    "n": 553
+   },
+   "data_loss_per_host": {
+    "mean": 2400.0868628594762,
+    "ci": [
+     1424.3281847077876,
+     3558.7858997795797
+    ],
+    "n": 553
+   },
+   "unavailability": {
+    "mean": 0.28951630882261326,
+    "ci": [
+     0.27885036157862003,
+     0.2999028667054545
+    ],
+    "n": 500
+   },
+   "benign_hosts_hit": {
+    "mean": 3.09,
+    "ci": [
+     2.966,
+     3.2100499999999994
+    ],
+    "n": 500
+   },
+   "advisories": {
+    "mean": 0.452,
+    "ci": [
+     0.398,
+     0.51
+    ],
+    "n": 500
+   },
+   "advisories_false": {
+    "mean": 0.252,
+    "ci": [
+     0.198,
+     0.31
+    ],
+    "n": 500
+   },
+   "advisory_recall": {
+    "value": 0.5555555555555556,
+    "ci": [
+     0.5347593582887701,
+     0.5813953488372093
+    ],
+    "num": 100.0,
+    "den": 180.0
+   },
+   "boundary_messages": {
+    "mean": 434.458,
+    "ci": [
+     422.06165,
+     447.0604
+    ],
+    "n": 500
+   },
+   "boundary_kb": {
+    "mean": 2286.3195339999993,
+    "ci": [
+     2220.60548375,
+     2352.247794900001
+    ],
+    "n": 500
+   },
+   "all_messages": {
+    "mean": 868.012,
+    "ci": [
+     843.244,
+     893.221
+    ],
+    "n": 500
+   },
+   "dispatches_per_layer": {
+    "specialist": {
+     "mean": 89.06,
+     "ci": [
+      81.2239,
+      96.94814999999998
+     ],
+     "n": 500
+    },
+    "coordinator": {
+     "mean": 58.904,
+     "ci": [
+      51.9439,
+      66.1221
+     ],
+     "n": 500
+    },
+    "strategic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "monolithic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    }
+   },
+   "first_action_min": {
+    "median": {
+     "value": 0.0001999999999990602,
+     "ci": [
+      0.0001999999999990602,
+      0.0001999999999990602
+     ],
+     "n": 551
+    },
+    "p90": {
+     "value": 7.0552,
+     "ci": [
+      6.300666666666669,
+      7.6263166666666695
+     ],
+     "n": 551
+    },
+    "never": 2,
+    "campaigns": 553
+   },
+   "strategic_only_labels": {
+    "trigger_backup_restore": 0,
+    "segment_network": 0
+   },
+   "units": 553,
+   "runs": 500
+  },
+  "restricted|A2": {
+   "contained_pct": {
+    "mean": 94.39421338155515,
+    "ci": [
+     92.51336898395722,
+     96.16788321167883
+    ],
+    "n": 553
+   },
+   "data_loss_per_host": {
+    "mean": 2400.0868628594762,
+    "ci": [
+     1424.3281847077876,
+     3558.7858997795797
+    ],
+    "n": 553
+   },
+   "unavailability": {
+    "mean": 0.28951630882261326,
+    "ci": [
+     0.27885036157862003,
+     0.2999028667054545
+    ],
+    "n": 500
+   },
+   "benign_hosts_hit": {
+    "mean": 3.09,
+    "ci": [
+     2.966,
+     3.2100499999999994
+    ],
+    "n": 500
+   },
+   "advisories": {
+    "mean": 0.452,
+    "ci": [
+     0.398,
+     0.51
+    ],
+    "n": 500
+   },
+   "advisories_false": {
+    "mean": 0.252,
+    "ci": [
+     0.198,
+     0.31
+    ],
+    "n": 500
+   },
+   "advisory_recall": {
+    "value": 0.5555555555555556,
+    "ci": [
+     0.5347593582887701,
+     0.5813953488372093
+    ],
+    "num": 100.0,
+    "den": 180.0
+   },
+   "boundary_messages": {
+    "mean": 434.458,
+    "ci": [
+     422.06165,
+     447.0604
+    ],
+    "n": 500
+   },
+   "boundary_kb": {
+    "mean": 2286.3195339999993,
+    "ci": [
+     2220.60548375,
+     2352.247794900001
+    ],
+    "n": 500
+   },
+   "all_messages": {
+    "mean": 868.012,
+    "ci": [
+     843.244,
+     893.221
+    ],
+    "n": 500
+   },
+   "dispatches_per_layer": {
+    "specialist": {
+     "mean": 89.06,
+     "ci": [
+      81.2239,
+      96.94814999999998
+     ],
+     "n": 500
+    },
+    "coordinator": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "strategic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "monolithic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    }
+   },
+   "first_action_min": {
+    "median": {
+     "value": 0.0001999999999990602,
+     "ci": [
+      0.0001999999999990602,
+      0.0001999999999990602
+     ],
+     "n": 551
+    },
+    "p90": {
+     "value": 7.0552,
+     "ci": [
+      6.300666666666669,
+      7.6263166666666695
+     ],
+     "n": 551
+    },
+    "never": 2,
+    "campaigns": 553
+   },
+   "strategic_only_labels": {
+    "trigger_backup_restore": 0,
+    "segment_network": 0
+   },
+   "units": 553,
+   "runs": 500
+  },
+  "restricted|A3": {
+   "contained_pct": {
+    "mean": 94.39421338155515,
+    "ci": [
+     92.51336898395722,
+     96.16788321167883
+    ],
+    "n": 553
+   },
+   "data_loss_per_host": {
+    "mean": 2400.0868628594762,
+    "ci": [
+     1424.3281847077876,
+     3558.7858997795797
+    ],
+    "n": 553
+   },
+   "unavailability": {
+    "mean": 0.28951634660559317,
+    "ci": [
+     0.27885039907418824,
+     0.2999029094346135
+    ],
+    "n": 500
+   },
+   "benign_hosts_hit": {
+    "mean": 3.09,
+    "ci": [
+     2.966,
+     3.2100499999999994
+    ],
+    "n": 500
+   },
+   "advisories": {
+    "mean": 0.452,
+    "ci": [
+     0.398,
+     0.51
+    ],
+    "n": 500
+   },
+   "advisories_false": {
+    "mean": 0.252,
+    "ci": [
+     0.198,
+     0.31
+    ],
+    "n": 500
+   },
+   "advisory_recall": {
+    "value": 0.5555555555555556,
+    "ci": [
+     0.5347593582887701,
+     0.5813953488372093
+    ],
+    "num": 100.0,
+    "den": 180.0
+   },
+   "boundary_messages": {
+    "mean": 0.904,
+    "ci": [
+     0.796,
+     1.02
+    ],
+    "n": 500
+   },
+   "boundary_kb": {
+    "mean": 0.23142400000000019,
+    "ci": [
+     0.20377600000000012,
+     0.2611200000000002
+    ],
+    "n": 500
+   },
+   "all_messages": {
+    "mean": 434.458,
+    "ci": [
+     422.06165,
+     447.0604
+    ],
+    "n": 500
+   },
+   "dispatches_per_layer": {
+    "specialist": {
+     "mean": 89.06,
+     "ci": [
+      81.2239,
+      96.94814999999998
+     ],
+     "n": 500
+    },
+    "coordinator": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "strategic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "monolithic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    }
+   },
+   "first_action_min": {
+    "median": {
+     "value": 0.0001999999999990602,
+     "ci": [
+      0.0001999999999990602,
+      0.0001999999999990602
+     ],
+     "n": 551
+    },
+    "p90": {
+     "value": 7.0552,
+     "ci": [
+      6.300666666666669,
+      7.6263166666666695
+     ],
+     "n": 551
+    },
+    "never": 2,
+    "campaigns": 553
+   },
+   "strategic_only_labels": {
+    "trigger_backup_restore": 0,
+    "segment_network": 0
+   },
+   "units": 553,
+   "runs": 500
+  },
+  "restricted|U1": {
+   "contained_pct": {
+    "mean": 92.2242314647378,
+    "ci": [
+     90.10984069886948,
+     94.20289855072464
+    ],
+    "n": 553
+   },
+   "data_loss_per_host": {
+    "mean": 3540.4021878520143,
+    "ci": [
+     2318.9854138741457,
+     4901.874210179185
+    ],
+    "n": 553
+   },
+   "unavailability": {
+    "mean": 0.2911628629066834,
+    "ci": [
+     0.2803720872785824,
+     0.3015484229862828
+    ],
+    "n": 500
+   },
+   "benign_hosts_hit": {
+    "mean": 3.09,
+    "ci": [
+     2.966,
+     3.2100499999999994
+    ],
+    "n": 500
+   },
+   "advisories": {
+    "mean": 0.452,
+    "ci": [
+     0.398,
+     0.51
+    ],
+    "n": 500
+   },
+   "advisories_false": {
+    "mean": 0.252,
+    "ci": [
+     0.198,
+     0.31
+    ],
+    "n": 500
+   },
+   "advisory_recall": {
+    "value": 0.5555555555555556,
+    "ci": [
+     0.5347593582887701,
+     0.5813953488372093
+    ],
+    "num": 100.0,
+    "den": 180.0
+   },
+   "boundary_messages": {
+    "mean": 433.554,
+    "ci": [
+     421.176,
+     446.15045
+    ],
+    "n": 500
+   },
+   "boundary_kb": {
+    "mean": 2286.0881099999992,
+    "ci": [
+     2220.3743268999992,
+     2352.0205949000006
+    ],
+    "n": 500
+   },
+   "all_messages": {
+    "mean": 433.554,
+    "ci": [
+     421.176,
+     446.15045
+    ],
+    "n": 500
+   },
+   "dispatches_per_layer": {
+    "specialist": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "coordinator": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "strategic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "monolithic": {
+     "mean": 89.06,
+     "ci": [
+      81.2239,
+      96.94814999999998
+     ],
+     "n": 500
+    }
+   },
+   "first_action_min": {
+    "median": {
+     "value": 0.5464645845703122,
+     "ci": [
+      0.5217105858487948,
+      0.574841600455729
+     ],
+     "n": 551
+    },
+    "p90": {
+     "value": 7.594676385026042,
+     "ci": [
+      7.36437684983073,
+      8.434544600758462
+     ],
+     "n": 551
+    },
+    "never": 2,
+    "campaigns": 553
+   },
+   "strategic_only_labels": {
+    "trigger_backup_restore": 28278,
+    "segment_network": 9979
+   },
+   "units": 553,
+   "runs": 500
+  },
+  "restricted|B2L": {
+   "contained_pct": {
+    "mean": 92.2242314647378,
+    "ci": [
+     90.18181818181819,
+     94.09660107334525
+    ],
+    "n": 553
+   },
+   "data_loss_per_host": {
+    "mean": 3103.422230609746,
+    "ci": [
+     1957.7956803257657,
+     4447.020221736715
+    ],
+    "n": 553
+   },
+   "unavailability": {
+    "mean": 0.2873642312885434,
+    "ci": [
+     0.27656867915873845,
+     0.29784788646094906
+    ],
+    "n": 500
+   },
+   "benign_hosts_hit": {
+    "mean": 3.038,
+    "ci": [
+     2.918,
+     3.16
+    ],
+    "n": 500
+   },
+   "advisories": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 500
+   },
+   "advisories_false": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 500
+   },
+   "advisory_recall": {
+    "value": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "num": 0.0,
+    "den": 180.0
+   },
+   "boundary_messages": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 500
+   },
+   "boundary_kb": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 500
+   },
+   "all_messages": {
+    "mean": 433.554,
+    "ci": [
+     421.176,
+     446.15045
+    ],
+    "n": 500
+   },
+   "dispatches_per_layer": {
+    "specialist": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "coordinator": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "strategic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "monolithic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    }
+   },
+   "first_action_min": {
+    "median": {
+     "value": 0.0001999999999990602,
+     "ci": [
+      0.0001999999999990602,
+      0.0001999999999990602
+     ],
+     "n": 551
+    },
+    "p90": {
+     "value": 7.0552,
+     "ci": [
+      6.300666666666669,
+      7.6263166666666695
+     ],
+     "n": 551
+    },
+    "never": 2,
+    "campaigns": 553
+   },
+   "strategic_only_labels": {
+    "trigger_backup_restore": 0,
+    "segment_network": 0
+   },
+   "units": 553,
+   "runs": 500
+  },
+  "batch15m|SN": {
+   "contained_pct": {
+    "mean": 94.39421338155515,
+    "ci": [
+     92.51336898395722,
+     96.16788321167883
+    ],
+    "n": 553
+   },
+   "data_loss_per_host": {
+    "mean": 2490.5027760601993,
+    "ci": [
+     1502.663210501981,
+     3681.7972139671992
+    ],
+    "n": 553
+   },
+   "unavailability": {
+    "mean": 0.2912044136681618,
+    "ci": [
+     0.2804116155859266,
+     0.3016065239935546
+    ],
+    "n": 500
+   },
+   "benign_hosts_hit": {
+    "mean": 3.09,
+    "ci": [
+     2.966,
+     3.2100499999999994
+    ],
+    "n": 500
+   },
+   "advisories": {
+    "mean": 0.452,
+    "ci": [
+     0.398,
+     0.51
+    ],
+    "n": 500
+   },
+   "advisories_false": {
+    "mean": 0.252,
+    "ci": [
+     0.198,
+     0.31
+    ],
+    "n": 500
+   },
+   "advisory_recall": {
+    "value": 0.5166666666666667,
+    "ci": [
+     0.4810810810810811,
+     0.5529411764705883
+    ],
+    "num": 93.0,
+    "den": 180.0
+   },
+   "boundary_messages": {
+    "mean": 434.458,
+    "ci": [
+     422.06165,
+     447.0604
+    ],
+    "n": 500
+   },
+   "boundary_kb": {
+    "mean": 2286.3195339999993,
+    "ci": [
+     2220.60548375,
+     2352.247794900001
+    ],
+    "n": 500
+   },
+   "all_messages": {
+    "mean": 1301.566,
+    "ci": [
+     1264.4275,
+     1339.38935
+    ],
+    "n": 500
+   },
+   "dispatches_per_layer": {
+    "specialist": {
+     "mean": 89.06,
+     "ci": [
+      81.2239,
+      96.94814999999998
+     ],
+     "n": 500
+    },
+    "coordinator": {
+     "mean": 58.904,
+     "ci": [
+      51.9439,
+      66.1221
+     ],
+     "n": 500
+    },
+    "strategic": {
+     "mean": 84.394,
+     "ci": [
+      76.61784999999999,
+      92.2381
+     ],
+     "n": 500
+    },
+    "monolithic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    }
+   },
+   "first_action_min": {
+    "median": {
+     "value": 0.0001999999999990602,
+     "ci": [
+      0.0001999999999990602,
+      0.0001999999999990602
+     ],
+     "n": 551
+    },
+    "p90": {
+     "value": 7.0552,
+     "ci": [
+      6.300666666666669,
+      7.6263166666666695
+     ],
+     "n": 551
+    },
+    "never": 2,
+    "campaigns": 553
+   },
+   "strategic_only_labels": {
+    "trigger_backup_restore": 28278,
+    "segment_network": 10031
+   },
+   "units": 553,
+   "runs": 500
+  },
+  "batch15m|A1": {
+   "contained_pct": {
+    "mean": 94.39421338155515,
+    "ci": [
+     92.51336898395722,
+     96.16788321167883
+    ],
+    "n": 553
+   },
+   "data_loss_per_host": {
+    "mean": 2490.5027760601993,
+    "ci": [
+     1502.663210501981,
+     3681.7972139671992
+    ],
+    "n": 553
+   },
+   "unavailability": {
+    "mean": 0.2894975687346973,
+    "ci": [
+     0.2788317509618816,
+     0.2998858716311083
+    ],
+    "n": 500
+   },
+   "benign_hosts_hit": {
+    "mean": 3.09,
+    "ci": [
+     2.966,
+     3.2100499999999994
+    ],
+    "n": 500
+   },
+   "advisories": {
+    "mean": 0.452,
+    "ci": [
+     0.398,
+     0.51
+    ],
+    "n": 500
+   },
+   "advisories_false": {
+    "mean": 0.252,
+    "ci": [
+     0.198,
+     0.31
+    ],
+    "n": 500
+   },
+   "advisory_recall": {
+    "value": 0.5166666666666667,
+    "ci": [
+     0.4810810810810811,
+     0.5529411764705883
+    ],
+    "num": 93.0,
+    "den": 180.0
+   },
+   "boundary_messages": {
+    "mean": 434.458,
+    "ci": [
+     422.06165,
+     447.0604
+    ],
+    "n": 500
+   },
+   "boundary_kb": {
+    "mean": 2286.3195339999993,
+    "ci": [
+     2220.60548375,
+     2352.247794900001
+    ],
+    "n": 500
+   },
+   "all_messages": {
+    "mean": 868.012,
+    "ci": [
+     843.244,
+     893.221
+    ],
+    "n": 500
+   },
+   "dispatches_per_layer": {
+    "specialist": {
+     "mean": 89.06,
+     "ci": [
+      81.2239,
+      96.94814999999998
+     ],
+     "n": 500
+    },
+    "coordinator": {
+     "mean": 58.904,
+     "ci": [
+      51.9439,
+      66.1221
+     ],
+     "n": 500
+    },
+    "strategic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "monolithic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    }
+   },
+   "first_action_min": {
+    "median": {
+     "value": 0.0001999999999990602,
+     "ci": [
+      0.0001999999999990602,
+      0.0001999999999990602
+     ],
+     "n": 551
+    },
+    "p90": {
+     "value": 7.0552,
+     "ci": [
+      6.300666666666669,
+      7.6263166666666695
+     ],
+     "n": 551
+    },
+    "never": 2,
+    "campaigns": 553
+   },
+   "strategic_only_labels": {
+    "trigger_backup_restore": 0,
+    "segment_network": 0
+   },
+   "units": 553,
+   "runs": 500
+  },
+  "batch15m|A2": {
+   "contained_pct": {
+    "mean": 94.39421338155515,
+    "ci": [
+     92.51336898395722,
+     96.16788321167883
+    ],
+    "n": 553
+   },
+   "data_loss_per_host": {
+    "mean": 2490.5027760601993,
+    "ci": [
+     1502.663210501981,
+     3681.7972139671992
+    ],
+    "n": 553
+   },
+   "unavailability": {
+    "mean": 0.2894975687346973,
+    "ci": [
+     0.2788317509618816,
+     0.2998858716311083
+    ],
+    "n": 500
+   },
+   "benign_hosts_hit": {
+    "mean": 3.09,
+    "ci": [
+     2.966,
+     3.2100499999999994
+    ],
+    "n": 500
+   },
+   "advisories": {
+    "mean": 0.452,
+    "ci": [
+     0.398,
+     0.51
+    ],
+    "n": 500
+   },
+   "advisories_false": {
+    "mean": 0.252,
+    "ci": [
+     0.198,
+     0.31
+    ],
+    "n": 500
+   },
+   "advisory_recall": {
+    "value": 0.5166666666666667,
+    "ci": [
+     0.4810810810810811,
+     0.5529411764705883
+    ],
+    "num": 93.0,
+    "den": 180.0
+   },
+   "boundary_messages": {
+    "mean": 434.458,
+    "ci": [
+     422.06165,
+     447.0604
+    ],
+    "n": 500
+   },
+   "boundary_kb": {
+    "mean": 2286.3195339999993,
+    "ci": [
+     2220.60548375,
+     2352.247794900001
+    ],
+    "n": 500
+   },
+   "all_messages": {
+    "mean": 868.012,
+    "ci": [
+     843.244,
+     893.221
+    ],
+    "n": 500
+   },
+   "dispatches_per_layer": {
+    "specialist": {
+     "mean": 89.06,
+     "ci": [
+      81.2239,
+      96.94814999999998
+     ],
+     "n": 500
+    },
+    "coordinator": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "strategic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "monolithic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    }
+   },
+   "first_action_min": {
+    "median": {
+     "value": 0.0001999999999990602,
+     "ci": [
+      0.0001999999999990602,
+      0.0001999999999990602
+     ],
+     "n": 551
+    },
+    "p90": {
+     "value": 7.0552,
+     "ci": [
+      6.300666666666669,
+      7.6263166666666695
+     ],
+     "n": 551
+    },
+    "never": 2,
+    "campaigns": 553
+   },
+   "strategic_only_labels": {
+    "trigger_backup_restore": 0,
+    "segment_network": 0
+   },
+   "units": 553,
+   "runs": 500
+  },
+  "batch15m|A3": {
+   "contained_pct": {
+    "mean": 94.39421338155515,
+    "ci": [
+     92.51336898395722,
+     96.16788321167883
+    ],
+    "n": 553
+   },
+   "data_loss_per_host": {
+    "mean": 2490.5027760601993,
+    "ci": [
+     1502.663210501981,
+     3681.7972139671992
+    ],
+    "n": 553
+   },
+   "unavailability": {
+    "mean": 0.2894982154033412,
+    "ci": [
+     0.27883242931861685,
+     0.2998866128563416
+    ],
+    "n": 500
+   },
+   "benign_hosts_hit": {
+    "mean": 3.09,
+    "ci": [
+     2.966,
+     3.2100499999999994
+    ],
+    "n": 500
+   },
+   "advisories": {
+    "mean": 0.452,
+    "ci": [
+     0.398,
+     0.51
+    ],
+    "n": 500
+   },
+   "advisories_false": {
+    "mean": 0.252,
+    "ci": [
+     0.198,
+     0.31
+    ],
+    "n": 500
+   },
+   "advisory_recall": {
+    "value": 0.5222222222222223,
+    "ci": [
+     0.48690753206460013,
+     0.5574712643678161
+    ],
+    "num": 94.0,
+    "den": 180.0
+   },
+   "boundary_messages": {
+    "mean": 0.904,
+    "ci": [
+     0.796,
+     1.02
+    ],
+    "n": 500
+   },
+   "boundary_kb": {
+    "mean": 0.23142400000000019,
+    "ci": [
+     0.20377600000000012,
+     0.2611200000000002
+    ],
+    "n": 500
+   },
+   "all_messages": {
+    "mean": 434.458,
+    "ci": [
+     422.06165,
+     447.0604
+    ],
+    "n": 500
+   },
+   "dispatches_per_layer": {
+    "specialist": {
+     "mean": 89.06,
+     "ci": [
+      81.2239,
+      96.94814999999998
+     ],
+     "n": 500
+    },
+    "coordinator": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "strategic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "monolithic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    }
+   },
+   "first_action_min": {
+    "median": {
+     "value": 0.0001999999999990602,
+     "ci": [
+      0.0001999999999990602,
+      0.0001999999999990602
+     ],
+     "n": 551
+    },
+    "p90": {
+     "value": 7.0552,
+     "ci": [
+      6.300666666666669,
+      7.6263166666666695
+     ],
+     "n": 551
+    },
+    "never": 2,
+    "campaigns": 553
+   },
+   "strategic_only_labels": {
+    "trigger_backup_restore": 0,
+    "segment_network": 0
+   },
+   "units": 553,
+   "runs": 500
+  },
+  "batch15m|U1": {
+   "contained_pct": {
+    "mean": 46.835443037974684,
+    "ci": [
+     43.875685557586834,
+     49.81884057971015
+    ],
+    "n": 553
+   },
+   "data_loss_per_host": {
+    "mean": 11351.108819234107,
+    "ci": [
+     9855.168700973645,
+     12951.677993305091
+    ],
+    "n": 553
+   },
+   "unavailability": {
+    "mean": 0.2897187094823065,
+    "ci": [
+     0.278981518857292,
+     0.30006624831143774
+    ],
+    "n": 500
+   },
+   "benign_hosts_hit": {
+    "mean": 3.09,
+    "ci": [
+     2.966,
+     3.2100499999999994
+    ],
+    "n": 500
+   },
+   "advisories": {
+    "mean": 0.452,
+    "ci": [
+     0.398,
+     0.51
+    ],
+    "n": 500
+   },
+   "advisories_false": {
+    "mean": 0.252,
+    "ci": [
+     0.198,
+     0.31
+    ],
+    "n": 500
+   },
+   "advisory_recall": {
+    "value": 0.5166666666666667,
+    "ci": [
+     0.4810810810810811,
+     0.5529411764705883
+    ],
+    "num": 93.0,
+    "den": 180.0
+   },
+   "boundary_messages": {
+    "mean": 433.554,
+    "ci": [
+     421.176,
+     446.15045
+    ],
+    "n": 500
+   },
+   "boundary_kb": {
+    "mean": 2286.0881099999992,
+    "ci": [
+     2220.3743268999992,
+     2352.0205949000006
+    ],
+    "n": 500
+   },
+   "all_messages": {
+    "mean": 433.554,
+    "ci": [
+     421.176,
+     446.15045
+    ],
+    "n": 500
+   },
+   "dispatches_per_layer": {
+    "specialist": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "coordinator": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "strategic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "monolithic": {
+     "mean": 89.06,
+     "ci": [
+      81.2239,
+      96.94814999999998
+     ],
+     "n": 500
+    }
+   },
+   "first_action_min": {
+    "median": {
+     "value": 10.48281726266276,
+     "ci": [
+      10.472221003483073,
+      10.49422003063151
+     ],
+     "n": 551
+    },
+    "p90": {
+     "value": 10.730561582063801,
+     "ci": [
+      10.696739018098388,
+      10.75797634007666
+     ],
+     "n": 551
+    },
+    "never": 2,
+    "campaigns": 553
+   },
+   "strategic_only_labels": {
+    "trigger_backup_restore": 28278,
+    "segment_network": 9979
+   },
+   "units": 553,
+   "runs": 500
+  },
+  "batch15m|B2L": {
+   "contained_pct": {
+    "mean": 92.2242314647378,
+    "ci": [
+     90.18181818181819,
+     94.09660107334525
+    ],
+    "n": 553
+   },
+   "data_loss_per_host": {
+    "mean": 3103.422230609746,
+    "ci": [
+     1957.7956803257657,
+     4447.020221736715
+    ],
+    "n": 553
+   },
+   "unavailability": {
+    "mean": 0.2873642312885434,
+    "ci": [
+     0.27656867915873845,
+     0.29784788646094906
+    ],
+    "n": 500
+   },
+   "benign_hosts_hit": {
+    "mean": 3.038,
+    "ci": [
+     2.918,
+     3.16
+    ],
+    "n": 500
+   },
+   "advisories": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 500
+   },
+   "advisories_false": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 500
+   },
+   "advisory_recall": {
+    "value": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "num": 0.0,
+    "den": 180.0
+   },
+   "boundary_messages": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 500
+   },
+   "boundary_kb": {
+    "mean": 0.0,
+    "ci": [
+     0.0,
+     0.0
+    ],
+    "n": 500
+   },
+   "all_messages": {
+    "mean": 433.554,
+    "ci": [
+     421.176,
+     446.15045
+    ],
+    "n": 500
+   },
+   "dispatches_per_layer": {
+    "specialist": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "coordinator": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "strategic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    },
+    "monolithic": {
+     "mean": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "n": 500
+    }
+   },
+   "first_action_min": {
+    "median": {
+     "value": 0.0001999999999990602,
+     "ci": [
+      0.0001999999999990602,
+      0.0001999999999990602
+     ],
+     "n": 551
+    },
+    "p90": {
+     "value": 7.0552,
+     "ci": [
+      6.300666666666669,
+      7.6263166666666695
+     ],
+     "n": 551
+    },
+    "never": 2,
+    "campaigns": 553
+   },
+   "strategic_only_labels": {
+    "trigger_backup_restore": 0,
+    "segment_network": 0
+   },
+   "units": 553,
+   "runs": 500
+  }
+ },
+ "deltas_vs_SN": {
+  "restricted|A1-SN": {
+   "comparison": "A1 - SN",
+   "level": "restricted",
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 553,
+   "delta_pp": 0.0,
+   "ci_pp": [
+    0.0,
+    0.0
+   ],
+   "discordant": [
+    0,
+    0
+   ],
+   "delta_loss": 0.0,
+   "ci_loss": [
+    0.0,
+    0.0
+   ],
+   "delta_unav": -0.0018049328566794546,
+   "verdict": "dispensável"
+  },
+  "batch15m|A1-SN": {
+   "comparison": "A1 - SN",
+   "level": "batch15m",
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 553,
+   "delta_pp": 0.0,
+   "ci_pp": [
+    0.0,
+    0.0
+   ],
+   "discordant": [
+    0,
+    0
+   ],
+   "delta_loss": 0.0,
+   "ci_loss": [
+    0.0,
+    0.0
+   ],
+   "delta_unav": -0.0017068449334645575,
+   "verdict": "dispensável"
+  },
+  "restricted|A2-SN": {
+   "comparison": "A2 - SN",
+   "level": "restricted",
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 553,
+   "delta_pp": 0.0,
+   "ci_pp": [
+    0.0,
+    0.0
+   ],
+   "discordant": [
+    0,
+    0
+   ],
+   "delta_loss": 0.0,
+   "ci_loss": [
+    0.0,
+    0.0
+   ],
+   "delta_unav": -0.0018049328566794546,
+   "verdict": "dispensável"
+  },
+  "batch15m|A2-SN": {
+   "comparison": "A2 - SN",
+   "level": "batch15m",
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 553,
+   "delta_pp": 0.0,
+   "ci_pp": [
+    0.0,
+    0.0
+   ],
+   "discordant": [
+    0,
+    0
+   ],
+   "delta_loss": 0.0,
+   "ci_loss": [
+    0.0,
+    0.0
+   ],
+   "delta_unav": -0.0017068449334645575,
+   "verdict": "dispensável"
+  },
+  "restricted|A3-SN": {
+   "comparison": "A3 - SN",
+   "level": "restricted",
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 553,
+   "delta_pp": 0.0,
+   "ci_pp": [
+    0.0,
+    0.0
+   ],
+   "discordant": [
+    0,
+    0
+   ],
+   "delta_loss": 0.0,
+   "ci_loss": [
+    0.0,
+    0.0
+   ],
+   "delta_unav": -0.0018048950736995598,
+   "verdict": "dispensável"
+  },
+  "batch15m|A3-SN": {
+   "comparison": "A3 - SN",
+   "level": "batch15m",
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 553,
+   "delta_pp": 0.0,
+   "ci_pp": [
+    0.0,
+    0.0
+   ],
+   "discordant": [
+    0,
+    0
+   ],
+   "delta_loss": 0.0,
+   "ci_loss": [
+    0.0,
+    0.0
+   ],
+   "delta_unav": -0.0017061982648207367,
+   "verdict": "dispensável"
+  }
+ },
+ "verdicts": {
+  "A1": {
+   "per_level": {
+    "restricted": "dispensável",
+    "batch15m": "dispensável"
+   },
+   "overall": "dispensável"
+  },
+  "A2": {
+   "per_level": {
+    "restricted": "dispensável",
+    "batch15m": "dispensável"
+   },
+   "overall": "dispensável"
+  },
+  "A3": {
+   "per_level": {
+    "restricted": "dispensável",
+    "batch15m": "dispensável"
+   },
+   "overall": "dispensável"
+  }
+ },
+ "traffic_A3_vs_SN": {
+  "restricted|messages": {
+   "value": 0.002080753490556049,
+   "ci": [
+    0.0018364402513184747,
+    0.002339123434156437
+   ],
+   "num": 452.0,
+   "den": 217229.0,
+   "reduction_pct": 99.7919246509444
+  },
+  "restricted|bytes": {
+   "value": 0.00010122119701926143,
+   "ci": [
+    8.931046863976986e-05,
+    0.00011370652964084957
+   ],
+   "num": 115712.0,
+   "den": 1143159767.0,
+   "reduction_pct": 99.98987788029807
+  },
+  "restricted|verdict": "redução relevante",
+  "batch15m|messages": {
+   "value": 0.002080753490556049,
+   "ci": [
+    0.0018364402513184747,
+    0.002339123434156437
+   ],
+   "num": 452.0,
+   "den": 217229.0,
+   "reduction_pct": 99.7919246509444
+  },
+  "batch15m|bytes": {
+   "value": 0.00010122119701926143,
+   "ci": [
+    8.931046863976986e-05,
+    0.00011370652964084957
+   ],
+   "num": 115712.0,
+   "den": 1143159767.0,
+   "reduction_pct": 99.98987788029807
+  },
+  "batch15m|verdict": "redução relevante"
+ },
+ "references": {
+  "restricted|A3-U1|all": {
+   "comparison": "A3 - U1",
+   "level": "restricted",
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 553,
+   "delta_pp": 2.1699819168173597,
+   "ci_pp": [
+    1.0830324909747293,
+    3.41726618705036
+   ],
+   "discordant": [
+    12,
+    0
+   ],
+   "delta_loss": -1140.3153249925385,
+   "ci_loss": [
+    -2048.8785653333525,
+    -376.94009350892554
+   ],
+   "delta_unav": -0.0016465163010902365
+  },
+  "restricted|A3-U1|campaign_e1_e2": {
+   "comparison": "A3 - U1",
+   "level": "restricted",
+   "families": [
+    "campaign_e1_e2"
+   ],
+   "n": 100,
+   "delta_pp": 1.0,
+   "ci_pp": [
+    0.0,
+    3.0
+   ],
+   "discordant": [
+    1,
+    0
+   ],
+   "delta_loss": -250.0,
+   "ci_loss": [
+    -750.0,
+    0.0
+   ],
+   "delta_unav": -0.0006245395473143379
+  },
+  "restricted|A3-B2L|all": {
+   "comparison": "A3 - B2L",
+   "level": "restricted",
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 553,
+   "delta_pp": 2.1699819168173597,
+   "ci_pp": [
+    1.0830324909747293,
+    3.4050179211469533
+   ],
+   "discordant": [
+    12,
+    0
+   ],
+   "delta_loss": -703.3353677502688,
+   "ci_loss": [
+    -1331.9455377539823,
+    -202.30867840237116
+   ],
+   "delta_unav": 0.0021521153170498256
+  },
+  "restricted|A3-B2L|campaign_e1_e2": {
+   "comparison": "A3 - B2L",
+   "level": "restricted",
+   "families": [
+    "campaign_e1_e2"
+   ],
+   "n": 100,
+   "delta_pp": 12.0,
+   "ci_pp": [
+    6.0,
+    19.0
+   ],
+   "discordant": [
+    12,
+    0
+   ],
+   "delta_loss": -3889.444583658986,
+   "ci_loss": [
+    -7357.179682592858,
+    -1096.8199811983877
+   ],
+   "delta_unav": 0.005476766297319444
+  },
+  "restricted|SN-U1|all": {
+   "comparison": "SN - U1",
+   "level": "restricted",
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 553,
+   "delta_pp": 2.1699819168173597,
+   "ci_pp": [
+    1.0830324909747293,
+    3.41726618705036
+   ],
+   "discordant": [
+    12,
+    0
+   ],
+   "delta_loss": -1140.3153249925385,
+   "ci_loss": [
+    -2048.8785653333525,
+    -376.94009350892554
+   ],
+   "delta_unav": 0.00015837877260932171
+  },
+  "restricted|SN-U1|campaign_e1_e2": {
+   "comparison": "SN - U1",
+   "level": "restricted",
+   "families": [
+    "campaign_e1_e2"
+   ],
+   "n": 100,
+   "delta_pp": 1.0,
+   "ci_pp": [
+    0.0,
+    3.0
+   ],
+   "discordant": [
+    1,
+    0
+   ],
+   "delta_loss": -250.0,
+   "ci_loss": [
+    -750.0,
+    0.0
+   ],
+   "delta_unav": 7.376492279580733e-05
+  },
+  "restricted|SN-B2L|all": {
+   "comparison": "SN - B2L",
+   "level": "restricted",
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 553,
+   "delta_pp": 2.1699819168173597,
+   "ci_pp": [
+    1.0830324909747293,
+    3.4050179211469533
+   ],
+   "discordant": [
+    12,
+    0
+   ],
+   "delta_loss": -703.3353677502688,
+   "ci_loss": [
+    -1331.9455377539823,
+    -202.30867840237116
+   ],
+   "delta_unav": 0.003957010390749386
+  },
+  "restricted|SN-B2L|campaign_e1_e2": {
+   "comparison": "SN - B2L",
+   "level": "restricted",
+   "families": [
+    "campaign_e1_e2"
+   ],
+   "n": 100,
+   "delta_pp": 12.0,
+   "ci_pp": [
+    6.0,
+    19.0
+   ],
+   "discordant": [
+    12,
+    0
+   ],
+   "delta_loss": -3889.444583658986,
+   "ci_loss": [
+    -7357.179682592858,
+    -1096.8199811983877
+   ],
+   "delta_unav": 0.0061750707674295925
+  },
+  "restricted|A3-A2|all": {
+   "comparison": "A3 - A2",
+   "level": "restricted",
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 553,
+   "delta_pp": 0.0,
+   "ci_pp": [
+    0.0,
+    0.0
+   ],
+   "discordant": [
+    0,
+    0
+   ],
+   "delta_loss": 0.0,
+   "ci_loss": [
+    0.0,
+    0.0
+   ],
+   "delta_unav": 3.77829798942457e-08
+  },
+  "restricted|A3-A2|campaign_e1_e2": {
+   "comparison": "A3 - A2",
+   "level": "restricted",
+   "families": [
+    "campaign_e1_e2"
+   ],
+   "n": 100,
+   "delta_pp": 0.0,
+   "ci_pp": [
+    0.0,
+    0.0
+   ],
+   "discordant": [
+    0,
+    0
+   ],
+   "delta_loss": 0.0,
+   "ci_loss": [
+    0.0,
+    0.0
+   ],
+   "delta_unav": 1.2406086038743367e-07
+  },
+  "batch15m|A3-U1|all": {
+   "comparison": "A3 - U1",
+   "level": "batch15m",
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 553,
+   "delta_pp": 47.55877034358047,
+   "ci_pp": [
+    44.60431654676259,
+    50.45372050816697
+   ],
+   "discordant": [
+    263,
+    0
+   ],
+   "delta_loss": -8860.606043173906,
+   "ci_loss": [
+    -10230.43644071652,
+    -7555.341624307725
+   ],
+   "delta_unav": -0.00022049407896540258
+  },
+  "batch15m|A3-U1|campaign_e1_e2": {
+   "comparison": "A3 - U1",
+   "level": "batch15m",
+   "families": [
+    "campaign_e1_e2"
+   ],
+   "n": 100,
+   "delta_pp": 31.0,
+   "ci_pp": [
+    22.0,
+    40.0
+   ],
+   "discordant": [
+    31,
+    0
+   ],
+   "delta_loss": -11759.279386822243,
+   "ci_loss": [
+    -16460.549693428286,
+    -7600.243301290324
+   ],
+   "delta_unav": 1.933673545656177e-05
+  },
+  "batch15m|A3-B2L|all": {
+   "comparison": "A3 - B2L",
+   "level": "batch15m",
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 553,
+   "delta_pp": 2.1699819168173597,
+   "ci_pp": [
+    1.0830324909747293,
+    3.4050179211469533
+   ],
+   "discordant": [
+    12,
+    0
+   ],
+   "delta_loss": -612.9194545495454,
+   "ci_loss": [
+    -1149.1374471151141,
+    -178.57170335828528
+   ],
+   "delta_unav": 0.002133984114797742
+  },
+  "batch15m|A3-B2L|campaign_e1_e2": {
+   "comparison": "A3 - B2L",
+   "level": "batch15m",
+   "families": [
+    "campaign_e1_e2"
+   ],
+   "n": 100,
+   "delta_pp": 12.0,
+   "ci_pp": [
+    6.0,
+    19.0
+   ],
+   "discordant": [
+    12,
+    0
+   ],
+   "delta_loss": -3389.444583658986,
+   "ci_loss": [
+    -6321.470280128568,
+    -996.5827873518439
+   ],
+   "delta_unav": 0.005420503868991896
+  },
+  "batch15m|SN-U1|all": {
+   "comparison": "SN - U1",
+   "level": "batch15m",
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 553,
+   "delta_pp": 47.55877034358047,
+   "ci_pp": [
+    44.60431654676259,
+    50.45372050816697
+   ],
+   "discordant": [
+    263,
+    0
+   ],
+   "delta_loss": -8860.606043173906,
+   "ci_loss": [
+    -10230.43644071652,
+    -7555.341624307725
+   ],
+   "delta_unav": 0.0014857041858553335
+  },
+  "batch15m|SN-U1|campaign_e1_e2": {
+   "comparison": "SN - U1",
+   "level": "batch15m",
+   "families": [
+    "campaign_e1_e2"
+   ],
+   "n": 100,
+   "delta_pp": 31.0,
+   "ci_pp": [
+    22.0,
+    40.0
+   ],
+   "discordant": [
+    31,
+    0
+   ],
+   "delta_loss": -11759.279386822243,
+   "ci_loss": [
+    -16460.549693428286,
+    -7600.243301290324
+   ],
+   "delta_unav": 0.0006836812793762459
+  },
+  "batch15m|SN-B2L|all": {
+   "comparison": "SN - B2L",
+   "level": "batch15m",
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 553,
+   "delta_pp": 2.1699819168173597,
+   "ci_pp": [
+    1.0830324909747293,
+    3.4050179211469533
+   ],
+   "discordant": [
+    12,
+    0
+   ],
+   "delta_loss": -612.9194545495454,
+   "ci_loss": [
+    -1149.1374471151141,
+    -178.57170335828528
+   ],
+   "delta_unav": 0.0038401823796184787
+  },
+  "batch15m|SN-B2L|campaign_e1_e2": {
+   "comparison": "SN - B2L",
+   "level": "batch15m",
+   "families": [
+    "campaign_e1_e2"
+   ],
+   "n": 100,
+   "delta_pp": 12.0,
+   "ci_pp": [
+    6.0,
+    19.0
+   ],
+   "discordant": [
+    12,
+    0
+   ],
+   "delta_loss": -3389.444583658986,
+   "ci_loss": [
+    -6321.470280128568,
+    -996.5827873518439
+   ],
+   "delta_unav": 0.006084848412911577
+  },
+  "batch15m|A3-A2|all": {
+   "comparison": "A3 - A2",
+   "level": "batch15m",
+   "families": [
+    "encryption_stream",
+    "campaign_multihost",
+    "split_visibility_late_confirm",
+    "interleaved",
+    "campaign_e1_e2"
+   ],
+   "n": 553,
+   "delta_pp": 0.0,
+   "ci_pp": [
+    0.0,
+    0.0
+   ],
+   "discordant": [
+    0,
+    0
+   ],
+   "delta_loss": 0.0,
+   "ci_loss": [
+    0.0,
+    0.0
+   ],
+   "delta_unav": 6.466686438210759e-07
+  },
+  "batch15m|A3-A2|campaign_e1_e2": {
+   "comparison": "A3 - A2",
+   "level": "batch15m",
+   "families": [
+    "campaign_e1_e2"
+   ],
+   "n": 100,
+   "delta_pp": 0.0,
+   "ci_pp": [
+    0.0,
+    0.0
+   ],
+   "discordant": [
+    0,
+    0
+   ],
+   "delta_loss": 0.0,
+   "ci_loss": [
+    0.0,
+    0.0
+   ],
+   "delta_unav": 2.3799609848847505e-06
+  }
+ },
+ "compute": {
+  "blocks": 12,
+  "elapsed_s_sum": 652.5999999999999,
+  "commits": [
+   "57427b538392f327d22ce68bd46c5fd28257dd0c"
+  ]
+ }
+}
